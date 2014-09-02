@@ -1,0 +1,26 @@
+#!/bin/sh
+
+
+export TSLIB_TSDEVICE=/dev/input/event1
+export DISPLAY=:0
+
+echo Setting up X server ...
+
+# kill any stale instance
+kill $(ps |grep Xfb|head -n1|awk '{print $1}') 2> /dev/null
+
+
+xinit /etc/xinitrc -- /usr/bin/Xfbdev :0 -wr -ac \
+	-mouse tslib,,device=/dev/input/event1 		\
+	-keybd evdev,,device=/dev/input/event0 &
+
+
+#sleep 2
+#xterm 2> /dev/null &
+#twm 2> /dev/null &
+
+#echo "### Please wait a bit for X to initialize & come up ... ###"
+#sleep 3
+#echo "Press [Enter] to use this console..."
+#read
+

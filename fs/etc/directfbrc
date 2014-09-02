@@ -1,0 +1,15 @@
+system=fbdev
+fbdev=/dev/fb0
+#no-sighandler
+#no-deinit-check
+#no-core-sighandler
+#block-all-signals
+tslib-devices=/dev/input/event1
+#debug
+#debugmem
+#debugshm
+#trace
+#log-file=dfb_log
+#mouse-source=/dev/input/mice?
+#mouse-protocol=MS?
+

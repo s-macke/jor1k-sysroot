@@ -1,0 +1,4 @@
+mkdir -p /tmp/root-runtime-dir
+chmod 0700 /tmp/root-runtime-dir
+export XDG_RUNTIME_DIR=/tmp/root-runtime-dir
+weston --backend=fbdev-backend.so
