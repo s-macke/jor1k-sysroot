@@ -2234,7 +2234,7 @@
 	</Dir>
 	<Dir name='home' mode='40755'>
 		<Dir name='user' mode='40755'>
-			<File name='.scummvmrc' mode='100644' size='295'/>
+			<File name='.scummvmrc' mode='100644' size='295' src='home/user/scummvmrc'/>
 			<Dir name='.config' mode='40755'>
 				<File name='weston.ini' mode='100644' size='1135'/>
 			</Dir>
