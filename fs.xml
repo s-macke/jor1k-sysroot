@@ -948,7 +948,7 @@
 			<File name='df_porter' mode='104755' size='7284' compressed='1'/>
 			<File name='df_andi3d' mode='104755' size='17940' compressed='1'/>
 			<File name='df_drivertest2' mode='104755' size='8948' compressed='1'/>
-			<File name='fire' mode='100755' size='11852' compressed='1'/>
+			<File name='fire' mode='100755' size='11612' compressed='1'/>
 			<File name='df_layer' mode='104755' size='18324' compressed='1'/>
 			<File name='df_joystick' mode='104755' size='18028' compressed='1'/>
 			<File name='df_knuckles' mode='104755' size='43964' compressed='1'/>
@@ -1562,11 +1562,20 @@
 			<File name='libz.so.1.2.8' mode='100755' size='141148' compressed='1'/>
 			<Link name='libz.so.1' mode='120777' path='libz.so.1.2.8' />
 			<Link name='libz.so' mode='120777' path='libz.so.1.2.8' />
+			<File name='libutil.a' mode='100644' size='8'/>
 			<File name='crt1.o' mode='100644' size='2880' compressed='1'/>
 			<File name='Scrt1.o' mode='100644' size='2916' compressed='1'/>
+			<File name='libxnet.a' mode='100644' size='8'/>
+			<File name='libresolv.a' mode='100644' size='8'/>
 			<File name='crti.o' mode='100644' size='697' compressed='1'/>
+			<File name='libc.a' mode='100644' size='5781032' compressed='1'/>
+			<File name='libpthread.a' mode='100644' size='8'/>
+			<File name='librt.a' mode='100644' size='8'/>
 			<File name='crtn.o' mode='100644' size='661' compressed='1'/>
+			<File name='libm.a' mode='100644' size='8'/>
 			<File name='libc.so' mode='100755' size='784044' compressed='1' load='1'/>
+			<File name='libcrypt.a' mode='100644' size='8'/>
+			<File name='libdl.a' mode='100644' size='8'/>
 			<Link name='libstdc++.so' mode='120777' path='libstdc++.so.6.0.20' />
 			<File name='libstdc++.so.6.0.20' mode='100755' size='1286416' compressed='1'/>
 			<File name='libgcc_s.so.1' mode='100644' size='372587' compressed='1' load='1'/>
@@ -2131,6 +2140,8 @@
 			<File name='stdarg.h' mode='100644' size='407'/>
 			<File name='signal.h' mode='100644' size='6064'/>
 			<File name='errno.h' mode='100644' size='369'/>
+			<File name='zlib.h' mode='100644' size='87883' compressed='1'/>
+			<File name='zconf.h' mode='100644' size='15472' compressed='1'/>
 		</Dir>
 		<Dir name='sbin' mode='40755'>
 			<File name='sshd' mode='104755' size='858760' compressed='1'/>
@@ -2233,10 +2244,10 @@
 		<Dir name='empty' mode='40755'></Dir>
 	</Dir>
 	<Dir name='home' mode='40755'>
-		<Dir name='user' mode='40755'>
-			<File name='.scummvmrc' mode='100644' size='295' src='home/user/scummvmrc'/>
-			<Dir name='.config' mode='40755'>
-				<File name='weston.ini' mode='100644' size='1135'/>
+		<Dir name='user' mode='40755' uid='1000' gid='1000'>
+			<File name='.scummvmrc' mode='100644' size='295' uid='1000' gid='1000' src='home/user/scummvmrc'/>
+			<Dir name='.config' mode='40755' uid='1000' gid='1000'>
+				<File name='weston.ini' mode='100644' size='1135' uid='1000' gid='1000'/>
 			</Dir>
 		</Dir>
 	</Dir>
