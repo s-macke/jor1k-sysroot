@@ -5,10 +5,10 @@ exec_prefix=${prefix}
 exec_prefix_set=no
 libdir=${exec_prefix}/lib
 
-usage="\
-Usage: sdl-config [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs]"
 #usage="\
-#Usage: sdl-config [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs] [--static-libs]"
+#Usage: sdl-config [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs]"
+usage="\
+Usage: sdl-config [--prefix[=DIR]] [--exec-prefix[=DIR]] [--version] [--cflags] [--libs] [--static-libs]"
 
 if test $# -eq 0; then
       echo "${usage}" 1>&2
@@ -47,10 +47,10 @@ while test $# -gt 0; do
     --libs)
       echo -L${exec_prefix}/lib -Wl,-rpath,${libdir} -lSDL  -lpthread
       ;;
-#    --static-libs)
-##    --libs|--static-libs)
-#      echo -L${exec_prefix}/lib -Wl,-rpath,${libdir} -lSDL  -lpthread  -lm -lts -lpthread
-#      ;;
+    --static-libs)
+#    --libs|--static-libs)
+      echo -L${exec_prefix}/lib -Wl,-rpath,${libdir} -lSDL  -lpthread  -lm -lts -lpthread
+      ;;
     *)
       echo "${usage}" 1>&2
       exit 1

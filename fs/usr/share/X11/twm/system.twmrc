@@ -93,6 +93,7 @@ menu "defops"
 {
 "Programs"		f.title
 "glxgears"	f.exec "exec glxgears &"
+"dillo"		f.exec "exec dillo &"
 "xterm"		f.exec "exec xterm &"
 "xeyes"		f.exec "exec xeyes &"
 "xclock"	f.exec "exec xclock &"

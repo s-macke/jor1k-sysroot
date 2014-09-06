@@ -156,6 +156,44 @@
 				<File name='decker.ttf' mode='100644' size='37048' compressed='1'/>
 				<File name='decker.dgiff' mode='100644' size='1102400' compressed='1'/>
 			</Dir>
+			<Dir name='fontconfig' mode='40755'>
+				<Dir name='conf.avail' mode='40755'>
+					<File name='10-sub-pixel-vrgb.conf' mode='100644' size='490'/>
+					<File name='10-sub-pixel-vbgr.conf' mode='100644' size='490'/>
+					<File name='45-latin.conf' mode='100644' size='4324'/>
+					<File name='65-nonlatin.conf' mode='100644' size='7959'/>
+					<File name='65-khmer.conf' mode='100644' size='289'/>
+					<File name='80-delicious.conf' mode='100644' size='422'/>
+					<File name='69-unifont.conf' mode='100644' size='672'/>
+					<File name='70-no-bitmaps.conf' mode='100644' size='263'/>
+					<File name='40-nonlatin.conf' mode='100644' size='5182'/>
+					<File name='65-fonts-persian.conf' mode='100644' size='10118'/>
+					<File name='10-no-sub-pixel.conf' mode='100644' size='491'/>
+					<File name='10-sub-pixel-rgb.conf' mode='100644' size='489'/>
+					<File name='11-lcdfilter-default.conf' mode='100644' size='526'/>
+					<File name='30-urw-aliases.conf' mode='100644' size='701'/>
+					<File name='11-lcdfilter-legacy.conf' mode='100644' size='524'/>
+					<File name='60-latin.conf' mode='100644' size='1701'/>
+					<File name='30-metric-aliases.conf' mode='100644' size='11479' compressed='1'/>
+					<File name='90-synthetic.conf' mode='100644' size='1691'/>
+					<File name='51-local.conf' mode='100644' size='189'/>
+					<File name='70-yes-bitmaps.conf' mode='100644' size='263'/>
+					<File name='10-unhinted.conf' mode='100644' size='481'/>
+					<File name='50-user.conf' mode='100644' size='673'/>
+					<File name='11-lcdfilter-light.conf' mode='100644' size='522'/>
+					<File name='25-unhint-nonlatin.conf' mode='100644' size='3256'/>
+					<File name='10-sub-pixel-bgr.conf' mode='100644' size='489'/>
+					<File name='10-scale-bitmap-fonts.conf' mode='100644' size='1952'/>
+					<File name='10-autohint.conf' mode='100644' size='484'/>
+					<File name='49-sansserif.conf' mode='100644' size='545'/>
+					<File name='20-unhint-small-vera.conf' mode='100644' size='1259'/>
+				</Dir>
+			</Dir>
+			<Dir name='xml' mode='40755'>
+				<Dir name='fontconfig' mode='40755'>
+					<File name='fonts.dtd' mode='100644' size='7250'/>
+				</Dir>
+			</Dir>
 			<Dir name='frotz' mode='40755'>
 				<File name='905.z5' mode='100644' size='87040' compressed='1'/>
 			</Dir>
@@ -193,44 +231,6 @@
 				<File name='java.nanorc' mode='100644' size='610'/>
 				<File name='man.nanorc' mode='100644' size='264'/>
 				<File name='ruby.nanorc' mode='100644' size='1475'/>
-			</Dir>
-			<Dir name='fontconfig' mode='40755'>
-				<Dir name='conf.avail' mode='40755'>
-					<File name='10-sub-pixel-vrgb.conf' mode='100644' size='490'/>
-					<File name='10-sub-pixel-vbgr.conf' mode='100644' size='490'/>
-					<File name='45-latin.conf' mode='100644' size='3948'/>
-					<File name='65-nonlatin.conf' mode='100644' size='7959'/>
-					<File name='65-khmer.conf' mode='100644' size='289'/>
-					<File name='80-delicious.conf' mode='100644' size='422'/>
-					<File name='69-unifont.conf' mode='100644' size='672'/>
-					<File name='70-no-bitmaps.conf' mode='100644' size='263'/>
-					<File name='40-nonlatin.conf' mode='100644' size='5182'/>
-					<File name='65-fonts-persian.conf' mode='100644' size='10118'/>
-					<File name='10-no-sub-pixel.conf' mode='100644' size='490'/>
-					<File name='10-sub-pixel-rgb.conf' mode='100644' size='489'/>
-					<File name='11-lcdfilter-default.conf' mode='100644' size='526'/>
-					<File name='30-urw-aliases.conf' mode='100644' size='1198'/>
-					<File name='11-lcdfilter-legacy.conf' mode='100644' size='524'/>
-					<File name='60-latin.conf' mode='100644' size='1701'/>
-					<File name='30-metric-aliases.conf' mode='100644' size='5354'/>
-					<File name='90-synthetic.conf' mode='100644' size='1691'/>
-					<File name='51-local.conf' mode='100644' size='189'/>
-					<File name='70-yes-bitmaps.conf' mode='100644' size='263'/>
-					<File name='10-unhinted.conf' mode='100644' size='481'/>
-					<File name='50-user.conf' mode='100644' size='673'/>
-					<File name='11-lcdfilter-light.conf' mode='100644' size='522'/>
-					<File name='25-unhint-nonlatin.conf' mode='100644' size='3256'/>
-					<File name='10-sub-pixel-bgr.conf' mode='100644' size='489'/>
-					<File name='10-scale-bitmap-fonts.conf' mode='100644' size='1952'/>
-					<File name='10-autohint.conf' mode='100644' size='484'/>
-					<File name='49-sansserif.conf' mode='100644' size='545'/>
-					<File name='20-unhint-small-vera.conf' mode='100644' size='1259'/>
-				</Dir>
-			</Dir>
-			<Dir name='xml' mode='40755'>
-				<Dir name='fontconfig' mode='40755'>
-					<File name='fonts.dtd' mode='100644' size='7253'/>
-				</Dir>
 			</Dir>
 			<Dir name='X11' mode='40755'>
 				<Dir name='locale' mode='40755'>
@@ -874,7 +874,7 @@
 						<File name='minimize.xbm' mode='100644' size='139'/>
 						<File name='refresh.xbm' mode='100644' size='204'/>
 					</Dir>
-					<File name='system.twmrc' mode='100644' size='3215'/>
+					<File name='system.twmrc' mode='100644' size='3246'/>
 					<Dir name='walls' mode='40755'>
 						<File name='bg.jpg' mode='100644' size='9412'/>
 					</Dir>
@@ -911,6 +911,7 @@
 						<File name='fonts.dir' mode='100644' size='2'/>
 					</Dir>
 					<Dir name='TTF' mode='40755'>
+						<File name='luxisr.ttf' mode='100644' size='67548' compressed='1'/>
 						<File name='fonts.dir' mode='100644' size='2'/>
 					</Dir>
 					<Dir name='100dpi' mode='40755'>
@@ -1013,7 +1014,7 @@
 			<File name='clear' mode='100755' size='3552' compressed='1'/>
 			<File name='ncurses' mode='100755' size='97664' compressed='1'/>
 			<File name='tput' mode='100755' size='10000' compressed='1'/>
-			<File name='sdl-config' mode='100755' size='1267'/>
+			<File name='sdl-config' mode='100755' size='1263'/>
 			<File name='jpegtran' mode='100755' size='26672' compressed='1'/>
 			<File name='tjbench' mode='100755' size='58164' compressed='1'/>
 			<File name='djpeg' mode='100755' size='27340' compressed='1'/>
@@ -1089,24 +1090,24 @@
 			<File name='ts_calibrate' mode='100755' size='32240' compressed='1'/>
 			<File name='ts_test' mode='100755' size='24008' compressed='1'/>
 			<File name='freetype-config' mode='100755' size='3665'/>
+			<File name='fc-query' mode='100755' size='5860' compressed='1'/>
+			<File name='fc-match' mode='100755' size='7636' compressed='1'/>
+			<File name='fc-pattern' mode='100755' size='6540' compressed='1'/>
+			<File name='fc-list' mode='100755' size='6816' compressed='1'/>
+			<File name='fc-cat' mode='100755' size='8564' compressed='1'/>
+			<File name='fc-scan' mode='100755' size='6168' compressed='1'/>
+			<File name='fc-cache' mode='100755' size='10668' compressed='1'/>
+			<File name='fc-validate' mode='100755' size='7320' compressed='1'/>
 			<File name='frotz' mode='100755' size='109312' compressed='1'/>
 			<Link name='ldd' mode='120777' path='/usr/lib/libc.so' />
 			<Link name='rnano' mode='120777' path='nano' />
 			<File name='nano' mode='100755' size='185760' compressed='1'/>
 			<Link name='pico' mode='120777' path='nano' />
-			<File name='fc-query' mode='100755' size='5776' compressed='1'/>
-			<File name='fc-match' mode='100755' size='7404' compressed='1'/>
 			<File name='sxpm' mode='100755' size='18144' compressed='1'/>
-			<File name='fc-pattern' mode='100755' size='6332' compressed='1'/>
-			<File name='fc-list' mode='100755' size='6528' compressed='1'/>
-			<File name='fc-cat' mode='100755' size='8420' compressed='1'/>
-			<File name='fc-scan' mode='100755' size='6128' compressed='1'/>
-			<File name='fc-cache' mode='100755' size='9988' compressed='1'/>
 			<File name='cxpm' mode='100755' size='21324' compressed='1'/>
-			<File name='fc-validate' mode='100755' size='7064' compressed='1'/>
 			<File name='xkbcomp' mode='100755' size='193420' compressed='1'/>
-			<File name='ucs2any' mode='100755' size='15256' compressed='1'/>
-			<File name='bdftruncate' mode='100755' size='6096' compressed='1'/>
+			<File name='ucs2any' mode='100755' size='16560' compressed='1'/>
+			<File name='bdftruncate' mode='100755' size='6260' compressed='1'/>
 			<File name='Xvfb' mode='100755' size='2343124' compressed='1'/>
 			<File name='dmxresize' mode='100755' size='4660' compressed='1'/>
 			<File name='dmxrmscreen' mode='100755' size='4360' compressed='1'/>
@@ -1133,7 +1134,7 @@
 			<File name='xterm' mode='100755' size='413660' compressed='1'/>
 			<File name='resize' mode='100755' size='10128' compressed='1'/>
 			<File name='koi8rxterm' mode='100755' size='3759'/>
-			<File name='twm' mode='100755' size='184944' compressed='1'/>
+			<File name='twm' mode='100755' size='195008' compressed='1'/>
 			<File name='xeyes' mode='100755' size='35276' compressed='1'/>
 			<File name='xmlwf' mode='100755' size='21060' compressed='1'/>
 			<File name='cairo-trace' mode='100755' size='3001'/>
@@ -1157,6 +1158,12 @@
 			<File name='weston-terminal' mode='100755' size='127120' compressed='1'/>
 			<File name='weston-simple-touch' mode='100755' size='13868' compressed='1'/>
 			<File name='xsetroot' mode='100755' size='12488' compressed='1'/>
+			<File name='fluid' mode='100755' size='552528' compressed='1'/>
+			<File name='fltk-config' mode='100755' size='9161'/>
+			<File name='dillo-install-hyphenation' mode='100755' size='5732'/>
+			<File name='dpidc' mode='100755' size='17316' compressed='1'/>
+			<File name='dillo' mode='100755' size='775144' compressed='1'/>
+			<File name='dpid' mode='100755' size='42572' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libatomic.so.1' mode='120777' path='libatomic.so.1.1.0' />
@@ -1440,7 +1447,13 @@
 			<Link name='libncurses.so' mode='120777' path='libncurses.so.5' />
 			<Link name='libSDL.so' mode='120777' path='libSDL-1.2.so.0.11.4' />
 			<Link name='libSDL-1.2.so.0' mode='120777' path='libSDL-1.2.so.0.11.4' />
-			<File name='libSDL-1.2.so.0.11.4' mode='100755' size='363696' compressed='1'/>
+			<File name='libSDL_mixer.a' mode='100644' size='262306' compressed='1'/>
+			<Link name='libSDL_mixer-1.2.so.0' mode='120777' path='libSDL_mixer-1.2.so.0.12.0' />
+			<File name='libSDL.a' mode='100644' size='458412' compressed='1'/>
+			<File name='libSDL-1.2.so.0.11.4' mode='100755' size='355504' compressed='1'/>
+			<File name='libSDLmain.a' mode='100644' size='768'/>
+			<Link name='libSDL_mixer.so' mode='120777' path='libSDL_mixer-1.2.so.0.12.0' />
+			<File name='libSDL_mixer-1.2.so.0.12.0' mode='100755' size='204992' compressed='1'/>
 			<Link name='libjpeg.so.8' mode='120777' path='libjpeg.so.8.0.2' />
 			<File name='libturbojpeg.so' mode='100755' size='256404' compressed='1'/>
 			<File name='libjpeg.so.8.0.2' mode='100755' size='232132' compressed='1'/>
@@ -1463,7 +1476,9 @@
 				<File name='libubsec.so' mode='100555' size='20000' compressed='1'/>
 				<File name='libaep.so' mode='100555' size='19260' compressed='1'/>
 			</Dir>
+			<File name='libcrypto.a' mode='100644' size='3474818' compressed='1'/>
 			<Link name='libcrypto.so' mode='120777' path='libcrypto.so.1.0.0' />
+			<File name='libssl.a' mode='100644' size='622132' compressed='1'/>
 			<File name='libcrypto.so.1.0.0' mode='100555' size='2071964' compressed='1'/>
 			<File name='libssl.so.1.0.0' mode='100555' size='421972' compressed='1'/>
 			<Link name='libssl.so' mode='120777' path='libssl.so.1.0.0' />
@@ -1556,6 +1571,9 @@
 			<File name='libfreetype.so.6.10.2' mode='100755' size='590108' compressed='1'/>
 			<Link name='libfreetype.so' mode='120777' path='libfreetype.so.6.10.2' />
 			<Link name='libfreetype.so.6' mode='120777' path='libfreetype.so.6.10.2' />
+			<Link name='libfontconfig.so.1' mode='120777' path='libfontconfig.so.1.8.0' />
+			<File name='libfontconfig.so.1.8.0' mode='100755' size='290888' compressed='1'/>
+			<Link name='libfontconfig.so' mode='120777' path='libfontconfig.so.1.8.0' />
 			<Link name='libpixman-1.so' mode='120777' path='libpixman-1.so.0.30.2' />
 			<Link name='libpixman-1.so.0' mode='120777' path='libpixman-1.so.0.30.2' />
 			<File name='libpixman-1.so.0.30.2' mode='100755' size='635972' compressed='1'/>
@@ -1577,8 +1595,8 @@
 			<File name='libcrypt.a' mode='100644' size='8'/>
 			<File name='libdl.a' mode='100644' size='8'/>
 			<Link name='libstdc++.so' mode='120777' path='libstdc++.so.6.0.20' />
-			<File name='libstdc++.so.6.0.20' mode='100755' size='1286416' compressed='1'/>
-			<File name='libgcc_s.so.1' mode='100644' size='372587' compressed='1' load='1'/>
+			<File name='libstdc++.so.6.0.20' mode='100755' size='1079524' compressed='1'/>
+			<File name='libgcc_s.so.1' mode='100644' size='387101' compressed='1' load='1'/>
 			<Link name='libgcc_s.so' mode='120777' path='libgcc_s.so.1' />
 			<Link name='libstdc++.so.6' mode='120777' path='libstdc++.so.6.0.20' />
 			<Link name='libxcb-composite.so.0' mode='120777' path='libxcb-composite.so.0.0.0' />
@@ -1638,7 +1656,6 @@
 			<Link name='libxkbfile.so' mode='120777' path='libxkbfile.so.1.0.2' />
 			<Link name='libXfixes.so' mode='120777' path='libXfixes.so.3.1.0' />
 			<File name='libXext.so.6.4.0' mode='100755' size='77932' compressed='1'/>
-			<Link name='libfontconfig.so.1' mode='120777' path='libfontconfig.so.1.7.0' />
 			<Link name='libXt.so.6' mode='120777' path='libXt.so.6.0.0' />
 			<Link name='libxcb-dri2.so.0' mode='120777' path='libxcb-dri2.so.0.0.0' />
 			<Link name='libICE.so' mode='120777' path='libICE.so.6.3.0' />
@@ -1722,7 +1739,6 @@
 			<Link name='libXfont.so.1' mode='120777' path='libXfont.so.1.4.1' />
 			<File name='libxcb-randr.so.0.1.0' mode='100755' size='55300' compressed='1'/>
 			<File name='libXxf86vm.so.1.0.0' mode='100755' size='24392' compressed='1'/>
-			<Link name='libfontconfig.so' mode='120777' path='libfontconfig.so.1.7.0' />
 			<Link name='libxcb.so.1' mode='120777' path='libxcb.so.1.1.0' />
 			<Link name='libxcb-glx.so.0' mode='120777' path='libxcb-glx.so.0.0.0' />
 			<File name='libxcb-present.so.0.0.0' mode='100755' size='7844' compressed='1'/>
@@ -1837,6 +1853,49 @@
 				<File name='desktop-shell.so' mode='100755' size='84216' compressed='1'/>
 				<File name='headless-backend.so' mode='100755' size='15352' compressed='1'/>
 			</Dir>
+			<File name='libfltk.so.1.3' mode='100755' size='1290396' compressed='1'/>
+			<File name='libfltk_images.so.1.3' mode='100755' size='407288' compressed='1'/>
+			<File name='libfltk_images.a' mode='100755' size='75354' compressed='1'/>
+			<File name='libfltk_z.a' mode='100755' size='113790' compressed='1'/>
+			<File name='libfltk_jpeg.a' mode='100755' size='327728' compressed='1'/>
+			<File name='libfltk_forms.so.1.3' mode='100755' size='43096' compressed='1'/>
+			<Link name='libfltk.so' mode='120777' path='libfltk.so.1.3' />
+			<Link name='libfltk_forms.so' mode='120777' path='libfltk_forms.so.1.3' />
+			<File name='libfltk_png.a' mode='100755' size='266266' compressed='1'/>
+			<File name='libfltk.a' mode='100755' size='2066814' compressed='1'/>
+			<File name='libfltk_forms.a' mode='100755' size='39346' compressed='1'/>
+			<Link name='libfltk_images.so' mode='120777' path='libfltk_images.so.1.3' />
+			<Dir name='dillo' mode='40755'>
+				<Dir name='dpi' mode='40755'>
+					<Dir name='file' mode='40755'>
+						<File name='file.dpi' mode='100755' size='33528' compressed='1'/>
+					</Dir>
+					<Dir name='vsource' mode='40755'>
+						<File name='vsource.filter.dpi' mode='100755' size='26168' compressed='1'/>
+					</Dir>
+					<Dir name='cookies' mode='40755'>
+						<File name='cookies.dpi' mode='100755' size='44756' compressed='1'/>
+					</Dir>
+					<Dir name='https' mode='40755'>
+						<File name='https.filter.dpi' mode='100755' size='31112' compressed='1'/>
+					</Dir>
+					<Dir name='hello' mode='40755'>
+						<File name='hello.filter.dpi' mode='100755' size='25292' compressed='1'/>
+					</Dir>
+					<Dir name='ftp' mode='40755'>
+						<File name='ftp.filter.dpi' mode='100755' size='26604' compressed='1'/>
+					</Dir>
+					<Dir name='downloads' mode='40755'>
+						<File name='downloads.dpi' mode='100755' size='59280' compressed='1'/>
+					</Dir>
+					<Dir name='bookmarks' mode='40755'>
+						<File name='bookmarks.dpi' mode='100755' size='42456' compressed='1'/>
+					</Dir>
+					<Dir name='datauri' mode='40755'>
+						<File name='datauri.filter.dpi' mode='100755' size='26476' compressed='1'/>
+					</Dir>
+				</Dir>
+			</Dir>
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
@@ -1893,6 +1952,7 @@
 				<File name='SDL_video.h' mode='100644' size='38018' compressed='1'/>
 				<File name='SDL_timer.h' mode='100644' size='4527'/>
 				<File name='SDL_cdrom.h' mode='100644' size='6048'/>
+				<File name='SDL_mixer.h' mode='100644' size='27739' compressed='1'/>
 				<File name='SDL_quit.h' mode='100644' size='2009'/>
 				<File name='SDL_types.h' mode='100644' size='979'/>
 				<File name='SDL_getenv.h' mode='100644' size='979'/>
@@ -2187,7 +2247,6 @@
 			<File name='ssh_host_dsa_key' mode='100600' size='672'/>
 		</Dir>
 		<Dir name='ssl' mode='40755'>
-			<Dir name='private' mode='40755'></Dir>
 			<Dir name='misc' mode='40755'>
 				<File name='tsget' mode='100755' size='6419'/>
 				<File name='CA.sh' mode='100755' size='5175'/>
@@ -2198,7 +2257,358 @@
 				<File name='CA.pl' mode='100755' size='5680'/>
 			</Dir>
 			<File name='openssl.cnf' mode='100644' size='10835' compressed='1'/>
-			<Dir name='certs' mode='40755'></Dir>
+			<File name='ca-bundle.crt' mode='100644' size='911759' compressed='1'/>
+			<Dir name='certs' mode='40755'>
+				<File name='2c3e3f84.pem' mode='100644' size='5099'/>
+				<File name='5273a94c.pem' mode='100644' size='7719'/>
+				<Link name='fcac10e3.0' mode='120777' path='fcac10e3.pem' />
+				<Link name='7d5a75e4.0' mode='120777' path='7d5a75e4.pem' />
+				<Link name='c8841d13.0' mode='120777' path='c8841d13.pem' />
+				<Link name='c99398f3.0' mode='120777' path='c99398f3.pem' />
+				<File name='d7e8dc79.pem' mode='100644' size='7348'/>
+				<Link name='d957f522.0' mode='120777' path='d957f522.pem' />
+				<File name='b7a5b843.pem' mode='100644' size='4357'/>
+				<Link name='128805a3.0' mode='120777' path='128805a3.pem' />
+				<Link name='cc450945.0' mode='120777' path='cc450945.pem' />
+				<Link name='76faf6c0.0' mode='120777' path='76faf6c0.pem' />
+				<File name='bb2d49a0.pem' mode='100644' size='4649'/>
+				<Link name='3bde41ac.0' mode='120777' path='3bde41ac.pem' />
+				<Link name='3efd4dc0.0' mode='120777' path='3efd4dc0.pem' />
+				<Link name='1e09d511.0' mode='120777' path='1e09d511.pem' />
+				<Link name='667c66d4.0' mode='120777' path='667c66d4.pem' />
+				<Link name='09789157.0' mode='120777' path='09789157.pem' />
+				<Link name='8160b96c.0' mode='120777' path='8160b96c.pem' />
+				<File name='cb59f961.pem' mode='100644' size='5463'/>
+				<Link name='24ad0b63.0' mode='120777' path='24ad0b63.pem' />
+				<File name='024dc131.pem' mode='100644' size='7040'/>
+				<File name='2251b13a.pem' mode='100644' size='4704'/>
+				<File name='48bec511.pem' mode='100644' size='4513'/>
+				<File name='f90208f7.pem' mode='100644' size='5443'/>
+				<File name='5443e9e3.pem' mode='100644' size='4529'/>
+				<Link name='6f2c1157.0' mode='120777' path='6f2c1157.pem' />
+				<File name='f387163d.pem' mode='100644' size='4749'/>
+				<File name='b1159c4c.pem' mode='100644' size='4650'/>
+				<Link name='b1b8a7f3.0' mode='120777' path='b1b8a7f3.pem' />
+				<File name='1ec4d31a.pem' mode='100644' size='3100'/>
+				<File name='7d5a75e4.pem' mode='100644' size='5324'/>
+				<Link name='a760e1bd.0' mode='120777' path='a760e1bd.pem' />
+				<File name='5620c4aa.pem' mode='100644' size='5191'/>
+				<Link name='57b0f75e.0' mode='120777' path='57b0f75e.pem' />
+				<Link name='eacdeb40.0' mode='120777' path='eacdeb40.pem' />
+				<File name='3b2716e5.pem' mode='100644' size='7538'/>
+				<File name='790a7190.pem' mode='100644' size='4892'/>
+				<Link name='578d5c04.0' mode='120777' path='578d5c04.pem' />
+				<Link name='861a399d.0' mode='120777' path='861a399d.pem' />
+				<Link name='2e5ac55d.0' mode='120777' path='2e5ac55d.pem' />
+				<File name='9f541fb4.pem' mode='100644' size='3752'/>
+				<File name='d4dae3dd.pem' mode='100644' size='4959'/>
+				<File name='3ee7e181.pem' mode='100644' size='4829'/>
+				<Link name='cbeee9e2.0' mode='120777' path='cbeee9e2.pem' />
+				<File name='24ad0b63.pem' mode='100644' size='2659'/>
+				<File name='cb357862.pem' mode='100644' size='3104'/>
+				<Link name='67d559d1.0' mode='120777' path='67d559d1.pem' />
+				<Link name='aee5f10d.0' mode='120777' path='aee5f10d.pem' />
+				<File name='75d1b2ed.pem' mode='100644' size='7190'/>
+				<File name='40547a79.pem' mode='100644' size='4836'/>
+				<File name='d853d49e.pem' mode='100644' size='4388'/>
+				<Link name='062cdee6.0' mode='120777' path='062cdee6.pem' />
+				<Link name='157753a5.0' mode='120777' path='157753a5.pem' />
+				<Link name='b13cc6df.0' mode='120777' path='b13cc6df.pem' />
+				<File name='56657bde.pem' mode='100644' size='4929'/>
+				<Link name='ee1365c0.0' mode='120777' path='ee1365c0.pem' />
+				<Link name='b42ff584.0' mode='120777' path='b42ff584.pem' />
+				<Link name='c692a373.0' mode='120777' path='c692a373.pem' />
+				<Link name='f3377b1b.0' mode='120777' path='f3377b1b.pem' />
+				<Link name='749e9e03.0' mode='120777' path='749e9e03.pem' />
+				<Link name='f90208f7.0' mode='120777' path='f90208f7.pem' />
+				<Link name='2ae6433e.0' mode='120777' path='2ae6433e.pem' />
+				<File name='88f89ea7.pem' mode='100644' size='4636'/>
+				<File name='116bf586.pem' mode='100644' size='2963'/>
+				<File name='76cb8f92.pem' mode='100644' size='4669'/>
+				<File name='349f2832.pem' mode='100644' size='5677'/>
+				<Link name='381ce4dd.0' mode='120777' path='381ce4dd.pem' />
+				<File name='706f604c.pem' mode='100644' size='4981'/>
+				<Link name='2251b13a.0' mode='120777' path='2251b13a.pem' />
+				<File name='d957f522.pem' mode='100644' size='7235'/>
+				<File name='f39fc864.pem' mode='100644' size='4712'/>
+				<Link name='ca6e4ad9.0' mode='120777' path='ca6e4ad9.pem' />
+				<File name='57bcb2da.pem' mode='100644' size='7441'/>
+				<Link name='9c8dfbd4.0' mode='120777' path='9c8dfbd4.pem' />
+				<File name='cc450945.pem' mode='100644' size='7455'/>
+				<File name='c8841d13.pem' mode='100644' size='4733'/>
+				<Link name='1ec4d31a.0' mode='120777' path='1ec4d31a.pem' />
+				<Link name='116bf586.0' mode='120777' path='116bf586.pem' />
+				<Link name='244b5494.0' mode='120777' path='244b5494.pem' />
+				<File name='2ab3b959.pem' mode='100644' size='4685'/>
+				<File name='b1b8a7f3.pem' mode='100644' size='4708'/>
+				<Link name='bad35b78.0' mode='120777' path='bad35b78.pem' />
+				<File name='b13cc6df.pem' mode='100644' size='5138'/>
+				<Link name='ee64a828.0' mode='120777' path='ee64a828.pem' />
+				<Link name='706f604c.0' mode='120777' path='706f604c.pem' />
+				<Link name='a6a593ba.0' mode='120777' path='a6a593ba.pem' />
+				<File name='cd58d51e.pem' mode='100644' size='4361'/>
+				<File name='57b0f75e.pem' mode='100644' size='5019'/>
+				<Link name='c0ff1f52.0' mode='120777' path='c0ff1f52.pem' />
+				<File name='653b494a.pem' mode='100644' size='4363'/>
+				<Link name='5273a94c.0' mode='120777' path='5273a94c.pem' />
+				<Link name='0b759015.0' mode='120777' path='0b759015.pem' />
+				<Link name='5c44d531.0' mode='120777' path='5c44d531.pem' />
+				<File name='b66938e9.pem' mode='100644' size='4720'/>
+				<File name='c5e082db.pem' mode='100644' size='5240'/>
+				<Link name='cd58d51e.0' mode='120777' path='cd58d51e.pem' />
+				<Link name='876f1e28.0' mode='120777' path='876f1e28.pem' />
+				<File name='578d5c04.pem' mode='100644' size='3649'/>
+				<File name='c9f83a1c.pem' mode='100644' size='4921'/>
+				<File name='201cada0.pem' mode='100644' size='7306'/>
+				<File name='ca6e4ad9.pem' mode='100644' size='7225'/>
+				<File name='c0ff1f52.pem' mode='100644' size='4526'/>
+				<Link name='8b59b1ad.0' mode='120777' path='8b59b1ad.pem' />
+				<File name='a6a593ba.pem' mode='100644' size='3752'/>
+				<Link name='b727005e.0' mode='120777' path='b727005e.pem' />
+				<Link name='5f15c80c.0' mode='120777' path='5f15c80c.pem' />
+				<File name='aee5f10d.pem' mode='100644' size='4780'/>
+				<File name='128805a3.pem' mode='100644' size='4821'/>
+				<Link name='f060240e.0' mode='120777' path='f060240e.pem' />
+				<Link name='0ba01d19.0' mode='120777' path='0ba01d19.pem' />
+				<File name='4f316efb.pem' mode='100644' size='7434'/>
+				<Link name='57bcb2da.0' mode='120777' path='57bcb2da.pem' />
+				<File name='080911ac.pem' mode='100644' size='6033'/>
+				<Link name='5620c4aa.0' mode='120777' path='5620c4aa.pem' />
+				<Link name='349f2832.0' mode='120777' path='349f2832.pem' />
+				<Link name='8867006a.0' mode='120777' path='8867006a.pem' />
+				<File name='a8dee976.pem' mode='100644' size='7453'/>
+				<File name='0810ba98.pem' mode='100644' size='5942'/>
+				<File name='6b99d060.pem' mode='100644' size='5231'/>
+				<Link name='e18bfb83.0' mode='120777' path='e18bfb83.pem' />
+				<File name='2e5ac55d.pem' mode='100644' size='4302'/>
+				<File name='ef2f636c.pem' mode='100644' size='3142'/>
+				<Link name='9c472bf7.0' mode='120777' path='9c472bf7.pem' />
+				<Link name='e536d871.0' mode='120777' path='e536d871.pem' />
+				<File name='0b759015.pem' mode='100644' size='4542'/>
+				<File name='3513523f.pem' mode='100644' size='4630'/>
+				<File name='f081611a.pem' mode='100644' size='4714'/>
+				<File name='5f15c80c.pem' mode='100644' size='6865'/>
+				<Link name='eed8c118.0' mode='120777' path='eed8c118.pem' />
+				<File name='e18bfb83.pem' mode='100644' size='7078'/>
+				<Link name='e2799e36.0' mode='120777' path='e2799e36.pem' />
+				<Link name='dc45b0bd.0' mode='120777' path='dc45b0bd.pem' />
+				<Link name='a94d09e5.0' mode='120777' path='a94d09e5.pem' />
+				<File name='65b876bd.pem' mode='100644' size='5514'/>
+				<File name='b6c5745d.pem' mode='100644' size='4949'/>
+				<File name='a5fd78f0.pem' mode='100644' size='5191'/>
+				<Link name='b66938e9.0' mode='120777' path='b66938e9.pem' />
+				<File name='5ad8a5d6.pem' mode='100644' size='4370'/>
+				<Link name='56657bde.0' mode='120777' path='56657bde.pem' />
+				<Link name='2b349938.0' mode='120777' path='2b349938.pem' />
+				<File name='7f3d5d1d.pem' mode='100644' size='2742'/>
+				<Link name='88f89ea7.0' mode='120777' path='88f89ea7.pem' />
+				<File name='381ce4dd.pem' mode='100644' size='7433'/>
+				<File name='4bfab552.pem' mode='100644' size='4573'/>
+				<Link name='2c543cd1.0' mode='120777' path='2c543cd1.pem' />
+				<File name='2ae6433e.pem' mode='100644' size='7066'/>
+				<Link name='064e0aa9.0' mode='120777' path='064e0aa9.pem' />
+				<Link name='790a7190.0' mode='120777' path='790a7190.pem' />
+				<Link name='3513523f.0' mode='120777' path='3513523f.pem' />
+				<File name='b727005e.pem' mode='100644' size='7001'/>
+				<Link name='93bc0acc.0' mode='120777' path='93bc0acc.pem' />
+				<Link name='653b494a.0' mode='120777' path='653b494a.pem' />
+				<Link name='3b2716e5.0' mode='120777' path='3b2716e5.pem' />
+				<Link name='607986c7.0' mode='120777' path='607986c7.pem' />
+				<Link name='8e52d3cd.0' mode='120777' path='8e52d3cd.pem' />
+				<Link name='cb357862.0' mode='120777' path='cb357862.pem' />
+				<Link name='65b876bd.0' mode='120777' path='65b876bd.pem' />
+				<File name='988a38cb.pem' mode='100644' size='4828'/>
+				<Link name='d4dae3dd.0' mode='120777' path='d4dae3dd.pem' />
+				<Link name='cfa1c2ee.0' mode='120777' path='cfa1c2ee.pem' />
+				<Link name='bd1910d4.0' mode='120777' path='bd1910d4.pem' />
+				<File name='e8de2f56.pem' mode='100644' size='7018'/>
+				<File name='442adcac.pem' mode='100644' size='3959'/>
+				<Link name='ef2f636c.0' mode='120777' path='ef2f636c.pem' />
+				<File name='8e52d3cd.pem' mode='100644' size='4272'/>
+				<File name='dc45b0bd.pem' mode='100644' size='4522'/>
+				<Link name='1636090b.0' mode='120777' path='1636090b.pem' />
+				<File name='c5d3212a.pem' mode='100644' size='9903'/>
+				<File name='244b5494.pem' mode='100644' size='4681'/>
+				<Link name='6b99d060.0' mode='120777' path='6b99d060.pem' />
+				<File name='cbf06781.pem' mode='100644' size='4517'/>
+				<File name='8867006a.pem' mode='100644' size='7172'/>
+				<Link name='b7e7231a.0' mode='120777' path='b7e7231a.pem' />
+				<Link name='a5fd78f0.0' mode='120777' path='a5fd78f0.pem' />
+				<Link name='930ac5d2.0' mode='120777' path='930ac5d2.pem' />
+				<File name='6f2c1157.pem' mode='100644' size='7850'/>
+				<Link name='bb2d49a0.0' mode='120777' path='bb2d49a0.pem' />
+				<Link name='480720ec.0' mode='120777' path='480720ec.pem' />
+				<Link name='c5e082db.0' mode='120777' path='c5e082db.pem' />
+				<File name='a94d09e5.pem' mode='100644' size='8644'/>
+				<File name='c47d9980.pem' mode='100644' size='8407'/>
+				<Link name='40547a79.0' mode='120777' path='40547a79.pem' />
+				<Link name='ba89ed3b.0' mode='120777' path='ba89ed3b.pem' />
+				<Link name='812e17de.0' mode='120777' path='812e17de.pem' />
+				<File name='f060240e.pem' mode='100644' size='4580'/>
+				<Link name='f39fc864.0' mode='120777' path='f39fc864.pem' />
+				<Link name='4304c5e5.0' mode='120777' path='4304c5e5.pem' />
+				<Link name='0810ba98.0' mode='120777' path='0810ba98.pem' />
+				<Link name='415660c1.0' mode='120777' path='415660c1.pem' />
+				<File name='54657681.pem' mode='100644' size='7018'/>
+				<File name='98ec67f0.pem' mode='100644' size='3202'/>
+				<File name='9c2e7d30.pem' mode='100644' size='4125'/>
+				<File name='778e3cb0.pem' mode='100644' size='5108'/>
+				<File name='b42ff584.pem' mode='100644' size='4593'/>
+				<Link name='861e0100.0' mode='120777' path='861e0100.pem' />
+				<Link name='48bec511.0' mode='120777' path='48bec511.pem' />
+				<File name='0ba01d19.pem' mode='100644' size='7722'/>
+				<Link name='8096d0a9.0' mode='120777' path='8096d0a9.pem' />
+				<File name='e2799e36.pem' mode='100644' size='4702'/>
+				<File name='9c472bf7.pem' mode='100644' size='4535'/>
+				<File name='5d63b0ae.pem' mode='100644' size='7144'/>
+				<File name='062cdee6.pem' mode='100644' size='4334'/>
+				<File name='ba89ed3b.pem' mode='100644' size='4795'/>
+				<Link name='039c618a.0' mode='120777' path='039c618a.pem' />
+				<File name='480720ec.pem' mode='100644' size='4407'/>
+				<File name='eacdeb40.pem' mode='100644' size='4578'/>
+				<File name='876f1e28.pem' mode='100644' size='7042'/>
+				<Link name='b1159c4c.0' mode='120777' path='b1159c4c.pem' />
+				<File name='6cc3c4c3.pem' mode='100644' size='3154'/>
+				<File name='157753a5.pem' mode='100644' size='4894'/>
+				<File name='8b59b1ad.pem' mode='100644' size='4816'/>
+				<Link name='2e4eed3c.0' mode='120777' path='2e4eed3c.pem' />
+				<Link name='080911ac.0' mode='120777' path='080911ac.pem' />
+				<Link name='0c4c9b6c.0' mode='120777' path='0c4c9b6c.pem' />
+				<File name='76faf6c0.pem' mode='100644' size='8004'/>
+				<Link name='7f3d5d1d.0' mode='120777' path='7f3d5d1d.pem' />
+				<Link name='cb59f961.0' mode='120777' path='cb59f961.pem' />
+				<File name='4a6481c9.pem' mode='100644' size='4718'/>
+				<Link name='e8de2f56.0' mode='120777' path='e8de2f56.pem' />
+				<File name='ad088e1d.pem' mode='100644' size='7164'/>
+				<File name='749e9e03.pem' mode='100644' size='7078'/>
+				<File name='415660c1.pem' mode='100644' size='2657'/>
+				<Link name='024dc131.0' mode='120777' path='024dc131.pem' />
+				<Link name='9d520b32.0' mode='120777' path='9d520b32.pem' />
+				<Link name='f081611a.0' mode='120777' path='f081611a.pem' />
+				<File name='8096d0a9.pem' mode='100644' size='7121'/>
+				<File name='c692a373.pem' mode='100644' size='2682'/>
+				<Link name='988a38cb.0' mode='120777' path='988a38cb.pem' />
+				<File name='e113c810.pem' mode='100644' size='4694'/>
+				<Link name='b204d74a.0' mode='120777' path='b204d74a.pem' />
+				<Link name='5d63b0ae.0' mode='120777' path='5d63b0ae.pem' />
+				<File name='930ac5d2.pem' mode='100644' size='7358'/>
+				<Link name='54657681.0' mode='120777' path='54657681.pem' />
+				<Link name='98ec67f0.0' mode='120777' path='98ec67f0.pem' />
+				<Link name='5cd81ad7.0' mode='120777' path='5cd81ad7.pem' />
+				<Link name='442adcac.0' mode='120777' path='442adcac.pem' />
+				<Link name='201cada0.0' mode='120777' path='201cada0.pem' />
+				<Link name='9818ca0b.0' mode='120777' path='9818ca0b.pem' />
+				<Link name='5443e9e3.0' mode='120777' path='5443e9e3.pem' />
+				<File name='cfa1c2ee.pem' mode='100644' size='4272'/>
+				<Link name='dd8e9d41.0' mode='120777' path='dd8e9d41.pem' />
+				<File name='1874d4aa.pem' mode='100644' size='4767'/>
+				<Link name='e113c810.0' mode='120777' path='e113c810.pem' />
+				<Link name='cbf06781.0' mode='120777' path='cbf06781.pem' />
+				<Link name='c01cdfa2.0' mode='120777' path='c01cdfa2.pem' />
+				<File name='592c0a9a.pem' mode='100644' size='4963'/>
+				<Link name='9d04f354.0' mode='120777' path='9d04f354.pem' />
+				<File name='064e0aa9.pem' mode='100644' size='7078'/>
+				<Link name='d7e8dc79.0' mode='120777' path='d7e8dc79.pem' />
+				<Link name='c5d3212a.0' mode='120777' path='c5d3212a.pem' />
+				<File name='93bc0acc.pem' mode='100644' size='4283'/>
+				<Link name='778e3cb0.0' mode='120777' path='778e3cb0.pem' />
+				<Link name='9f541fb4.0' mode='120777' path='9f541fb4.pem' />
+				<Link name='c28a8a30.0' mode='120777' path='c28a8a30.pem' />
+				<Link name='0d1b923b.0' mode='120777' path='0d1b923b.pem' />
+				<File name='1e09d511.pem' mode='100644' size='4529'/>
+				<File name='6410666e.pem' mode='100644' size='7090'/>
+				<Link name='c47d9980.0' mode='120777' path='c47d9980.pem' />
+				<File name='18856ac4.pem' mode='100644' size='4335'/>
+				<File name='2c543cd1.pem' mode='100644' size='4314'/>
+				<File name='3bde41ac.pem' mode='100644' size='7541'/>
+				<Link name='b6c5745d.0' mode='120777' path='b6c5745d.pem' />
+				<Link name='9c2e7d30.0' mode='120777' path='9c2e7d30.pem' />
+				<File name='9007ae68.pem' mode='100644' size='7062'/>
+				<File name='d9d12c58.pem' mode='100644' size='6147'/>
+				<File name='1636090b.pem' mode='100644' size='4999'/>
+				<Link name='4bfab552.0' mode='120777' path='4bfab552.pem' />
+				<File name='67d559d1.pem' mode='100644' size='4125'/>
+				<Link name='ca-certificates.crt' mode='120777' path='../ca-bundle.crt' />
+				<File name='4304c5e5.pem' mode='100644' size='4731'/>
+				<Link name='b7a5b843.0' mode='120777' path='b7a5b843.pem' />
+				<Link name='c9f83a1c.0' mode='120777' path='c9f83a1c.pem' />
+				<Link name='6cc3c4c3.0' mode='120777' path='6cc3c4c3.pem' />
+				<File name='f3377b1b.pem' mode='100644' size='4286'/>
+				<Link name='79ad8b43.0' mode='120777' path='79ad8b43.pem' />
+				<Link name='3ee7e181.0' mode='120777' path='3ee7e181.pem' />
+				<Link name='d853d49e.0' mode='120777' path='d853d49e.pem' />
+				<Link name='f387163d.0' mode='120777' path='f387163d.pem' />
+				<Link name='5ad8a5d6.0' mode='120777' path='5ad8a5d6.pem' />
+				<Link name='9007ae68.0' mode='120777' path='9007ae68.pem' />
+				<Link name='b8e83700.0' mode='120777' path='b8e83700.pem' />
+				<Link name='75d1b2ed.0' mode='120777' path='75d1b2ed.pem' />
+				<Link name='a8dee976.0' mode='120777' path='a8dee976.pem' />
+				<File name='2b349938.pem' mode='100644' size='4287'/>
+				<Link name='034868d6.0' mode='120777' path='034868d6.pem' />
+				<File name='fcac10e3.pem' mode='100644' size='5377'/>
+				<File name='eed8c118.pem' mode='100644' size='2865'/>
+				<File name='039c618a.pem' mode='100644' size='4961'/>
+				<Link name='e36a6752.0' mode='120777' path='e36a6752.pem' />
+				<File name='0d1b923b.pem' mode='100644' size='5130'/>
+				<File name='ae8153b9.pem' mode='100644' size='8905'/>
+				<Link name='592c0a9a.0' mode='120777' path='592c0a9a.pem' />
+				<File name='bad35b78.pem' mode='100644' size='4526'/>
+				<File name='034868d6.pem' mode='100644' size='7539'/>
+				<File name='c28a8a30.pem' mode='100644' size='4925'/>
+				<Link name='d9d12c58.0' mode='120777' path='d9d12c58.pem' />
+				<File name='cbeee9e2.pem' mode='100644' size='4435'/>
+				<File name='c089bbbd.pem' mode='100644' size='2880'/>
+				<File name='861a399d.pem' mode='100644' size='4823'/>
+				<File name='9818ca0b.pem' mode='100644' size='4726'/>
+				<File name='57bbd831.pem' mode='100644' size='4605'/>
+				<File name='861e0100.pem' mode='100644' size='6374'/>
+				<File name='b204d74a.pem' mode='100644' size='5221'/>
+				<File name='dd8e9d41.pem' mode='100644' size='2725'/>
+				<Link name='76cb8f92.0' mode='120777' path='76cb8f92.pem' />
+				<File name='09789157.pem' mode='100644' size='4616'/>
+				<Link name='6410666e.0' mode='120777' path='6410666e.pem' />
+				<File name='c01cdfa2.pem' mode='100644' size='5167'/>
+				<File name='8d86cdd1.pem' mode='100644' size='4264'/>
+				<File name='b8e83700.pem' mode='100644' size='3100'/>
+				<File name='3e45d192.pem' mode='100644' size='4152'/>
+				<File name='9d04f354.pem' mode='100644' size='4481'/>
+				<File name='a760e1bd.pem' mode='100644' size='4486'/>
+				<Link name='ae8153b9.0' mode='120777' path='ae8153b9.pem' />
+				<File name='812e17de.pem' mode='100644' size='4447'/>
+				<File name='7d0b38bd.pem' mode='100644' size='3493'/>
+				<Link name='7d0b38bd.0' mode='120777' path='7d0b38bd.pem' />
+				<File name='9d520b32.pem' mode='100644' size='4371'/>
+				<File name='5c44d531.pem' mode='100644' size='7366'/>
+				<Link name='c089bbbd.0' mode='120777' path='c089bbbd.pem' />
+				<Link name='57bbd831.0' mode='120777' path='57bbd831.pem' />
+				<File name='5cd81ad7.pem' mode='100644' size='6981'/>
+				<File name='3efd4dc0.pem' mode='100644' size='7525'/>
+				<Link name='2ab3b959.0' mode='120777' path='2ab3b959.pem' />
+				<Link name='3e45d192.0' mode='120777' path='3e45d192.pem' />
+				<Link name='18856ac4.0' mode='120777' path='18856ac4.pem' />
+				<File name='ee64a828.pem' mode='100644' size='4893'/>
+				<Link name='2c3e3f84.0' mode='120777' path='2c3e3f84.pem' />
+				<Link name='ad088e1d.0' mode='120777' path='ad088e1d.pem' />
+				<File name='b7e7231a.pem' mode='100644' size='4673'/>
+				<File name='e36a6752.pem' mode='100644' size='4568'/>
+				<File name='e536d871.pem' mode='100644' size='4838'/>
+				<File name='ee1365c0.pem' mode='100644' size='4526'/>
+				<File name='0c4c9b6c.pem' mode='100644' size='8392'/>
+				<File name='9c8dfbd4.pem' mode='100644' size='2554'/>
+				<File name='4881cc08.pem' mode='100644' size='5451'/>
+				<File name='79ad8b43.pem' mode='100644' size='3112'/>
+				<Link name='4881cc08.0' mode='120777' path='4881cc08.pem' />
+				<Link name='4f316efb.0' mode='120777' path='4f316efb.pem' />
+				<Link name='1874d4aa.0' mode='120777' path='1874d4aa.pem' />
+				<File name='bd1910d4.pem' mode='100644' size='4537'/>
+				<File name='2e4eed3c.pem' mode='100644' size='4769'/>
+				<File name='667c66d4.pem' mode='100644' size='7521'/>
+				<Link name='4a6481c9.0' mode='120777' path='4a6481c9.pem' />
+				<Link name='8d86cdd1.0' mode='120777' path='8d86cdd1.pem' />
+				<File name='607986c7.pem' mode='100644' size='4461'/>
+				<File name='c99398f3.pem' mode='100644' size='4454'/>
+				<File name='8160b96c.pem' mode='100644' size='4862'/>
+			</Dir>
 		</Dir>
 		<Dir name='lynx' mode='40755'>
 			<File name='lynx.lss' mode='100644' size='3581'/>
@@ -2208,7 +2618,7 @@
 		<File name='pointercal' mode='100644' size='40'/>
 		<File name='ts.conf' mode='100644' size='17'/>
 		<Dir name='fonts' mode='40755'>
-			<File name='fonts.conf' mode='100644' size='5475'/>
+			<File name='fonts.conf' mode='100644' size='5464'/>
 			<Dir name='conf.d' mode='40755'>
 				<File name='README' mode='100644' size='978'/>
 				<Link name='45-latin.conf' mode='120777' path='/usr/share/fontconfig/conf.avail/45-latin.conf' />
@@ -2238,6 +2648,12 @@
 				<File name='UXTerm' mode='100644' size='3609'/>
 				<File name='XTerm-color' mode='100644' size='5826'/>
 			</Dir>
+		</Dir>
+		<Dir name='dillo' mode='40755'>
+			<File name='dpidrc' mode='100644' size='155'/>
+			<File name='keysrc' mode='100644' size='2935'/>
+			<File name='dillorc' mode='100644' size='13984' compressed='1'/>
+			<File name='domainrc' mode='100644' size='990'/>
 		</Dir>
 	</Dir>
 	<Dir name='var' mode='40755'>
