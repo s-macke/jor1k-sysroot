@@ -102,10 +102,29 @@
 				</Dir>
 			</Dir>
 			<Dir name='aclocal' mode='40755'>
+				<File name='alsa.m4' mode='100644' size='4392'/>
 				<File name='sdl.m4' mode='100644' size='6510'/>
 				<File name='freetype2.m4' mode='100644' size='6346'/>
 				<File name='fontutil.m4' mode='100644' size='14124' compressed='1'/>
 				<File name='wayland-scanner.m4' mode='100644' size='418'/>
+				<File name='libcurl.m4' mode='100644' size='10174'/>
+			</Dir>
+			<Dir name='alsa' mode='40755'>
+				<File name='alsa.conf' mode='100644' size='9318'/>
+				<File name='sndo-mixer.alisp' mode='100644' size='3206'/>
+				<Dir name='cards' mode='40755'>
+					<File name='aliases.conf' mode='100644' size='1405'/>
+				</Dir>
+				<Dir name='pcm' mode='40755'>
+					<File name='dmix.conf' mode='100644' size='1517'/>
+					<File name='dsnoop.conf' mode='100644' size='1532'/>
+					<File name='default.conf' mode='100644' size='762'/>
+					<File name='dpl.conf' mode='100644' size='645'/>
+				</Dir>
+				<File name='smixer.conf' mode='100644' size='155'/>
+				<Dir name='alsa.conf.d' mode='40755'>
+					<File name='README' mode='100644' size='103'/>
+				</Dir>
 			</Dir>
 			<Dir name='nmap' mode='40755'>
 				<File name='nmap-payloads' mode='100644' size='12735' compressed='1'/>
@@ -134,6 +153,15 @@
 					<File name='904.LFL' mode='100644' size='3385'/>
 					<File name='902.LFL' mode='100644' size='3319'/>
 					<File name='sample.dat' mode='100644' size='179380' compressed='1'/>
+				</Dir>
+				<Dir name='toppler' mode='40755'>
+					<Dir name='toppler' mode='40755'>
+						<File name='toppler.ogg' mode='100644' size='598654' compressed='1'/>
+						<File name='toppler.dat' mode='100644' size='935327' compressed='1'/>
+					</Dir>
+					<Dir name='pixmaps' mode='40755'>
+						<File name='toppler.xpm' mode='100644' size='5095'/>
+					</Dir>
 				</Dir>
 			</Dir>
 			<Dir name='lua' mode='40755'>
@@ -968,7 +996,6 @@
 			<File name='df_window' mode='104755' size='19016' compressed='1'/>
 			<File name='df_drivertest' mode='104755' size='8900' compressed='1'/>
 			<File name='df_databuffer' mode='104755' size='14164' compressed='1'/>
-			<File name='fbdemo' mode='100755' size='4696' compressed='1'/>
 			<File name='df_bltload' mode='104755' size='18156' compressed='1'/>
 			<File name='df_flip' mode='104755' size='5148' compressed='1'/>
 			<File name='df_matrix' mode='104755' size='13112' compressed='1'/>
@@ -1014,6 +1041,7 @@
 			<File name='clear' mode='100755' size='3552' compressed='1'/>
 			<File name='ncurses' mode='100755' size='97664' compressed='1'/>
 			<File name='tput' mode='100755' size='10000' compressed='1'/>
+			<File name='aserver' mode='100755' size='33036' compressed='1'/>
 			<File name='sdl-config' mode='100755' size='1263'/>
 			<File name='jpegtran' mode='100755' size='26672' compressed='1'/>
 			<File name='tjbench' mode='100755' size='58164' compressed='1'/>
@@ -1058,7 +1086,7 @@
 			<File name='prboom' mode='104755' size='914248' compressed='1'/>
 			<File name='lua' mode='100755' size='252548' compressed='1'/>
 			<File name='luac' mode='100755' size='185140' compressed='1'/>
-			<File name='scummvm' mode='104755' size='3606944' compressed='1'/>
+			<File name='scummvm' mode='104755' size='3735364' compressed='1'/>
 			<File name='lynx' mode='100755' size='1540128' compressed='1'/>
 			<File name='strace' mode='100755' size='381096' compressed='1'/>
 			<File name='strace-log-merge' mode='100755' size='944'/>
@@ -1158,12 +1186,16 @@
 			<File name='weston-terminal' mode='100755' size='127120' compressed='1'/>
 			<File name='weston-simple-touch' mode='100755' size='13868' compressed='1'/>
 			<File name='xsetroot' mode='100755' size='12488' compressed='1'/>
+			<File name='curl-config' mode='100755' size='4890'/>
+			<File name='curl' mode='100755' size='168036' compressed='1'/>
 			<File name='fluid' mode='100755' size='552528' compressed='1'/>
 			<File name='fltk-config' mode='100755' size='9161'/>
 			<File name='dillo-install-hyphenation' mode='100755' size='5732'/>
 			<File name='dpidc' mode='100755' size='17316' compressed='1'/>
 			<File name='dillo' mode='100755' size='775144' compressed='1'/>
 			<File name='dpid' mode='100755' size='42572' compressed='1'/>
+			<File name='toppler' mode='106755' size='182680' gid='50' compressed='1'/>
+			<File name='fbdemo' mode='100755' size='4732' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libatomic.so.1' mode='120777' path='libatomic.so.1.1.0' />
@@ -1445,12 +1477,22 @@
 			<File name='libpanel.so.5.9' mode='100755' size='11876' compressed='1'/>
 			<File name='libncurses.so.5.9' mode='100755' size='356612' compressed='1' load='1'/>
 			<Link name='libncurses.so' mode='120777' path='libncurses.so.5' />
+			<Link name='libasound.so' mode='120777' path='libasound.so.2.0.0' />
+			<Link name='libasound.so.2' mode='120777' path='libasound.so.2.0.0' />
+			<File name='libasound.so.2.0.0' mode='100755' size='1517756' compressed='1'/>
+			<Dir name='alsa-lib' mode='40755'>
+				<Dir name='smixer' mode='40755'>
+					<File name='smixer-sbase.so' mode='100755' size='10948' compressed='1'/>
+					<File name='smixer-ac97.so' mode='100755' size='6604' compressed='1'/>
+					<File name='smixer-hda.so' mode='100755' size='6604' compressed='1'/>
+				</Dir>
+			</Dir>
 			<Link name='libSDL.so' mode='120777' path='libSDL-1.2.so.0.11.4' />
 			<Link name='libSDL-1.2.so.0' mode='120777' path='libSDL-1.2.so.0.11.4' />
 			<File name='libSDL_mixer.a' mode='100644' size='262306' compressed='1'/>
 			<Link name='libSDL_mixer-1.2.so.0' mode='120777' path='libSDL_mixer-1.2.so.0.12.0' />
-			<File name='libSDL.a' mode='100644' size='458412' compressed='1'/>
-			<File name='libSDL-1.2.so.0.11.4' mode='100755' size='355504' compressed='1'/>
+			<File name='libSDL.a' mode='100644' size='471752' compressed='1'/>
+			<File name='libSDL-1.2.so.0.11.4' mode='100755' size='363960' compressed='1'/>
 			<File name='libSDLmain.a' mode='100644' size='768'/>
 			<Link name='libSDL_mixer.so' mode='120777' path='libSDL_mixer-1.2.so.0.12.0' />
 			<File name='libSDL_mixer-1.2.so.0.12.0' mode='100755' size='204992' compressed='1'/>
@@ -1853,6 +1895,10 @@
 				<File name='desktop-shell.so' mode='100755' size='84216' compressed='1'/>
 				<File name='headless-backend.so' mode='100755' size='15352' compressed='1'/>
 			</Dir>
+			<File name='libcurl.a' mode='100644' size='675224' compressed='1'/>
+			<Link name='libcurl.so.4' mode='120777' path='libcurl.so.4.3.0' />
+			<Link name='libcurl.so' mode='120777' path='libcurl.so.4.3.0' />
+			<File name='libcurl.so.4.3.0' mode='100755' size='442176' compressed='1'/>
 			<File name='libfltk.so.1.3' mode='100755' size='1290396' compressed='1'/>
 			<File name='libfltk_images.so.1.3' mode='100755' size='407288' compressed='1'/>
 			<File name='libfltk_images.a' mode='100755' size='75354' compressed='1'/>
@@ -1969,7 +2015,7 @@
 				<File name='SDL_thread.h' mode='100644' size='4242'/>
 				<File name='SDL_mouse.h' mode='100644' size='4754'/>
 				<File name='SDL_keyboard.h' mode='100644' size='4098'/>
-				<File name='SDL_config.h' mode='100644' size='9118'/>
+				<File name='SDL_config.h' mode='100644' size='9127'/>
 				<File name='SDL_mutex.h' mode='100644' size='5860'/>
 				<File name='SDL_events.h' mode='100644' size='13041' compressed='1'/>
 				<File name='SDL_loadso.h' mode='100644' size='2739'/>
@@ -2658,6 +2704,9 @@
 	</Dir>
 	<Dir name='var' mode='40755'>
 		<Dir name='empty' mode='40755'></Dir>
+		<Dir name='toppler' mode='40755'>
+			<File name='toppler.hsc' mode='100664' size='0' gid='50'/>
+		</Dir>
 	</Dir>
 	<Dir name='home' mode='40755'>
 		<Dir name='user' mode='40755' uid='1000' gid='1000'>
@@ -2665,6 +2714,7 @@
 			<Dir name='.config' mode='40755' uid='1000' gid='1000'>
 				<File name='weston.ini' mode='100644' size='1135' uid='1000' gid='1000'/>
 			</Dir>
+			<Dir name='.toppler' mode='40755' uid='1000' gid='1000'></Dir>
 		</Dir>
 	</Dir>
 	<Dir name='lib' mode='40755'>
