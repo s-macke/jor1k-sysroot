@@ -163,6 +163,46 @@
 						<File name='toppler.xpm' mode='100644' size='5095'/>
 					</Dir>
 				</Dir>
+				<Dir name='frontier' mode='40755'>
+					<File name='frontier' mode='104755' size='4492600' compressed='1'/>
+					<File name='cursor.png' mode='100644' size='158'/>
+					<File name='fe2.s.bin' mode='100644' size='539337' compressed='1'/>
+					<Dir name='sfx' mode='40755'>
+						<File name='sfx_21.wav' mode='100644' size='10100'/>
+						<File name='sfx_09.wav' mode='100644' size='11418' compressed='1'/>
+						<File name='sfx_14.wav' mode='100644' size='3096'/>
+						<File name='sfx_31.wav' mode='100644' size='44576' compressed='1'/>
+						<File name='sfx_15.wav' mode='100644' size='3468'/>
+						<File name='sfx_11.wav' mode='100644' size='7076'/>
+						<File name='sfx_10.wav' mode='100644' size='11015' compressed='1'/>
+						<File name='sfx_27.wav' mode='100644' size='60'/>
+						<File name='sfx_25.wav' mode='100644' size='45747' compressed='1'/>
+						<File name='sfx_20.wav' mode='100644' size='8810'/>
+						<File name='sfx_08.wav' mode='100644' size='11123' compressed='1'/>
+						<File name='sfx_24.wav' mode='100644' size='43540' compressed='1'/>
+						<File name='sfx_26.wav' mode='100644' size='17347' compressed='1'/>
+						<File name='sfx_30.wav' mode='100644' size='27764' compressed='1'/>
+						<File name='sfx_01.wav' mode='100644' size='6096'/>
+						<File name='sfx_32.wav' mode='100644' size='20778' compressed='1'/>
+						<File name='sfx_02.wav' mode='100644' size='6078'/>
+						<File name='sfx_22.wav' mode='100644' size='17831' compressed='1'/>
+						<File name='sfx_03.wav' mode='100644' size='6397'/>
+						<File name='sfx_05.wav' mode='100644' size='67030' compressed='1'/>
+						<File name='sfx_28.wav' mode='100644' size='9238'/>
+						<File name='sfx_18.wav' mode='100644' size='3701'/>
+						<File name='sfx_07.wav' mode='100644' size='35670' compressed='1'/>
+						<File name='sfx_06.wav' mode='100644' size='3759'/>
+						<File name='sfx_19.wav' mode='100644' size='137378' compressed='1'/>
+						<File name='sfx_12.wav' mode='100644' size='7391'/>
+						<File name='sfx_13.wav' mode='100644' size='7646'/>
+						<File name='sfx_29.wav' mode='100644' size='8560'/>
+						<File name='sfx_17.wav' mode='100644' size='1061'/>
+						<File name='sfx_23.wav' mode='100644' size='30227' compressed='1'/>
+						<File name='sfx_16.wav' mode='100644' size='2862'/>
+						<File name='sfx_04.wav' mode='100644' size='5331'/>
+						<File name='sfx_00.wav' mode='100644' size='2001'/>
+					</Dir>
+				</Dir>
 			</Dir>
 			<Dir name='lua' mode='40755'>
 				<Dir name='5.2' mode='40755'></Dir>
@@ -971,6 +1011,10 @@
 			<Dir name='backgrounds' mode='40755'>
 				<File name='Aqua.jpg' mode='100644' size='10423' compressed='1'/>
 			</Dir>
+			<Dir name='mplayer' mode='40755'>
+				<File name='Mandelbulb_Flight.3gp' mode='100644' size='1757312' compressed='1'/>
+				<File name='orion_1.mpg' mode='100644' size='2042028' compressed='1'/>
+			</Dir>
 		</Dir>
 		<Dir name='bin' mode='40755'>
 			<File name='df_cpuload' mode='104755' size='8920' compressed='1'/>
@@ -1196,6 +1240,7 @@
 			<File name='dpid' mode='100755' size='42572' compressed='1'/>
 			<File name='toppler' mode='106755' size='182680' gid='50' compressed='1'/>
 			<File name='fbdemo' mode='100755' size='4732' compressed='1'/>
+			<File name='mplayer' mode='100755' size='11260480' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libatomic.so.1' mode='120777' path='libatomic.so.1.1.0' />
@@ -1489,11 +1534,11 @@
 			</Dir>
 			<Link name='libSDL.so' mode='120777' path='libSDL-1.2.so.0.11.4' />
 			<Link name='libSDL-1.2.so.0' mode='120777' path='libSDL-1.2.so.0.11.4' />
-			<File name='libSDL_mixer.a' mode='100644' size='262306' compressed='1'/>
+			<Link name='libSDL_image.so' mode='120777' path='libSDL_image-1.2.so.0.8.4' />
+			<File name='libSDL_image-1.2.so.0.8.4' mode='100755' size='53360' compressed='1'/>
 			<Link name='libSDL_mixer-1.2.so.0' mode='120777' path='libSDL_mixer-1.2.so.0.12.0' />
-			<File name='libSDL.a' mode='100644' size='471752' compressed='1'/>
 			<File name='libSDL-1.2.so.0.11.4' mode='100755' size='363960' compressed='1'/>
-			<File name='libSDLmain.a' mode='100644' size='768'/>
+			<Link name='libSDL_image-1.2.so.0' mode='120777' path='libSDL_image-1.2.so.0.8.4' />
 			<Link name='libSDL_mixer.so' mode='120777' path='libSDL_mixer-1.2.so.0.12.0' />
 			<File name='libSDL_mixer-1.2.so.0.12.0' mode='100755' size='204992' compressed='1'/>
 			<Link name='libjpeg.so.8' mode='120777' path='libjpeg.so.8.0.2' />
@@ -1895,7 +1940,6 @@
 				<File name='desktop-shell.so' mode='100755' size='84216' compressed='1'/>
 				<File name='headless-backend.so' mode='100755' size='15352' compressed='1'/>
 			</Dir>
-			<File name='libcurl.a' mode='100644' size='675224' compressed='1'/>
 			<Link name='libcurl.so.4' mode='120777' path='libcurl.so.4.3.0' />
 			<Link name='libcurl.so' mode='120777' path='libcurl.so.4.3.0' />
 			<File name='libcurl.so.4.3.0' mode='100755' size='442176' compressed='1'/>
@@ -2015,6 +2059,7 @@
 				<File name='SDL_thread.h' mode='100644' size='4242'/>
 				<File name='SDL_mouse.h' mode='100644' size='4754'/>
 				<File name='SDL_keyboard.h' mode='100644' size='4098'/>
+				<File name='SDL_image.h' mode='100644' size='5513'/>
 				<File name='SDL_config.h' mode='100644' size='9127'/>
 				<File name='SDL_mutex.h' mode='100644' size='5860'/>
 				<File name='SDL_events.h' mode='100644' size='13041' compressed='1'/>
