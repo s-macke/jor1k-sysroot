@@ -37,6 +37,12 @@ typedef double double_t;
 #endif
 
 
+#if defined(__NEED_max_align_t) && !defined(__DEFINED_max_align_t)
+typedef struct { long long __ll; long double __ld; } max_align_t;
+#define __DEFINED_max_align_t
+#endif
+
+
 #if defined(__NEED_time_t) && !defined(__DEFINED_time_t)
 typedef long time_t;
 #define __DEFINED_time_t
@@ -54,13 +60,23 @@ typedef struct { union { int __i[9]; unsigned __s[9]; } __u; } pthread_attr_t;
 #endif
 
 #if defined(__NEED_pthread_mutex_t) && !defined(__DEFINED_pthread_mutex_t)
-typedef struct { union { int __i[6]; void *__p[6]; } __u; } pthread_mutex_t;
+typedef struct { union { int __i[6]; volatile void *volatile __p[6]; } __u; } pthread_mutex_t;
 #define __DEFINED_pthread_mutex_t
+#endif
+
+#if defined(__NEED_mtx_t) && !defined(__DEFINED_mtx_t)
+typedef struct { union { int __i[6]; volatile void *volatile __p[6]; } __u; } mtx_t;
+#define __DEFINED_mtx_t
 #endif
 
 #if defined(__NEED_pthread_cond_t) && !defined(__DEFINED_pthread_cond_t)
 typedef struct { union { int __i[12]; void *__p[12]; } __u; } pthread_cond_t;
 #define __DEFINED_pthread_cond_t
+#endif
+
+#if defined(__NEED_cnd_t) && !defined(__DEFINED_cnd_t)
+typedef struct { union { int __i[12]; void *__p[12]; } __u; } cnd_t;
+#define __DEFINED_cnd_t
 #endif
 
 #if defined(__NEED_pthread_rwlock_t) && !defined(__DEFINED_pthread_rwlock_t)

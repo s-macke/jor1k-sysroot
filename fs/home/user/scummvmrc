@@ -1,8 +1,9 @@
 [scummvm]
 lastselectedgame=monkey-vga-demo-amiga
 browser_lastpath=/
-mute=true
+mute=false
 versioninfo=1.6.0
+output_rate=8000
 
 [monkey-vga-demo-amiga]
 platform=amiga

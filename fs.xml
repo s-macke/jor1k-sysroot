@@ -125,6 +125,18 @@
 				<Dir name='alsa.conf.d' mode='40755'>
 					<File name='README' mode='100644' size='103'/>
 				</Dir>
+				<Dir name='speaker-test' mode='40755'>
+					<File name='sample_map.csv' mode='100644' size='118'/>
+				</Dir>
+				<Dir name='init' mode='40755'>
+					<File name='00main' mode='100644' size='1808'/>
+					<File name='hda' mode='100644' size='1519'/>
+					<File name='ca0106' mode='100644' size='1326'/>
+					<File name='info' mode='100644' size='932'/>
+					<File name='default' mode='100644' size='10456' compressed='1'/>
+					<File name='test' mode='100644' size='10699' compressed='1'/>
+					<File name='help' mode='100644' size='391'/>
+				</Dir>
 			</Dir>
 			<Dir name='nmap' mode='40755'>
 				<File name='nmap-payloads' mode='100644' size='12735' compressed='1'/>
@@ -264,41 +276,6 @@
 			</Dir>
 			<Dir name='frotz' mode='40755'>
 				<File name='905.z5' mode='100644' size='87040' compressed='1'/>
-			</Dir>
-			<Dir name='nano' mode='40755'>
-				<File name='groff.nanorc' mode='100644' size='723'/>
-				<File name='pov.nanorc' mode='100644' size='682'/>
-				<File name='ocaml.nanorc' mode='100644' size='791'/>
-				<File name='python.nanorc' mode='100644' size='527'/>
-				<File name='asm.nanorc' mode='100644' size='783'/>
-				<File name='html.nanorc' mode='100644' size='124'/>
-				<File name='objc.nanorc' mode='100644' size='1696'/>
-				<File name='sh.nanorc' mode='100644' size='691'/>
-				<File name='perl.nanorc' mode='100644' size='1438'/>
-				<File name='debian.nanorc' mode='100644' size='680'/>
-				<File name='tcl.nanorc' mode='100644' size='2110'/>
-				<File name='xml.nanorc' mode='100644' size='260'/>
-				<File name='patch.nanorc' mode='100644' size='242'/>
-				<File name='tex.nanorc' mode='100644' size='141'/>
-				<File name='gentoo.nanorc' mode='100644' size='3139'/>
-				<File name='fortran.nanorc' mode='100644' size='2032'/>
-				<File name='mgp.nanorc' mode='100644' size='219'/>
-				<Dir name='man-html' mode='40755'>
-					<File name='rnano.1.html' mode='100644' size='5237'/>
-					<File name='nano.1.html' mode='100644' size='14181' compressed='1'/>
-					<File name='nanorc.5.html' mode='100644' size='28423' compressed='1'/>
-				</Dir>
-				<File name='nanorc.nanorc' mode='100644' size='1110'/>
-				<File name='makefile.nanorc' mode='100644' size='248'/>
-				<File name='css.nanorc' mode='100644' size='331'/>
-				<File name='awk.nanorc' mode='100644' size='1504'/>
-				<File name='cmake.nanorc' mode='100644' size='828'/>
-				<File name='c.nanorc' mode='100644' size='1514'/>
-				<File name='php.nanorc' mode='100644' size='687'/>
-				<File name='mutt.nanorc' mode='100644' size='95'/>
-				<File name='java.nanorc' mode='100644' size='610'/>
-				<File name='man.nanorc' mode='100644' size='264'/>
-				<File name='ruby.nanorc' mode='100644' size='1475'/>
 			</Dir>
 			<Dir name='X11' mode='40755'>
 				<Dir name='locale' mode='40755'>
@@ -1015,6 +992,25 @@
 				<File name='Mandelbulb_Flight.3gp' mode='100644' size='1757312' compressed='1'/>
 				<File name='orion_1.mpg' mode='100644' size='2042028' compressed='1'/>
 			</Dir>
+			<Dir name='sounds' mode='40755'>
+				<Dir name='alsa' mode='40755'>
+					<File name='Rear_Center.wav' mode='100644' size='130096' compressed='1'/>
+					<File name='Noise.wav' mode='100644' size='135202' compressed='1'/>
+					<File name='Side_Left.wav' mode='100644' size='134868' compressed='1'/>
+					<File name='Front_Right.wav' mode='100644' size='146990' compressed='1'/>
+					<File name='Rear_Right.wav' mode='100644' size='146480' compressed='1'/>
+					<File name='Rear_Left.wav' mode='100644' size='126064' compressed='1'/>
+					<File name='Side_Right.wav' mode='100644' size='129966' compressed='1'/>
+					<File name='Front_Left.wav' mode='100644' size='142128' compressed='1'/>
+					<File name='Front_Center.wav' mode='100644' size='137134' compressed='1'/>
+				</Dir>
+			</Dir>
+			<Dir name='ltrace' mode='40755'>
+				<File name='syscalls.conf' mode='100644' size='4448'/>
+				<File name='libacl.so.conf' mode='100644' size='1178'/>
+				<File name='libc.so.conf' mode='100644' size='15391' compressed='1'/>
+				<File name='libm.so.conf' mode='100644' size='11084' compressed='1'/>
+			</Dir>
 		</Dir>
 		<Dir name='bin' mode='40755'>
 			<File name='df_cpuload' mode='104755' size='8920' compressed='1'/>
@@ -1049,11 +1045,11 @@
 			<File name='df_texture3d' mode='104755' size='37288' compressed='1'/>
 			<File name='df_dioload' mode='104755' size='17428' compressed='1'/>
 			<File name='spacedream' mode='100755' size='17952' compressed='1'/>
-			<File name='gcc-ar' mode='100755' size='23908' compressed='1'/>
-			<File name='gcc-ranlib' mode='100755' size='23856' compressed='1'/>
-			<File name='gcc' mode='100755' size='824888' compressed='1'/>
-			<File name='gcov' mode='100755' size='553240' compressed='1'/>
-			<File name='gcc-nm' mode='100755' size='23852' compressed='1'/>
+			<File name='gcc-ar' mode='100755' size='23908' uid='1005' gid='1009' compressed='1'/>
+			<File name='gcc-ranlib' mode='100755' size='23856' uid='1005' gid='1009' compressed='1'/>
+			<File name='gcc' mode='100755' size='817412' uid='1005' gid='1009' compressed='1'/>
+			<File name='gcov' mode='100755' size='553196' uid='1005' gid='1009' compressed='1'/>
+			<File name='gcc-nm' mode='100755' size='23852' uid='1005' gid='1009' compressed='1'/>
 			<File name='nbench' mode='100755' size='92184' compressed='1'/>
 			<File name='coremark' mode='100755' size='26556' compressed='1'/>
 			<File name='FrodoPC' mode='100755' size='222692' compressed='1'/>
@@ -1085,7 +1081,7 @@
 			<File name='clear' mode='100755' size='3552' compressed='1'/>
 			<File name='ncurses' mode='100755' size='97664' compressed='1'/>
 			<File name='tput' mode='100755' size='10000' compressed='1'/>
-			<File name='aserver' mode='100755' size='33036' compressed='1'/>
+			<File name='aserver' mode='100755' size='26472' compressed='1'/>
 			<File name='sdl-config' mode='100755' size='1263'/>
 			<File name='jpegtran' mode='100755' size='26672' compressed='1'/>
 			<File name='tjbench' mode='100755' size='58164' compressed='1'/>
@@ -1173,7 +1169,7 @@
 			<File name='frotz' mode='100755' size='109312' compressed='1'/>
 			<Link name='ldd' mode='120777' path='/usr/lib/libc.so' />
 			<Link name='rnano' mode='120777' path='nano' />
-			<File name='nano' mode='100755' size='185760' compressed='1'/>
+			<File name='nano' mode='100755' size='185756' compressed='1'/>
 			<Link name='pico' mode='120777' path='nano' />
 			<File name='sxpm' mode='100755' size='18144' compressed='1'/>
 			<File name='cxpm' mode='100755' size='21324' compressed='1'/>
@@ -1240,272 +1236,293 @@
 			<File name='dpid' mode='100755' size='42572' compressed='1'/>
 			<File name='toppler' mode='106755' size='182680' gid='50' compressed='1'/>
 			<File name='fbdemo' mode='100755' size='4732' compressed='1'/>
-			<File name='mplayer' mode='100755' size='11260480' compressed='1'/>
+			<File name='mplayer' mode='100755' size='11399744' compressed='1'/>
+			<File name='aplay' mode='100755' size='77340' compressed='1'/>
+			<File name='amidi' mode='100755' size='15252' compressed='1'/>
+			<File name='speaker-test' mode='100755' size='40612' compressed='1'/>
+			<File name='aconnect' mode='100755' size='13468' compressed='1'/>
+			<Link name='arecord' mode='120777' path='aplay' />
+			<File name='alsaucm' mode='100755' size='11752' compressed='1'/>
+			<File name='alsaloop' mode='100755' size='84556' compressed='1'/>
+			<File name='aplaymidi' mode='100755' size='18104' compressed='1'/>
+			<File name='iecset' mode='100755' size='14144' compressed='1'/>
+			<File name='aseqdump' mode='100755' size='12392' compressed='1'/>
+			<File name='alsamixer' mode='100755' size='76776' compressed='1'/>
+			<File name='aseqnet' mode='100755' size='13248' compressed='1'/>
+			<File name='arecordmidi' mode='100755' size='19980' compressed='1'/>
+			<File name='amixer' mode='100755' size='60480' compressed='1'/>
+			<File name='ltrace' mode='100755' size='264700' compressed='1'/>
+			<File name='hello' mode='100755' size='2828' compressed='1'/>
+			<File name='htop' mode='100755' size='152376' uid='1005' gid='1009' compressed='1'/>
 		</Dir>
-		<Dir name='lib' mode='40755'>
+		<Dir name='lib' mode='40755' uid='1005' gid='1009'>
+			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
 			<Link name='libatomic.so.1' mode='120777' path='libatomic.so.1.1.0' />
-			<File name='libatomic.so.1.1.0' mode='100755' size='17980' compressed='1'/>
+			<File name='libgomp.spec' mode='100644' size='164' uid='1005' gid='1009'/>
+			<File name='libatomic.so.1.1.0' mode='100755' size='17980' uid='1005' gid='1009' compressed='1'/>
+			<Link name='libgomp.so.1' mode='120777' path='libgomp.so.1.0.0' />
 			<Link name='libatomic.so' mode='120777' path='libatomic.so.1.1.0' />
-			<Dir name='gcc' mode='40755'>
-				<Dir name='or1k-linux-musl' mode='40755'>
-					<Dir name='4.9.0' mode='40755'>
-						<File name='libgcov.a' mode='100644' size='145818' compressed='1'/>
-						<File name='libgcc.a' mode='100644' size='490770' compressed='1'/>
-						<Dir name='include-fixed' mode='40755'>
-							<File name='README' mode='100644' size='750'/>
-							<File name='syslimits.h' mode='100644' size='330'/>
-							<File name='limits.h' mode='100644' size='5382'/>
+			<File name='libgomp.so.1.0.0' mode='100755' size='102012' uid='1005' gid='1009' compressed='1'/>
+			<Dir name='gcc' mode='40755' uid='1005' gid='1009'>
+				<Dir name='or1k-linux-musl' mode='40755' uid='1005' gid='1009'>
+					<Dir name='4.9.1' mode='40755' uid='1005' gid='1009'>
+						<File name='libgcov.a' mode='100644' size='145854' uid='1005' gid='1009' compressed='1'/>
+						<File name='libgcc.a' mode='100644' size='676190' uid='1005' gid='1009' compressed='1'/>
+						<Dir name='include-fixed' mode='40755' uid='1005' gid='1009'>
+							<File name='README' mode='100644' size='750' uid='1005' gid='1009'/>
+							<File name='syslimits.h' mode='100644' size='330' uid='1005' gid='1009'/>
+							<File name='limits.h' mode='100644' size='5382' uid='1005' gid='1009'/>
 						</Dir>
-						<File name='crtend.o' mode='100644' size='1680' compressed='1'/>
-						<File name='crtendS.o' mode='100644' size='1860' compressed='1'/>
-						<Dir name='plugin' mode='40755'>
-							<File name='gtype.state' mode='100644' size='939013' compressed='1'/>
-							<Dir name='include' mode='40755'>
-								<File name='md5.h' mode='100644' size='5335'/>
-								<File name='cfgexpand.h' mode='100644' size='925'/>
-								<File name='version.h' mode='100644' size='184'/>
-								<File name='treestruct.def' mode='100644' size='2810'/>
-								<File name='tree-check.h' mode='100644' size='19419' compressed='1'/>
-								<File name='df.h' mode='100644' size='45077' compressed='1'/>
-								<File name='target-hooks-macros.h' mode='100644' size='4060'/>
-								<File name='context.h' mode='100644' size='1528'/>
-								<File name='stmt.h' mode='100644' size='1272'/>
-								<File name='tree-ssa-loop-niter.h' mode='100644' size='2239'/>
-								<File name='sync-builtins.def' mode='100644' size='27679' compressed='1'/>
-								<File name='tree-phinodes.h' mode='100644' size='2291'/>
-								<File name='line-map.h' mode='100644' size='30243' compressed='1'/>
-								<File name='rtl.h' mode='100644' size='106265' compressed='1'/>
-								<File name='tm.h' mode='100644' size='1039'/>
-								<File name='tree-ssa-alias.h' mode='100644' size='6216'/>
-								<File name='highlev-plugin-common.h' mode='100644' size='1121'/>
-								<File name='gimple-expr.h' mode='100644' size='5105'/>
-								<Dir name='ada' mode='40755'>
-									<Dir name='gcc-interface' mode='40755'>
-										<File name='ada-tree.def' mode='100644' size='4496'/>
+						<File name='crtend.o' mode='100644' size='1680' uid='1005' gid='1009' compressed='1'/>
+						<File name='crtendS.o' mode='100644' size='1860' uid='1005' gid='1009' compressed='1'/>
+						<Dir name='plugin' mode='40755' uid='1005' gid='1009'>
+							<File name='gtype.state' mode='100644' size='939357' uid='1005' gid='1009' compressed='1'/>
+							<Dir name='include' mode='40755' uid='1005' gid='1009'>
+								<File name='md5.h' mode='100644' size='5335' uid='1005' gid='1009'/>
+								<File name='cfgexpand.h' mode='100644' size='925' uid='1005' gid='1009'/>
+								<File name='version.h' mode='100644' size='184' uid='1005' gid='1009'/>
+								<File name='treestruct.def' mode='100644' size='2810' uid='1005' gid='1009'/>
+								<File name='tree-check.h' mode='100644' size='19419' uid='1005' gid='1009' compressed='1'/>
+								<File name='df.h' mode='100644' size='45077' uid='1005' gid='1009' compressed='1'/>
+								<File name='target-hooks-macros.h' mode='100644' size='4060' uid='1005' gid='1009'/>
+								<File name='context.h' mode='100644' size='1528' uid='1005' gid='1009'/>
+								<File name='stmt.h' mode='100644' size='1272' uid='1005' gid='1009'/>
+								<File name='tree-ssa-loop-niter.h' mode='100644' size='2239' uid='1005' gid='1009'/>
+								<File name='sync-builtins.def' mode='100644' size='27679' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-phinodes.h' mode='100644' size='2291' uid='1005' gid='1009'/>
+								<File name='line-map.h' mode='100644' size='30243' uid='1005' gid='1009' compressed='1'/>
+								<File name='rtl.h' mode='100644' size='106265' uid='1005' gid='1009' compressed='1'/>
+								<File name='tm.h' mode='100644' size='1039' uid='1005' gid='1009'/>
+								<File name='tree-ssa-alias.h' mode='100644' size='6216' uid='1005' gid='1009'/>
+								<File name='highlev-plugin-common.h' mode='100644' size='1121' uid='1005' gid='1009'/>
+								<File name='gimple-expr.h' mode='100644' size='5105' uid='1005' gid='1009'/>
+								<Dir name='ada' mode='40755' uid='1005' gid='1009'>
+									<Dir name='gcc-interface' mode='40755' uid='1005' gid='1009'>
+										<File name='ada-tree.def' mode='100644' size='4496' uid='1005' gid='1009'/>
 									</Dir>
 								</Dir>
-								<Dir name='config' mode='40755'>
-									<File name='initfini-array.h' mode='100644' size='1343'/>
-									<File name='linux-protos.h' mode='100644' size='805'/>
-									<File name='linux.h' mode='100644' size='7974'/>
-									<File name='gnu-user.h' mode='100644' size='4875'/>
-									<Dir name='or1k' mode='40755'>
-										<File name='elf.h' mode='100644' size='1245'/>
-										<File name='or1k.h' mode='100644' size='48348' compressed='1'/>
-										<File name='or1k-opts.h' mode='100644' size='344'/>
-										<File name='or1k-protos.h' mode='100644' size='2768'/>
-										<File name='linux-gas.h' mode='100644' size='1370'/>
-										<File name='linux-elf.h' mode='100644' size='3357'/>
+								<Dir name='config' mode='40755' uid='1005' gid='1009'>
+									<File name='initfini-array.h' mode='100644' size='1628' uid='1005' gid='1009'/>
+									<File name='linux-protos.h' mode='100644' size='805' uid='1005' gid='1009'/>
+									<File name='linux.h' mode='100644' size='7974' uid='1005' gid='1009'/>
+									<File name='gnu-user.h' mode='100644' size='4875' uid='1005' gid='1009'/>
+									<Dir name='or1k' mode='40755' uid='1005' gid='1009'>
+										<File name='elf.h' mode='100644' size='1245' uid='1005' gid='1009'/>
+										<File name='or1k.h' mode='100644' size='48348' uid='1005' gid='1009' compressed='1'/>
+										<File name='or1k-opts.h' mode='100644' size='344' uid='1005' gid='1009'/>
+										<File name='or1k-protos.h' mode='100644' size='2768' uid='1005' gid='1009'/>
+										<File name='linux-gas.h' mode='100644' size='1370' uid='1005' gid='1009'/>
+										<File name='linux-elf.h' mode='100644' size='3357' uid='1005' gid='1009'/>
 									</Dir>
-									<File name='uclibc-stdint.h' mode='100644' size='3100'/>
-									<File name='elfos.h' mode='100644' size='16645' compressed='1'/>
-									<File name='dbxelf.h' mode='100644' size='2264'/>
+									<File name='uclibc-stdint.h' mode='100644' size='3100' uid='1005' gid='1009'/>
+									<File name='elfos.h' mode='100644' size='16645' uid='1005' gid='1009' compressed='1'/>
+									<File name='dbxelf.h' mode='100644' size='2264' uid='1005' gid='1009'/>
 								</Dir>
-								<File name='stringpool.h' mode='100644' size='1490'/>
-								<File name='dumpfile.h' mode='100644' size='8928'/>
-								<File name='print-tree.h' mode='100644' size='1790'/>
-								<File name='tree-ssa-dom.h' mode='100644' size='1013'/>
-								<File name='plugin-version.h' mode='100644' size='593'/>
-								<File name='mode-classes.def' mode='100644' size='1864'/>
-								<File name='tree-pretty-print.h' mode='100644' size='2185'/>
-								<File name='intl.h' mode='100644' size='1809'/>
-								<File name='realmpfr.h' mode='100644' size='1341'/>
-								<File name='predict.def' mode='100644' size='7951'/>
-								<File name='langhooks.h' mode='100644' size='19859' compressed='1'/>
-								<File name='tree-core.h' mode='100644' size='52397' compressed='1'/>
-								<File name='tm-preds.h' mode='100644' size='2543'/>
-								<File name='tree-outof-ssa.h' mode='100644' size='2563'/>
-								<File name='ggc.h' mode='100644' size='9777'/>
-								<File name='cfgloop.h' mode='100644' size='22039' compressed='1'/>
-								<File name='tree-dfa.h' mode='100644' size='5367'/>
-								<File name='insn-constants.h' mode='100644' size='618'/>
-								<File name='tree-cfg.h' mode='100644' size='4384'/>
-								<File name='fixed-value.h' mode='100644' size='4301'/>
-								<File name='ipa-prop.h' mode='100644' size='25808' compressed='1'/>
-								<File name='hashtab.h' mode='100644' size='7405'/>
-								<File name='gcc-plugin.h' mode='100644' size='5122'/>
-								<File name='symtab.h' mode='100644' size='3516'/>
-								<File name='hash-table.h' mode='100644' size='29559' compressed='1'/>
-								<File name='sanitizer.def' mode='100644' size='15659' compressed='1'/>
-								<File name='output.h' mode='100644' size='24116' compressed='1'/>
-								<File name='gimple.h' mode='100644' size='140056' compressed='1'/>
-								<File name='target.def' mode='100644' size='242843' compressed='1'/>
-								<File name='diagnostic-color.h' mode='100644' size='2392'/>
-								<File name='is-a.h' mode='100644' size='5550'/>
-								<File name='insn-codes.h' mode='100644' size='4622'/>
-								<File name='incpath.h' mode='100644' size='1419'/>
-								<File name='gimple-walk.h' mode='100644' size='4240'/>
-								<File name='gimple-fold.h' mode='100644' size='2101'/>
-								<File name='safe-ctype.h' mode='100644' size='5643'/>
-								<File name='gtype-desc.h' mode='100644' size='526036' compressed='1'/>
-								<File name='attribs.h' mode='100644' size='1674'/>
-								<File name='pass_manager.h' mode='100644' size='3701'/>
-								<File name='calls.h' mode='100644' size='1179'/>
-								<File name='cfg-flags.def' mode='100644' size='6650'/>
-								<File name='config.h' mode='100644' size='217'/>
-								<File name='emit-rtl.h' mode='100644' size='3547'/>
-								<File name='cpplib.h' mode='100644' size='39448' compressed='1'/>
-								<File name='gimple-low.h' mode='100644' size='979'/>
-								<File name='statistics.h' mode='100644' size='2845'/>
-								<File name='tree-ssa-address.h' mode='100644' size='1276'/>
-								<File name='splay-tree.h' mode='100644' size='5729'/>
-								<File name='print-rtl.h' mode='100644' size='846'/>
-								<File name='resource.h' mode='100644' size='1933'/>
-								<File name='auto-host.h' mode='100644' size='46323' compressed='1'/>
-								<File name='gtm-builtins.def' mode='100644' size='9914'/>
-								<File name='ipa-ref-inline.h' mode='100644' size='2678'/>
-								<File name='all-tree.def' mode='100644' size='204'/>
-								<File name='diagnostic.def' mode='100644' size='2274'/>
-								<File name='tree-ssa-loop-manip.h' mode='100644' size='1938'/>
-								<File name='gimplify-me.h' mode='100644' size='1548'/>
-								<File name='vec.h' mode='100644' size='49090' compressed='1'/>
-								<File name='hard-reg-set.h' mode='100644' size='23206' compressed='1'/>
-								<File name='tree.def' mode='100644' size='62449' compressed='1'/>
-								<File name='tree-ssa-sccvn.h' mode='100644' size='8068'/>
-								<File name='libiberty.h' mode='100644' size='25051' compressed='1'/>
-								<File name='input.h' mode='100644' size='2515'/>
-								<File name='options.h' mode='100644' size='196587' compressed='1'/>
-								<File name='tree-ssa-loop-ivopts.h' mode='100644' size='1448'/>
-								<File name='predict.h' mode='100644' size='2007'/>
-								<File name='alloc-pool.h' mode='100644' size='2030'/>
-								<File name='tree-ssanames.h' mode='100644' size='5197'/>
-								<File name='cfghooks.h' mode='100644' size='8994'/>
-								<File name='ipa-utils.h' mode='100644' size='6624'/>
-								<File name='diagnostic-core.h' mode='100644' size='3598'/>
-								<File name='cilk-builtins.def' mode='100644' size='1546'/>
-								<File name='b-header-vars' mode='100644' size='9275'/>
-								<File name='debug.h' mode='100644' size='7928'/>
-								<File name='gcc-symtab.h' mode='100644' size='941'/>
-								<File name='configargs.h' mode='100644' size='668'/>
-								<File name='tree-into-ssa.h' mode='100644' size='1933'/>
-								<File name='tree.h' mode='100644' size='188317' compressed='1'/>
-								<File name='gimple-ssa.h' mode='100644' size='5069'/>
-								<Dir name='java' mode='40755'>
-									<File name='java-tree.def' mode='100644' size='1350'/>
+								<File name='stringpool.h' mode='100644' size='1490' uid='1005' gid='1009'/>
+								<File name='dumpfile.h' mode='100644' size='8928' uid='1005' gid='1009'/>
+								<File name='print-tree.h' mode='100644' size='1790' uid='1005' gid='1009'/>
+								<File name='tree-ssa-dom.h' mode='100644' size='1013' uid='1005' gid='1009'/>
+								<File name='plugin-version.h' mode='100644' size='593' uid='1005' gid='1009'/>
+								<File name='mode-classes.def' mode='100644' size='1864' uid='1005' gid='1009'/>
+								<File name='tree-pretty-print.h' mode='100644' size='2185' uid='1005' gid='1009'/>
+								<File name='intl.h' mode='100644' size='1809' uid='1005' gid='1009'/>
+								<File name='realmpfr.h' mode='100644' size='1341' uid='1005' gid='1009'/>
+								<File name='predict.def' mode='100644' size='7951' uid='1005' gid='1009'/>
+								<File name='langhooks.h' mode='100644' size='20045' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-core.h' mode='100644' size='52676' uid='1005' gid='1009' compressed='1'/>
+								<File name='tm-preds.h' mode='100644' size='2543' uid='1005' gid='1009'/>
+								<File name='tree-outof-ssa.h' mode='100644' size='2563' uid='1005' gid='1009'/>
+								<File name='ggc.h' mode='100644' size='9777' uid='1005' gid='1009'/>
+								<File name='cfgloop.h' mode='100644' size='22039' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-dfa.h' mode='100644' size='5367' uid='1005' gid='1009'/>
+								<File name='insn-constants.h' mode='100644' size='618' uid='1005' gid='1009'/>
+								<File name='tree-cfg.h' mode='100644' size='4384' uid='1005' gid='1009'/>
+								<File name='fixed-value.h' mode='100644' size='4301' uid='1005' gid='1009'/>
+								<File name='ipa-prop.h' mode='100644' size='25872' uid='1005' gid='1009' compressed='1'/>
+								<File name='hashtab.h' mode='100644' size='7405' uid='1005' gid='1009'/>
+								<File name='gcc-plugin.h' mode='100644' size='5122' uid='1005' gid='1009'/>
+								<File name='symtab.h' mode='100644' size='3516' uid='1005' gid='1009'/>
+								<File name='hash-table.h' mode='100644' size='29559' uid='1005' gid='1009' compressed='1'/>
+								<File name='sanitizer.def' mode='100644' size='15659' uid='1005' gid='1009' compressed='1'/>
+								<File name='output.h' mode='100644' size='24116' uid='1005' gid='1009' compressed='1'/>
+								<File name='gimple.h' mode='100644' size='140056' uid='1005' gid='1009' compressed='1'/>
+								<File name='target.def' mode='100644' size='242843' uid='1005' gid='1009' compressed='1'/>
+								<File name='diagnostic-color.h' mode='100644' size='2392' uid='1005' gid='1009'/>
+								<File name='is-a.h' mode='100644' size='5550' uid='1005' gid='1009'/>
+								<File name='insn-codes.h' mode='100644' size='4622' uid='1005' gid='1009'/>
+								<File name='incpath.h' mode='100644' size='1419' uid='1005' gid='1009'/>
+								<File name='gimple-walk.h' mode='100644' size='4240' uid='1005' gid='1009'/>
+								<File name='gimple-fold.h' mode='100644' size='2101' uid='1005' gid='1009'/>
+								<File name='safe-ctype.h' mode='100644' size='5643' uid='1005' gid='1009'/>
+								<File name='gtype-desc.h' mode='100644' size='526036' uid='1005' gid='1009' compressed='1'/>
+								<File name='attribs.h' mode='100644' size='1674' uid='1005' gid='1009'/>
+								<File name='pass_manager.h' mode='100644' size='3701' uid='1005' gid='1009'/>
+								<File name='calls.h' mode='100644' size='1179' uid='1005' gid='1009'/>
+								<File name='cfg-flags.def' mode='100644' size='6650' uid='1005' gid='1009'/>
+								<File name='config.h' mode='100644' size='217' uid='1005' gid='1009'/>
+								<File name='emit-rtl.h' mode='100644' size='3547' uid='1005' gid='1009'/>
+								<File name='cpplib.h' mode='100644' size='39448' uid='1005' gid='1009' compressed='1'/>
+								<File name='gimple-low.h' mode='100644' size='979' uid='1005' gid='1009'/>
+								<File name='statistics.h' mode='100644' size='2845' uid='1005' gid='1009'/>
+								<File name='tree-ssa-address.h' mode='100644' size='1276' uid='1005' gid='1009'/>
+								<File name='splay-tree.h' mode='100644' size='5729' uid='1005' gid='1009'/>
+								<File name='print-rtl.h' mode='100644' size='846' uid='1005' gid='1009'/>
+								<File name='resource.h' mode='100644' size='1933' uid='1005' gid='1009'/>
+								<File name='auto-host.h' mode='100644' size='46469' uid='1005' gid='1009' compressed='1'/>
+								<File name='gtm-builtins.def' mode='100644' size='9914' uid='1005' gid='1009'/>
+								<File name='ipa-ref-inline.h' mode='100644' size='2678' uid='1005' gid='1009'/>
+								<File name='all-tree.def' mode='100644' size='204' uid='1005' gid='1009'/>
+								<File name='diagnostic.def' mode='100644' size='2274' uid='1005' gid='1009'/>
+								<File name='tree-ssa-loop-manip.h' mode='100644' size='1938' uid='1005' gid='1009'/>
+								<File name='gimplify-me.h' mode='100644' size='1548' uid='1005' gid='1009'/>
+								<File name='vec.h' mode='100644' size='49090' uid='1005' gid='1009' compressed='1'/>
+								<File name='hard-reg-set.h' mode='100644' size='23206' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree.def' mode='100644' size='62449' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-ssa-sccvn.h' mode='100644' size='8068' uid='1005' gid='1009'/>
+								<File name='libiberty.h' mode='100644' size='25051' uid='1005' gid='1009' compressed='1'/>
+								<File name='input.h' mode='100644' size='2515' uid='1005' gid='1009'/>
+								<File name='options.h' mode='100644' size='196587' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-ssa-loop-ivopts.h' mode='100644' size='1448' uid='1005' gid='1009'/>
+								<File name='predict.h' mode='100644' size='2007' uid='1005' gid='1009'/>
+								<File name='alloc-pool.h' mode='100644' size='2030' uid='1005' gid='1009'/>
+								<File name='tree-ssanames.h' mode='100644' size='5197' uid='1005' gid='1009'/>
+								<File name='cfghooks.h' mode='100644' size='8994' uid='1005' gid='1009'/>
+								<File name='ipa-utils.h' mode='100644' size='6624' uid='1005' gid='1009'/>
+								<File name='diagnostic-core.h' mode='100644' size='3598' uid='1005' gid='1009'/>
+								<File name='cilk-builtins.def' mode='100644' size='1546' uid='1005' gid='1009'/>
+								<File name='b-header-vars' mode='100644' size='9275' uid='1005' gid='1009'/>
+								<File name='debug.h' mode='100644' size='7928' uid='1005' gid='1009'/>
+								<File name='gcc-symtab.h' mode='100644' size='941' uid='1005' gid='1009'/>
+								<File name='configargs.h' mode='100644' size='688' uid='1005' gid='1009'/>
+								<File name='tree-into-ssa.h' mode='100644' size='1933' uid='1005' gid='1009'/>
+								<File name='tree.h' mode='100644' size='188779' uid='1005' gid='1009' compressed='1'/>
+								<File name='gimple-ssa.h' mode='100644' size='5069' uid='1005' gid='1009'/>
+								<Dir name='java' mode='40755' uid='1005' gid='1009'>
+									<File name='java-tree.def' mode='100644' size='1350' uid='1005' gid='1009'/>
 								</Dir>
-								<File name='stor-layout.h' mode='100644' size='5057'/>
-								<File name='ssa-iterators.h' mode='100644' size='29654' compressed='1'/>
-								<File name='bversion.h' mode='100644' size='170'/>
-								<File name='tree-ssa-loop.h' mode='100644' size='2771'/>
-								<File name='system.h' mode='100644' size='33860' compressed='1'/>
-								<File name='opts.h' mode='100644' size='14556' compressed='1'/>
-								<File name='tree-dump.h' mode='100644' size='2903'/>
-								<File name='tree-inline.h' mode='100644' size='6625'/>
-								<File name='reg-notes.def' mode='100644' size='9346'/>
-								<File name='gimple-builder.h' mode='100644' size='1398'/>
-								<File name='coretypes.h' mode='100644' size='6806'/>
-								<File name='tree-ssa-operands.h' mode='100644' size='3980'/>
-								<File name='alias.h' mode='100644' size='2313'/>
-								<File name='pretty-print.h' mode='100644' size='12701' compressed='1'/>
-								<File name='bitmap.h' mode='100644' size='24439' compressed='1'/>
-								<File name='basic-block.h' mode='100644' size='33568' compressed='1'/>
-								<File name='tree-ssa-ter.h' mode='100644' size='916'/>
-								<File name='gimple.def' mode='100644' size='15625' compressed='1'/>
-								<File name='real.h' mode='100644' size='18392' compressed='1'/>
-								<File name='flag-types.h' mode='100644' size='8109'/>
-								<File name='tree-pass.h' mode='100644' size='29105' compressed='1'/>
-								<File name='ipa-ref.h' mode='100644' size='2675'/>
-								<File name='tree-object-size.h' mode='100644' size='930'/>
-								<File name='sbitmap.h' mode='100644' size='8925'/>
-								<File name='function.h' mode='100644' size='30888' compressed='1'/>
-								<File name='genrtl.h' mode='100644' size='35628' compressed='1'/>
-								<File name='gimplify.h' mode='100644' size='4085'/>
-								<File name='target.h' mode='100644' size='6497'/>
-								<File name='except.h' mode='100644' size='12284' compressed='1'/>
-								<File name='ansidecl.h' mode='100644' size='10558' compressed='1'/>
-								<File name='tree-ssa-threadedge.h' mode='100644' size='1385'/>
-								<File name='toplev.h' mode='100644' size='2722'/>
-								<File name='machmode.h' mode='100644' size='11751' compressed='1'/>
-								<File name='timevar.def' mode='100644' size='14763' compressed='1'/>
-								<File name='obstack.h' mode='100644' size='20889' compressed='1'/>
-								<File name='tree-ssa-threadupdate.h' mode='100644' size='1396'/>
-								<File name='prefix.h' mode='100644' size='1259'/>
-								<File name='tree-ssa.h' mode='100644' size='2642'/>
-								<File name='cilkplus.def' mode='100644' size='2564'/>
-								<File name='tm_p.h' mode='100644' size='178'/>
-								<File name='tree-nested.h' mode='100644' size='961'/>
-								<File name='gimple-pretty-print.h' mode='100644' size='1524'/>
-								<File name='omp-builtins.def' mode='100644' size='11525' compressed='1'/>
-								<File name='hwint.h' mode='100644' size='12591' compressed='1'/>
-								<File name='internal-fn.h' mode='100644' size='1420'/>
-								<File name='rtl.def' mode='100644' size='60560' compressed='1'/>
-								<Dir name='cp' mode='40755'>
-									<File name='cp-tree.def' mode='100644' size='21499' compressed='1'/>
+								<File name='stor-layout.h' mode='100644' size='5057' uid='1005' gid='1009'/>
+								<File name='ssa-iterators.h' mode='100644' size='29654' uid='1005' gid='1009' compressed='1'/>
+								<File name='bversion.h' mode='100644' size='170' uid='1005' gid='1009'/>
+								<File name='tree-ssa-loop.h' mode='100644' size='2771' uid='1005' gid='1009'/>
+								<File name='system.h' mode='100644' size='33860' uid='1005' gid='1009' compressed='1'/>
+								<File name='opts.h' mode='100644' size='14556' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-dump.h' mode='100644' size='2903' uid='1005' gid='1009'/>
+								<File name='tree-inline.h' mode='100644' size='6625' uid='1005' gid='1009'/>
+								<File name='reg-notes.def' mode='100644' size='9346' uid='1005' gid='1009'/>
+								<File name='gimple-builder.h' mode='100644' size='1398' uid='1005' gid='1009'/>
+								<File name='coretypes.h' mode='100644' size='6806' uid='1005' gid='1009'/>
+								<File name='tree-ssa-operands.h' mode='100644' size='3980' uid='1005' gid='1009'/>
+								<File name='alias.h' mode='100644' size='2313' uid='1005' gid='1009'/>
+								<File name='pretty-print.h' mode='100644' size='12701' uid='1005' gid='1009' compressed='1'/>
+								<File name='bitmap.h' mode='100644' size='24439' uid='1005' gid='1009' compressed='1'/>
+								<File name='basic-block.h' mode='100644' size='33568' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-ssa-ter.h' mode='100644' size='916' uid='1005' gid='1009'/>
+								<File name='gimple.def' mode='100644' size='15625' uid='1005' gid='1009' compressed='1'/>
+								<File name='real.h' mode='100644' size='18392' uid='1005' gid='1009' compressed='1'/>
+								<File name='flag-types.h' mode='100644' size='8109' uid='1005' gid='1009'/>
+								<File name='tree-pass.h' mode='100644' size='29105' uid='1005' gid='1009' compressed='1'/>
+								<File name='ipa-ref.h' mode='100644' size='2675' uid='1005' gid='1009'/>
+								<File name='tree-object-size.h' mode='100644' size='930' uid='1005' gid='1009'/>
+								<File name='sbitmap.h' mode='100644' size='8925' uid='1005' gid='1009'/>
+								<File name='function.h' mode='100644' size='30888' uid='1005' gid='1009' compressed='1'/>
+								<File name='genrtl.h' mode='100644' size='35628' uid='1005' gid='1009' compressed='1'/>
+								<File name='gimplify.h' mode='100644' size='4162' uid='1005' gid='1009'/>
+								<File name='target.h' mode='100644' size='6497' uid='1005' gid='1009'/>
+								<File name='except.h' mode='100644' size='12284' uid='1005' gid='1009' compressed='1'/>
+								<File name='ansidecl.h' mode='100644' size='10558' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-ssa-threadedge.h' mode='100644' size='1385' uid='1005' gid='1009'/>
+								<File name='toplev.h' mode='100644' size='2722' uid='1005' gid='1009'/>
+								<File name='machmode.h' mode='100644' size='11751' uid='1005' gid='1009' compressed='1'/>
+								<File name='timevar.def' mode='100644' size='14763' uid='1005' gid='1009' compressed='1'/>
+								<File name='obstack.h' mode='100644' size='20889' uid='1005' gid='1009' compressed='1'/>
+								<File name='tree-ssa-threadupdate.h' mode='100644' size='1396' uid='1005' gid='1009'/>
+								<File name='prefix.h' mode='100644' size='1259' uid='1005' gid='1009'/>
+								<File name='tree-ssa.h' mode='100644' size='2642' uid='1005' gid='1009'/>
+								<File name='cilkplus.def' mode='100644' size='2564' uid='1005' gid='1009'/>
+								<File name='tm_p.h' mode='100644' size='178' uid='1005' gid='1009'/>
+								<File name='tree-nested.h' mode='100644' size='961' uid='1005' gid='1009'/>
+								<File name='gimple-pretty-print.h' mode='100644' size='1524' uid='1005' gid='1009'/>
+								<File name='omp-builtins.def' mode='100644' size='11525' uid='1005' gid='1009' compressed='1'/>
+								<File name='hwint.h' mode='100644' size='12591' uid='1005' gid='1009' compressed='1'/>
+								<File name='internal-fn.h' mode='100644' size='1420' uid='1005' gid='1009'/>
+								<File name='rtl.def' mode='100644' size='60560' uid='1005' gid='1009' compressed='1'/>
+								<Dir name='cp' mode='40755' uid='1005' gid='1009'>
+									<File name='cp-tree.def' mode='100644' size='21499' uid='1005' gid='1009' compressed='1'/>
 								</Dir>
-								<File name='fold-const.h' mode='100644' size='8612'/>
-								<File name='cppdefault.h' mode='100644' size='2784'/>
-								<File name='tree-eh.h' mode='100644' size='2173'/>
-								<File name='diagnostic.h' mode='100644' size='10911' compressed='1'/>
-								<File name='pointer-set.h' mode='100644' size='5055'/>
-								<File name='params.h' mode='100644' size='8211'/>
-								<Dir name='objc' mode='40755'>
-									<File name='objc-tree.def' mode='100644' size='3378'/>
+								<File name='fold-const.h' mode='100644' size='8612' uid='1005' gid='1009'/>
+								<File name='cppdefault.h' mode='100644' size='2784' uid='1005' gid='1009'/>
+								<File name='tree-eh.h' mode='100644' size='2173' uid='1005' gid='1009'/>
+								<File name='diagnostic.h' mode='100644' size='10911' uid='1005' gid='1009' compressed='1'/>
+								<File name='pointer-set.h' mode='100644' size='5055' uid='1005' gid='1009'/>
+								<File name='params.h' mode='100644' size='8211' uid='1005' gid='1009'/>
+								<Dir name='objc' mode='40755' uid='1005' gid='1009'>
+									<File name='objc-tree.def' mode='100644' size='3378' uid='1005' gid='1009'/>
 								</Dir>
-								<File name='builtins.def' mode='100644' size='74025' compressed='1'/>
-								<File name='plugin.h' mode='100644' size='2342'/>
-								<File name='tree-hasher.h' mode='100644' size='1585'/>
-								<File name='cif-code.def' mode='100644' size='5156'/>
-								<File name='tree-ssa-coalesce.h' mode='100644' size='876'/>
-								<File name='tree-iterator.h' mode='100644' size='3246'/>
-								<File name='internal-fn.def' mode='100644' size='2363'/>
-								<File name='c-tree.h' mode='100644' size='26457' compressed='1'/>
-								<File name='regset.h' mode='100644' size='4923'/>
-								<File name='plugin-api.h' mode='100644' size='12892' compressed='1'/>
-								<File name='flags.h' mode='100644' size='3312'/>
-								<File name='tree-parloops.h' mode='100644' size='902'/>
-								<File name='ipa-reference.h' mode='100644' size='1071'/>
-								<File name='filenames.h' mode='100644' size='3458'/>
-								<File name='tree-cfgcleanup.h' mode='100644' size='973'/>
-								<File name='varasm.h' mode='100644' size='2763'/>
-								<File name='timevar.h' mode='100644' size='3549'/>
-								<File name='double-int.h' mode='100644' size='12579' compressed='1'/>
-								<File name='insn-modes.h' mode='100644' size='4389'/>
-								<File name='gimple-iterator.h' mode='100644' size='7784'/>
-								<File name='defaults.h' mode='100644' size='41510' compressed='1'/>
-								<File name='gsstruct.def' mode='100644' size='2640'/>
-								<File name='cgraph.h' mode='100644' size='52255' compressed='1'/>
-								<File name='insn-flags.h' mode='100644' size='14419' compressed='1'/>
-								<File name='plugin.def' mode='100644' size='3193'/>
-								<File name='insn-notes.def' mode='100644' size='3298'/>
-								<Dir name='c-family' mode='40755'>
-									<File name='c-common.def' mode='100644' size='3032'/>
-									<File name='c-common.h' mode='100644' size='49628' compressed='1'/>
-									<File name='c-objc.h' mode='100644' size='5193'/>
-									<File name='c-pragma.h' mode='100644' size='6656'/>
-									<File name='c-pretty-print.h' mode='100644' size='5213'/>
+								<File name='builtins.def' mode='100644' size='74025' uid='1005' gid='1009' compressed='1'/>
+								<File name='plugin.h' mode='100644' size='2342' uid='1005' gid='1009'/>
+								<File name='tree-hasher.h' mode='100644' size='1585' uid='1005' gid='1009'/>
+								<File name='cif-code.def' mode='100644' size='5156' uid='1005' gid='1009'/>
+								<File name='tree-ssa-coalesce.h' mode='100644' size='876' uid='1005' gid='1009'/>
+								<File name='tree-iterator.h' mode='100644' size='3246' uid='1005' gid='1009'/>
+								<File name='internal-fn.def' mode='100644' size='2363' uid='1005' gid='1009'/>
+								<File name='c-tree.h' mode='100644' size='26457' uid='1005' gid='1009' compressed='1'/>
+								<File name='regset.h' mode='100644' size='4923' uid='1005' gid='1009'/>
+								<File name='plugin-api.h' mode='100644' size='12892' uid='1005' gid='1009' compressed='1'/>
+								<File name='flags.h' mode='100644' size='3312' uid='1005' gid='1009'/>
+								<File name='tree-parloops.h' mode='100644' size='902' uid='1005' gid='1009'/>
+								<File name='ipa-reference.h' mode='100644' size='1071' uid='1005' gid='1009'/>
+								<File name='filenames.h' mode='100644' size='3458' uid='1005' gid='1009'/>
+								<File name='tree-cfgcleanup.h' mode='100644' size='973' uid='1005' gid='1009'/>
+								<File name='varasm.h' mode='100644' size='2763' uid='1005' gid='1009'/>
+								<File name='timevar.h' mode='100644' size='3549' uid='1005' gid='1009'/>
+								<File name='double-int.h' mode='100644' size='12579' uid='1005' gid='1009' compressed='1'/>
+								<File name='insn-modes.h' mode='100644' size='4389' uid='1005' gid='1009'/>
+								<File name='gimple-iterator.h' mode='100644' size='7784' uid='1005' gid='1009'/>
+								<File name='defaults.h' mode='100644' size='41510' uid='1005' gid='1009' compressed='1'/>
+								<File name='gsstruct.def' mode='100644' size='2640' uid='1005' gid='1009'/>
+								<File name='cgraph.h' mode='100644' size='52314' uid='1005' gid='1009' compressed='1'/>
+								<File name='insn-flags.h' mode='100644' size='14419' uid='1005' gid='1009' compressed='1'/>
+								<File name='plugin.def' mode='100644' size='3193' uid='1005' gid='1009'/>
+								<File name='insn-notes.def' mode='100644' size='3298' uid='1005' gid='1009'/>
+								<Dir name='c-family' mode='40755' uid='1005' gid='1009'>
+									<File name='c-common.def' mode='100644' size='3032' uid='1005' gid='1009'/>
+									<File name='c-common.h' mode='100644' size='49674' uid='1005' gid='1009' compressed='1'/>
+									<File name='c-objc.h' mode='100644' size='5193' uid='1005' gid='1009'/>
+									<File name='c-pragma.h' mode='100644' size='6656' uid='1005' gid='1009'/>
+									<File name='c-pretty-print.h' mode='100644' size='5213' uid='1005' gid='1009'/>
 								</Dir>
-								<File name='params.def' mode='100644' size='41076' compressed='1'/>
+								<File name='params.def' mode='100644' size='41076' uid='1005' gid='1009' compressed='1'/>
 							</Dir>
 						</Dir>
-						<File name='libgcc_eh.a' mode='100644' size='185604' compressed='1'/>
-						<File name='crtbeginS.o' mode='100644' size='4140' compressed='1'/>
-						<File name='crtbegin.o' mode='100644' size='3488' compressed='1'/>
-						<Dir name='install-tools' mode='40755'>
-							<File name='gsyslimits.h' mode='100644' size='330'/>
-							<File name='mkheaders.conf' mode='100644' size='85'/>
-							<File name='macro_list' mode='100644' size='11'/>
-							<File name='fixinc_list' mode='100644' size='2'/>
-							<Dir name='include' mode='40755'>
-								<File name='README' mode='100644' size='750'/>
-								<File name='limits.h' mode='100644' size='5382'/>
+						<File name='crtbeginS.o' mode='100644' size='4140' uid='1005' gid='1009' compressed='1'/>
+						<File name='crtbegin.o' mode='100644' size='3488' uid='1005' gid='1009' compressed='1'/>
+						<Dir name='install-tools' mode='40755' uid='1005' gid='1009'>
+							<File name='gsyslimits.h' mode='100644' size='330' uid='1005' gid='1009'/>
+							<File name='mkheaders.conf' mode='100644' size='85' uid='1005' gid='1009'/>
+							<File name='macro_list' mode='100644' size='11' uid='1005' gid='1009'/>
+							<File name='fixinc_list' mode='100644' size='2' uid='1005' gid='1009'/>
+							<Dir name='include' mode='40755' uid='1005' gid='1009'>
+								<File name='README' mode='100644' size='750' uid='1005' gid='1009'/>
+								<File name='limits.h' mode='100644' size='5382' uid='1005' gid='1009'/>
 							</Dir>
 						</Dir>
-						<Dir name='include' mode='40755'>
-							<File name='float.h' mode='100644' size='8877'/>
-							<File name='stdbool.h' mode='100644' size='1438'/>
-							<File name='stdint.h' mode='100644' size='328'/>
-							<File name='stddef.h' mode='100644' size='13721' compressed='1'/>
-							<File name='stdatomic.h' mode='100644' size='9197'/>
-							<File name='stdalign.h' mode='100644' size='1210'/>
-							<File name='stdint-gcc.h' mode='100644' size='7029'/>
-							<File name='stdnoreturn.h' mode='100644' size='1136'/>
-							<File name='unwind.h' mode='100644' size='10728' compressed='1'/>
-							<File name='iso646.h' mode='100644' size='1272'/>
-							<File name='varargs.h' mode='100644' size='139'/>
-							<File name='stdfix.h' mode='100644' size='6000'/>
-							<File name='stdarg.h' mode='100644' size='4075'/>
+						<Dir name='include' mode='40755' uid='1005' gid='1009'>
+							<File name='float.h' mode='100644' size='8877' uid='1005' gid='1009'/>
+							<File name='stdbool.h' mode='100644' size='1438' uid='1005' gid='1009'/>
+							<File name='stdint.h' mode='100644' size='328' uid='1005' gid='1009'/>
+							<File name='stddef.h' mode='100644' size='13721' uid='1005' gid='1009' compressed='1'/>
+							<File name='stdatomic.h' mode='100644' size='9197' uid='1005' gid='1009'/>
+							<File name='stdalign.h' mode='100644' size='1210' uid='1005' gid='1009'/>
+							<File name='stdint-gcc.h' mode='100644' size='7029' uid='1005' gid='1009'/>
+							<File name='omp.h' mode='100644' size='4328' uid='1005' gid='1009'/>
+							<File name='stdnoreturn.h' mode='100644' size='1136' uid='1005' gid='1009'/>
+							<File name='unwind.h' mode='100644' size='10728' uid='1005' gid='1009' compressed='1'/>
+							<File name='iso646.h' mode='100644' size='1272' uid='1005' gid='1009'/>
+							<File name='varargs.h' mode='100644' size='139' uid='1005' gid='1009'/>
+							<File name='stdfix.h' mode='100644' size='6000' uid='1005' gid='1009'/>
+							<File name='stdarg.h' mode='100644' size='4075' uid='1005' gid='1009'/>
 						</Dir>
-						<File name='crtbeginT.o' mode='100644' size='3488' compressed='1'/>
+						<File name='crtbeginT.o' mode='100644' size='3488' uid='1005' gid='1009' compressed='1'/>
 					</Dir>
 				</Dir>
 			</Dir>
@@ -1524,7 +1541,7 @@
 			<Link name='libncurses.so' mode='120777' path='libncurses.so.5' />
 			<Link name='libasound.so' mode='120777' path='libasound.so.2.0.0' />
 			<Link name='libasound.so.2' mode='120777' path='libasound.so.2.0.0' />
-			<File name='libasound.so.2.0.0' mode='100755' size='1517756' compressed='1'/>
+			<File name='libasound.so.2.0.0' mode='100755' size='1196268' compressed='1'/>
 			<Dir name='alsa-lib' mode='40755'>
 				<Dir name='smixer' mode='40755'>
 					<File name='smixer-sbase.so' mode='100755' size='10948' compressed='1'/>
@@ -1673,12 +1690,12 @@
 			<File name='libxnet.a' mode='100644' size='8'/>
 			<File name='libresolv.a' mode='100644' size='8'/>
 			<File name='crti.o' mode='100644' size='697' compressed='1'/>
-			<File name='libc.a' mode='100644' size='5781032' compressed='1'/>
+			<File name='libc.a' mode='100644' size='5919710' compressed='1'/>
 			<File name='libpthread.a' mode='100644' size='8'/>
 			<File name='librt.a' mode='100644' size='8'/>
 			<File name='crtn.o' mode='100644' size='661' compressed='1'/>
 			<File name='libm.a' mode='100644' size='8'/>
-			<File name='libc.so' mode='100755' size='784044' compressed='1' load='1'/>
+			<File name='libc.so' mode='100755' size='789184' compressed='1' load='1'/>
 			<File name='libcrypt.a' mode='100644' size='8'/>
 			<File name='libdl.a' mode='100644' size='8'/>
 			<Link name='libstdc++.so' mode='120777' path='libstdc++.so.6.0.20' />
@@ -1858,27 +1875,30 @@
 			<File name='libexpat.so.1.6.0' mode='100755' size='187200' compressed='1'/>
 			<Link name='libexpat.so.1' mode='120777' path='libexpat.so.1.6.0' />
 			<Link name='libexpat.so' mode='120777' path='libexpat.so.1.6.0' />
-			<Link name='libffi.so' mode='120777' path='libffi.so.6.0.1' />
-			<Dir name='libffi-3.0.13' mode='40755'>
+			<Link name='libffi.so' mode='120777' path='libffi.so.6.0.3' />
+			<Dir name='libffi-3.2' mode='40755'>
 				<Dir name='include' mode='40755'>
-					<File name='ffitarget.h' mode='100644' size='636'/>
-					<File name='ffi.h' mode='100644' size='12909' compressed='1'/>
+					<File name='ffitarget.h' mode='100644' size='726'/>
+					<File name='ffi.h' mode='100644' size='13332' compressed='1'/>
 				</Dir>
 			</Dir>
-			<File name='libffi.so.6.0.1' mode='100755' size='28952' compressed='1'/>
-			<Link name='libffi.so.6' mode='120777' path='libffi.so.6.0.1' />
+			<File name='libffi.so.6.0.3' mode='100755' size='34392' compressed='1'/>
+			<Link name='libffi.so.6' mode='120777' path='libffi.so.6.0.3' />
 			<Link name='libcairo.so' mode='120777' path='libcairo.so.2.11200.16' />
 			<Link name='libcairo-script-interpreter.so.2' mode='120777' path='libcairo-script-interpreter.so.2.11200.16' />
+			<Link name='libcairo-gobject.so' mode='120777' path='libcairo-gobject.so.2.11200.16' />
 			<Link name='libcairo.so.2' mode='120777' path='libcairo.so.2.11200.16' />
-			<File name='libcairo.so.2.11200.16' mode='100755' size='1200420' compressed='1'/>
+			<File name='libcairo.so.2.11200.16' mode='100755' size='1854668' compressed='1'/>
+			<File name='libcairo-gobject.so.2.11200.16' mode='100755' size='29280' compressed='1'/>
 			<Link name='libcairo-script-interpreter.so' mode='120777' path='libcairo-script-interpreter.so.2.11200.16' />
-			<File name='libcairo-script-interpreter.so.2.11200.16' mode='100755' size='210836' compressed='1'/>
+			<File name='libcairo-script-interpreter.so.2.11200.16' mode='100755' size='210876' compressed='1'/>
 			<Dir name='cairo' mode='40755'>
 				<Link name='libcairo-trace.so.0' mode='120777' path='libcairo-trace.so.0.0.0' />
-				<File name='libcairo-trace.a' mode='100644' size='232828' compressed='1'/>
-				<File name='libcairo-trace.so.0.0.0' mode='100755' size='157336' compressed='1'/>
+				<File name='libcairo-trace.a' mode='100644' size='247528' compressed='1'/>
+				<File name='libcairo-trace.so.0.0.0' mode='100755' size='166516' compressed='1'/>
 				<Link name='libcairo-trace.so' mode='120777' path='libcairo-trace.so.0.0.0' />
 			</Dir>
+			<Link name='libcairo-gobject.so.2' mode='120777' path='libcairo-gobject.so.2.11200.16' />
 			<File name='libwayland-server.so.0.1.0' mode='100755' size='58184' compressed='1'/>
 			<File name='libwayland-client.so.0.1.0' mode='100755' size='46816' compressed='1'/>
 			<Link name='libwayland-client.so.0' mode='120777' path='libwayland-client.so.0.1.0' />
@@ -1987,21 +2007,21 @@
 				</Dir>
 			</Dir>
 		</Dir>
-		<Dir name='libexec' mode='40755'>
-			<Dir name='gcc' mode='40755'>
-				<Dir name='or1k-linux-musl' mode='40755'>
-					<Dir name='4.9.0' mode='40755'>
-						<File name='lto-wrapper' mode='100755' size='687752' compressed='1'/>
-						<File name='collect2' mode='100755' size='561512' compressed='1'/>
-						<Dir name='plugin' mode='40755'>
-							<File name='gengtype' mode='100755' size='203660' compressed='1'/>
+		<Dir name='libexec' mode='40755' uid='1005' gid='1009'>
+			<Dir name='gcc' mode='40755' uid='1005' gid='1009'>
+				<Dir name='or1k-linux-musl' mode='40755' uid='1005' gid='1009'>
+					<Dir name='4.9.1' mode='40755' uid='1005' gid='1009'>
+						<File name='lto-wrapper' mode='100755' size='686016' uid='1005' gid='1009' compressed='1'/>
+						<File name='collect2' mode='100755' size='561492' uid='1005' gid='1009' compressed='1'/>
+						<Dir name='plugin' mode='40755' uid='1005' gid='1009'>
+							<File name='gengtype' mode='100755' size='203044' uid='1005' gid='1009' compressed='1'/>
 						</Dir>
-						<File name='cc1' mode='100755' size='11093856' compressed='1'/>
-						<Dir name='install-tools' mode='40755'>
-							<File name='fixinc.sh' mode='100755' size='18'/>
-							<File name='fixincl' mode='100755' size='131604' compressed='1'/>
-							<File name='mkinstalldirs' mode='100755' size='3538'/>
-							<File name='mkheaders' mode='100755' size='3158'/>
+						<File name='cc1' mode='100755' size='11106836' uid='1005' gid='1009' compressed='1'/>
+						<Dir name='install-tools' mode='40755' uid='1005' gid='1009'>
+							<File name='fixinc.sh' mode='100755' size='18' uid='1005' gid='1009'/>
+							<File name='fixincl' mode='100755' size='131600' uid='1005' gid='1009' compressed='1'/>
+							<File name='mkinstalldirs' mode='100755' size='3538' uid='1005' gid='1009'/>
+							<File name='mkheaders' mode='100755' size='3158' uid='1005' gid='1009'/>
 						</Dir>
 					</Dir>
 				</Dir>
@@ -2077,13 +2097,13 @@
 			<File name='cpio.h' mode='100644' size='551'/>
 			<File name='iconv.h' mode='100644' size='385'/>
 			<File name='search.h' mode='100644' size='1378'/>
-			<File name='sched.h' mode='100644' size='4071'/>
+			<File name='sched.h' mode='100644' size='4075'/>
 			<File name='netdb.h' mode='100644' size='4005'/>
 			<File name='monetary.h' mode='100644' size='395'/>
 			<File name='wctype.h' mode='100644' size='1871'/>
 			<File name='spawn.h' mode='100644' size='2575'/>
 			<File name='libgen.h' mode='100644' size='161'/>
-			<File name='assert.h' mode='100644' size='316'/>
+			<File name='assert.h' mode='100644' size='381'/>
 			<File name='endian.h' mode='100644' size='2009'/>
 			<Dir name='netpacket' mode='40755'>
 				<File name='packet.h' mode='100644' size='852'/>
@@ -2091,7 +2111,7 @@
 			<File name='crypt.h' mode='100644' size='277'/>
 			<File name='nl_types.h' mode='100644' size='316'/>
 			<File name='dlfcn.h' mode='100644' size='745'/>
-			<File name='float.h' mode='100644' size='760'/>
+			<File name='float.h' mode='100644' size='930'/>
 			<File name='semaphore.h' mode='100644' size='727'/>
 			<File name='aio.h' mode='100644' size='1432'/>
 			<File name='stdbool.h' mode='100644' size='167'/>
@@ -2127,14 +2147,14 @@
 				<File name='limits.h' mode='100644' size='253'/>
 				<File name='posix.h' mode='100644' size='68'/>
 				<File name='msg.h' mode='100644' size='287'/>
-				<File name='alltypes.h' mode='100644' size='9343'/>
+				<File name='alltypes.h' mode='100644' size='9861'/>
 				<File name='termios.h' mode='100644' size='3296'/>
 				<File name='stdarg.h' mode='100644' size='185'/>
 				<File name='signal.h' mode='100644' size='1661'/>
 				<File name='errno.h' mode='100644' size='3669'/>
 			</Dir>
 			<File name='pthread.h' mode='100644' size='8553'/>
-			<File name='time.h' mode='100644' size='3346'/>
+			<File name='time.h' mode='100644' size='3431'/>
 			<File name='lastlog.h' mode='100644' size='18'/>
 			<File name='stdint.h' mode='100644' size='2575'/>
 			<File name='poll.h' mode='100644' size='777'/>
@@ -2163,21 +2183,21 @@
 			<File name='syscall.h' mode='100644' size='25'/>
 			<File name='ftw.h' mode='100644' size='678'/>
 			<File name='ifaddrs.h' mode='100644' size='599'/>
-			<File name='stddef.h' mode='100644' size='399'/>
+			<File name='stddef.h' mode='100644' size='491'/>
 			<File name='inttypes.h' mode='100644' size='4638'/>
 			<File name='locale.h' mode='100644' size='1649'/>
 			<File name='sysexits.h' mode='100644' size='430'/>
-			<File name='features.h' mode='100644' size='658'/>
-			<File name='stdalign.h' mode='100644' size='379'/>
+			<File name='features.h' mode='100644' size='773'/>
+			<File name='stdalign.h' mode='100644' size='409'/>
 			<File name='err.h' mode='100644' size='472'/>
 			<File name='math.h' mode='100644' size='11348' compressed='1'/>
 			<File name='mqueue.h' mode='100644' size='978'/>
-			<File name='stdlib.h' mode='100644' size='4693'/>
+			<File name='stdlib.h' mode='100644' size='4634'/>
 			<File name='stropts.h' mode='100644' size='2399'/>
 			<File name='mntent.h' mode='100644' size='837'/>
-			<File name='ctype.h' mode='100644' size='1455'/>
-			<File name='stdnoreturn.h' mode='100644' size='102'/>
-			<File name='fcntl.h' mode='100644' size='3633'/>
+			<File name='ctype.h' mode='100644' size='1573'/>
+			<File name='stdnoreturn.h' mode='100644' size='129'/>
+			<File name='fcntl.h' mode='100644' size='3704'/>
 			<Dir name='arpa' mode='40755'>
 				<File name='telnet.h' mode='100644' size='5752'/>
 				<File name='tftp.h' mode='100644' size='544'/>
@@ -2190,14 +2210,14 @@
 			<File name='iso646.h' mode='100644' size='267'/>
 			<File name='setjmp.h' mode='100644' size='792'/>
 			<File name='stdio.h' mode='100644' size='5231'/>
-			<File name='glob.h' mode='100644' size='836'/>
-			<File name='malloc.h' mode='100644' size='0'/>
+			<File name='glob.h' mode='100644' size='860'/>
+			<File name='malloc.h' mode='100644' size='362'/>
 			<File name='utmpx.h' mode='100644' size='1178'/>
 			<File name='link.h' mode='100644' size='983'/>
 			<File name='syslog.h' mode='100644' size='2744'/>
 			<File name='regex.h' mode='100644' size='1227'/>
 			<File name='tar.h' mode='100644' size='578'/>
-			<File name='unistd.h' mode='100644' size='13232' compressed='1'/>
+			<File name='unistd.h' mode='100644' size='13173' compressed='1'/>
 			<File name='limits.h' mode='100644' size='3974'/>
 			<Dir name='scsi' mode='40755'>
 				<File name='scsi.h' mode='100644' size='3905'/>
@@ -2222,7 +2242,7 @@
 				<File name='soundcard.h' mode='100644' size='29'/>
 				<File name='sysinfo.h' mode='100644' size='634'/>
 				<File name='swap.h' mode='100644' size='332'/>
-				<File name='types.h' mode='100644' size='1967'/>
+				<File name='types.h' mode='100644' size='1937'/>
 				<File name='param.h' mode='100644' size='756'/>
 				<File name='cachectl.h' mode='100644' size='347'/>
 				<File name='ptrace.h' mode='100644' size='2626'/>
@@ -2240,7 +2260,7 @@
 				<File name='ttydefaults.h' mode='100644' size='926'/>
 				<File name='uio.h' mode='100644' size='1067'/>
 				<File name='auxv.h' mode='100644' size='176'/>
-				<File name='stat.h' mode='100644' size='2747'/>
+				<File name='stat.h' mode='100644' size='2781'/>
 				<File name='signalfd.h' mode='100644' size='751'/>
 				<File name='syscall.h' mode='100644' size='81'/>
 				<File name='socket.h' mode='100644' size='8727'/>
@@ -2289,7 +2309,8 @@
 			<File name='string.h' mode='100644' size='3087'/>
 			<File name='paths.h' mode='100644' size='902'/>
 			<File name='stdarg.h' mode='100644' size='407'/>
-			<File name='signal.h' mode='100644' size='6064'/>
+			<File name='signal.h' mode='100644' size='6088'/>
+			<File name='threads.h' mode='100644' size='1608'/>
 			<File name='errno.h' mode='100644' size='369'/>
 			<File name='zlib.h' mode='100644' size='87883' compressed='1'/>
 			<File name='zconf.h' mode='100644' size='15472' compressed='1'/>
@@ -2298,6 +2319,8 @@
 			<File name='sshd' mode='104755' size='858760' compressed='1'/>
 			<Link name='udevadm' mode='120777' path='/root/or1k-toolchain/or1k-toolchain/hd/usr/bin/udevadm' />
 			<File name='udevd' mode='100755' size='127124' compressed='1'/>
+			<File name='alsaconf' mode='100755' size='35459' compressed='1'/>
+			<File name='alsactl' mode='100755' size='102708' compressed='1'/>
 		</Dir>
 		<Dir name='etc' mode='40755'>
 			<Dir name='udev' mode='40755'>
@@ -2755,7 +2778,7 @@
 	</Dir>
 	<Dir name='home' mode='40755'>
 		<Dir name='user' mode='40755' uid='1000' gid='1000'>
-			<File name='.scummvmrc' mode='100644' size='295' uid='1000' gid='1000' src='home/user/scummvmrc'/>
+			<File name='.scummvmrc' mode='100644' size='313' uid='1000' gid='1000' src='home/user/scummvmrc'/>
 			<Dir name='.config' mode='40755' uid='1000' gid='1000'>
 				<File name='weston.ini' mode='100644' size='1135' uid='1000' gid='1000'/>
 			</Dir>
