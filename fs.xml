@@ -1254,6 +1254,7 @@
 			<File name='ltrace' mode='100755' size='264700' compressed='1'/>
 			<File name='hello' mode='100755' size='2828' compressed='1'/>
 			<File name='htop' mode='100755' size='152376' uid='1005' gid='1009' compressed='1'/>
+			<File name='mandelpar' mode='100755' size='21468' uid='1005' gid='1009' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755' uid='1005' gid='1009'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
