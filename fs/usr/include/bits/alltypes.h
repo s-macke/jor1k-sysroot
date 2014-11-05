@@ -345,6 +345,12 @@ typedef struct _IO_FILE FILE;
 #endif
 
 
+#if defined(__NEED_mbstate_t) && !defined(__DEFINED_mbstate_t)
+typedef struct __mbstate_t { unsigned __opaque1, __opaque2; } mbstate_t;
+#define __DEFINED_mbstate_t
+#endif
+
+
 #if defined(__NEED_locale_t) && !defined(__DEFINED_locale_t)
 typedef struct __locale_struct * locale_t;
 #define __DEFINED_locale_t
