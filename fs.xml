@@ -2742,6 +2742,12 @@
 		<Dir name='toppler' mode='40755'>
 			<File name='toppler.hsc' mode='100664' size='0' gid='50'/>
 		</Dir>
+		<Dir name='compilepackages' mode='40755'>
+			<File name='bc-1.06.95.tar.bz2' mode='100644' size='290069'/>
+			<File name='cmatrix-1.2a.tar.gz' mode='100644' size='74376'/>
+			<File name='frotz-2.43d.tar.gz' mode='100644' size='203962'/>
+			<File name='lua-5.2.3.tar.gz' mode='100644' size='251195'/>
+		</Dir>
 	</Dir>
 	<Dir name='home' mode='40755'>
 		<Dir name='user' mode='40755' uid='1000' gid='1000'>
