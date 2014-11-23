@@ -1,4 +1,6 @@
+/sbin/udevadm test /devices/93000000.tsc/input/input1/event1
 mkdir -p /tmp/root-runtime-dir
+mount -t tmpfs tmpfs /tmp/root-runtime-dir
 chmod 0700 /tmp/root-runtime-dir
 export XDG_RUNTIME_DIR=/tmp/root-runtime-dir
-weston --backend=fbdev-backend.so
+weston --backend=fbdev-backend.so --tty=2

@@ -968,7 +968,9 @@
 				</Dir>
 			</Dir>
 			<Dir name='wayland' mode='40755'>
+				<File name='wayland.xml' mode='100644' size='84394' compressed='1'/>
 				<File name='wayland-scanner.mk' mode='100644' size='304'/>
+				<File name='wayland.dtd' mode='100644' size='1173'/>
 			</Dir>
 			<Dir name='icons' mode='40755'>
 				<File name='utilities-terminal.png' mode='100644' size='999'/>
@@ -981,6 +983,7 @@
 				<File name='sign_maximize.png' mode='100644' size='204'/>
 				<File name='icon_window.png' mode='100644' size='161'/>
 				<File name='border.png' mode='100644' size='1969'/>
+				<File name='wayland.png' mode='100644' size='6023'/>
 				<File name='terminal.png' mode='100644' size='1005'/>
 				<File name='pattern.png' mode='100644' size='1846'/>
 				<File name='sign_close.png' mode='100644' size='235'/>
@@ -1206,25 +1209,15 @@
 			<File name='xeyes' mode='100755' size='35276' compressed='1'/>
 			<File name='xmlwf' mode='100755' size='21060' compressed='1'/>
 			<File name='cairo-trace' mode='100755' size='3001'/>
+			<File name='wayland-scanner' mode='100755' size='23932' compressed='1'/>
 			<File name='mtdev-test' mode='100755' size='8308' compressed='1'/>
-			<File name='udevadm' mode='100755' size='140152' compressed='1'/>
-			<File name='weston-dnd' mode='100755' size='101656' compressed='1'/>
-			<File name='weston-info' mode='100755' size='12012' compressed='1'/>
-			<File name='weston-fullscreen' mode='100755' size='99432' compressed='1'/>
-			<File name='weston-smoke' mode='100755' size='103844' compressed='1'/>
-			<File name='weston-transformed' mode='100755' size='97076' compressed='1'/>
-			<File name='weston-flower' mode='100755' size='97040' compressed='1'/>
-			<File name='weston-image' mode='100755' size='102600' compressed='1'/>
-			<File name='weston-calibrator' mode='100755' size='101432' compressed='1'/>
-			<File name='weston-cliptest' mode='100755' size='109644' compressed='1'/>
-			<File name='weston-simple-shm' mode='100755' size='10184' compressed='1'/>
-			<File name='weston' mode='104755' size='141488' compressed='1'/>
-			<File name='weston-resizor' mode='100755' size='96768' compressed='1'/>
-			<File name='startweston' mode='104755' size='143'/>
-			<File name='weston-eventdemo' mode='100755' size='98144' compressed='1'/>
-			<File name='weston-clickdot' mode='100755' size='96120' compressed='1'/>
-			<File name='weston-terminal' mode='100755' size='127120' compressed='1'/>
-			<File name='weston-simple-touch' mode='100755' size='13868' compressed='1'/>
+			<File name='weston-info' mode='100755' size='12128' compressed='1'/>
+			<File name='weston-flower' mode='100755' size='105608' compressed='1'/>
+			<File name='weston-calibrator' mode='100755' size='109992' compressed='1'/>
+			<File name='weston-simple-shm' mode='100755' size='11412' compressed='1'/>
+			<File name='weston' mode='104755' size='162548' compressed='1'/>
+			<File name='startweston' mode='100755' size='255'/>
+			<File name='weston-terminal' mode='100755' size='137600' compressed='1'/>
 			<File name='xsetroot' mode='100755' size='12488' compressed='1'/>
 			<File name='curl-config' mode='100755' size='4890'/>
 			<File name='curl' mode='100755' size='168036' compressed='1'/>
@@ -1255,6 +1248,7 @@
 			<File name='hello' mode='100755' size='2828' compressed='1'/>
 			<File name='htop' mode='100755' size='152376' compressed='1'/>
 			<File name='mandelpar' mode='100755' size='21468' compressed='1'/>
+			<File name='touchpad-edge-detector' mode='100755' size='6688' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
@@ -1900,11 +1894,11 @@
 				<Link name='libcairo-trace.so' mode='120777' path='libcairo-trace.so.0.0.0' />
 			</Dir>
 			<Link name='libcairo-gobject.so.2' mode='120777' path='libcairo-gobject.so.2.11200.16' />
-			<File name='libwayland-server.so.0.1.0' mode='100755' size='58184' compressed='1'/>
-			<File name='libwayland-client.so.0.1.0' mode='100755' size='46816' compressed='1'/>
-			<Link name='libwayland-client.so.0' mode='120777' path='libwayland-client.so.0.1.0' />
+			<File name='libwayland-server.so.0.1.0' mode='100755' size='63712' compressed='1'/>
+			<Link name='libwayland-client.so.0' mode='120777' path='libwayland-client.so.0.3.0' />
+			<File name='libwayland-client.so.0.3.0' mode='100755' size='52908' compressed='1'/>
 			<Link name='libwayland-server.so' mode='120777' path='libwayland-server.so.0.1.0' />
-			<Link name='libwayland-client.so' mode='120777' path='libwayland-client.so.0.1.0' />
+			<Link name='libwayland-client.so' mode='120777' path='libwayland-client.so.0.3.0' />
 			<Link name='libwayland-cursor.so' mode='120777' path='libwayland-cursor.so.0.0.0' />
 			<Link name='libwayland-cursor.so.0' mode='120777' path='libwayland-cursor.so.0.0.0' />
 			<File name='libwayland-cursor.so.0.0.0' mode='100755' size='30136' compressed='1'/>
@@ -1921,45 +1915,15 @@
 			<Link name='libmtdev.so' mode='120777' path='libmtdev.so.1.0.0' />
 			<Link name='libmtdev.so.1' mode='120777' path='libmtdev.so.1.0.0' />
 			<File name='libmtdev.so.1.0.0' mode='100755' size='20856' compressed='1'/>
-			<Dir name='udev' mode='40755'>
-				<File name='cdrom_id' mode='100755' size='22644' compressed='1'/>
-				<File name='scsi_id' mode='100755' size='21100' compressed='1'/>
-				<Dir name='rules.d' mode='40755'>
-					<File name='60-persistent-alsa.rules' mode='100644' size='616'/>
-					<File name='78-sound-card.rules' mode='100644' size='4400'/>
-					<File name='42-usb-hid-pm.rules' mode='100644' size='2407'/>
-					<File name='64-btrfs.rules' mode='100644' size='418'/>
-					<File name='60-cdrom_id.rules' mode='100644' size='646'/>
-					<File name='80-net-name-slot.rules' mode='100644' size='491'/>
-					<File name='95-udev-late.rules' mode='100644' size='155'/>
-					<File name='60-persistent-v4l.rules' mode='100644' size='769'/>
-					<File name='60-persistent-input.rules' mode='100644' size='2464'/>
-					<File name='60-persistent-serial.rules' mode='100644' size='947'/>
-					<File name='75-probe_mtd.rules' mode='100644' size='174'/>
-					<File name='61-accelerometer.rules' mode='100644' size='166'/>
-					<File name='50-udev-default.rules' mode='100644' size='3225'/>
-					<File name='75-net-description.rules' mode='100644' size='452'/>
-					<File name='60-persistent-storage-tape.rules' mode='100644' size='1420'/>
-					<File name='75-tty-description.rules' mode='100644' size='426'/>
-					<File name='80-drivers-modprobe.rules' mode='100644' size='590'/>
-				</Dir>
-				<File name='mtd_probe' mode='100755' size='3996' compressed='1'/>
-				<File name='v4l_id' mode='100755' size='4300' compressed='1'/>
-				<File name='collect' mode='100755' size='10444' compressed='1'/>
-				<File name='ata_id' mode='100755' size='10352' compressed='1'/>
-				<File name='accelerometer' mode='100755' size='14812' compressed='1'/>
-			</Dir>
-			<File name='libudev.so.1.3.0' mode='100755' size='142424' compressed='1'/>
-			<Link name='libudev.so' mode='120777' path='libudev.so.1.3.0' />
-			<Link name='libudev.so.1' mode='120777' path='libudev.so.1.3.0' />
+			<Link name='libudev.so' mode='120777' path='../../lib/libudev.so.1.3.0' />
 			<Link name='libxkbcommon.so' mode='120777' path='libxkbcommon.so.0.0.0' />
 			<Link name='libxkbcommon.so.0' mode='120777' path='libxkbcommon.so.0.0.0' />
-			<File name='libxkbcommon.so.0.0.0' mode='100755' size='311336' compressed='1'/>
+			<File name='libxkbcommon.so.0.0.0' mode='100755' size='311332' compressed='1'/>
 			<Dir name='weston' mode='40755'>
-				<File name='tablet-shell.so' mode='100755' size='12236' compressed='1'/>
-				<File name='fbdev-backend.so' mode='100755' size='62784' compressed='1'/>
-				<File name='desktop-shell.so' mode='100755' size='84216' compressed='1'/>
-				<File name='headless-backend.so' mode='100755' size='15352' compressed='1'/>
+				<File name='fbdev-backend.so' mode='100755' size='49500' compressed='1'/>
+				<File name='fullscreen-shell.so' mode='100755' size='21572' compressed='1'/>
+				<File name='desktop-shell.so' mode='100755' size='113020' compressed='1'/>
+				<File name='headless-backend.so' mode='100755' size='14484' compressed='1'/>
 			</Dir>
 			<Link name='libcurl.so.4' mode='120777' path='libcurl.so.4.3.0' />
 			<Link name='libcurl.so' mode='120777' path='libcurl.so.4.3.0' />
@@ -2007,6 +1971,12 @@
 					</Dir>
 				</Dir>
 			</Dir>
+			<Link name='libevdev.so.2' mode='120777' path='libevdev.so.2.0.2' />
+			<File name='libevdev.so.2.0.2' mode='100755' size='75180' compressed='1'/>
+			<Link name='libevdev.so' mode='120777' path='libevdev.so.2.0.2' />
+			<File name='libinput.so.5.0.0' mode='100755' size='107148' compressed='1'/>
+			<Link name='libinput.so.5' mode='120777' path='libinput.so.5.0.0' />
+			<Link name='libinput.so' mode='120777' path='libinput.so.5.0.0' />
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
@@ -2030,11 +2000,10 @@
 			<File name='ssh-pkcs11-helper' mode='100755' size='346720' compressed='1'/>
 			<File name='ssh-keysign' mode='104711' size='552564' compressed='1'/>
 			<File name='sftp-server' mode='100755' size='100784' compressed='1'/>
-			<File name='weston-screenshooter' mode='100755' size='9688' compressed='1'/>
-			<File name='weston-keyboard' mode='100755' size='103848' compressed='1'/>
-			<File name='weston-desktop-shell' mode='100755' size='107220' compressed='1'/>
-			<File name='weston-simple-im' mode='100755' size='10008' compressed='1'/>
-			<File name='weston-tablet-shell' mode='100755' size='98308' compressed='1'/>
+			<File name='weston-screenshooter' mode='100755' size='9744' compressed='1'/>
+			<File name='weston-keyboard' mode='100755' size='114960' compressed='1'/>
+			<File name='weston-desktop-shell' mode='100755' size='118312' compressed='1'/>
+			<File name='weston-simple-im' mode='100755' size='10072' compressed='1'/>
 		</Dir>
 		<Dir name='include' mode='40755'>
 			<File name='menu.h' mode='100644' size='11950' compressed='1'/>
@@ -2319,24 +2288,8 @@
 		</Dir>
 		<Dir name='sbin' mode='40755'>
 			<File name='sshd' mode='104755' size='858760' compressed='1'/>
-			<Link name='udevadm' mode='120777' path='/root/or1k-toolchain/or1k-toolchain/hd/usr/bin/udevadm' />
-			<File name='udevd' mode='100755' size='127124' compressed='1'/>
 			<File name='alsaconf' mode='100755' size='35459' compressed='1'/>
 			<File name='alsactl' mode='100755' size='102708' compressed='1'/>
-		</Dir>
-		<Dir name='etc' mode='40755'>
-			<Dir name='udev' mode='40755'>
-				<File name='udev.conf' mode='100644' size='44'/>
-				<Dir name='hwdb.d' mode='40755'>
-					<File name='20-acpi-vendor.hwdb' mode='100644' size='126596' compressed='1'/>
-					<File name='20-pci-classes.hwdb' mode='100644' size='12903' compressed='1'/>
-					<File name='20-usb-classes.hwdb' mode='100644' size='8005'/>
-					<File name='20-bluetooth-vendor-product.hwdb' mode='100644' size='11475' compressed='1'/>
-					<File name='20-pci-vendor-model.hwdb' mode='100644' size='1961115' compressed='1'/>
-					<File name='20-usb-vendor-model.hwdb' mode='100644' size='1015398' compressed='1'/>
-					<File name='20-OUI.hwdb' mode='100644' size='1288951' compressed='1'/>
-				</Dir>
-			</Dir>
 		</Dir>
 	</Dir>
 	<Dir name='etc' mode='40755'>
@@ -2765,6 +2718,18 @@
 				<File name='XTerm-color' mode='100644' size='5826'/>
 			</Dir>
 		</Dir>
+		<Dir name='udev' mode='40755'>
+			<File name='udev.conf' mode='100644' size='44'/>
+			<Dir name='hwdb.d' mode='40755'>
+				<File name='20-acpi-vendor.hwdb' mode='100644' size='126596' compressed='1'/>
+				<File name='20-pci-classes.hwdb' mode='100644' size='12903' compressed='1'/>
+				<File name='20-usb-classes.hwdb' mode='100644' size='8005'/>
+				<File name='20-bluetooth-vendor-product.hwdb' mode='100644' size='11475' compressed='1'/>
+				<File name='20-pci-vendor-model.hwdb' mode='100644' size='1961115' compressed='1'/>
+				<File name='20-usb-vendor-model.hwdb' mode='100644' size='1015398' compressed='1'/>
+				<File name='20-OUI.hwdb' mode='100644' size='1288951' compressed='1'/>
+			</Dir>
+		</Dir>
 		<Dir name='dillo' mode='40755'>
 			<File name='dpidrc' mode='100644' size='155'/>
 			<File name='keysrc' mode='100644' size='2935'/>
@@ -2781,14 +2746,49 @@
 	<Dir name='home' mode='40755'>
 		<Dir name='user' mode='40755' uid='1000' gid='1000'>
 			<File name='.scummvmrc' mode='100644' size='313' uid='1000' gid='1000' src='home/user/scummvmrc'/>
-			<Dir name='.config' mode='40755' uid='1000' gid='1000'>
-				<File name='weston.ini' mode='100644' size='1135' uid='1000' gid='1000'/>
+			<Dir name='.config' mode='40755'>
+				<File name='weston.ini' mode='100644' size='1135'/>
 			</Dir>
 			<Dir name='.toppler' mode='40755' uid='1000' gid='1000'></Dir>
 		</Dir>
 	</Dir>
 	<Dir name='lib' mode='40755'>
 		<Link name='ld-musl-or1k.so.1' mode='120777' path='/usr/lib/libc.so' />
+		<Dir name='udev' mode='40755'>
+			<File name='cdrom_id' mode='100755' size='22644' compressed='1'/>
+			<File name='scsi_id' mode='100755' size='21200' compressed='1'/>
+			<Dir name='rules.d' mode='40755'>
+				<File name='60-persistent-alsa.rules' mode='100644' size='616'/>
+				<File name='78-sound-card.rules' mode='100644' size='4400'/>
+				<File name='42-usb-hid-pm.rules' mode='100644' size='2407'/>
+				<File name='64-btrfs.rules' mode='100644' size='418'/>
+				<File name='60-cdrom_id.rules' mode='100644' size='646'/>
+				<File name='80-net-name-slot.rules' mode='100644' size='491'/>
+				<File name='95-udev-late.rules' mode='100644' size='155'/>
+				<File name='60-persistent-v4l.rules' mode='100644' size='769'/>
+				<File name='60-persistent-input.rules' mode='100644' size='2464'/>
+				<File name='60-persistent-serial.rules' mode='100644' size='947'/>
+				<File name='75-probe_mtd.rules' mode='100644' size='174'/>
+				<File name='61-accelerometer.rules' mode='100644' size='166'/>
+				<File name='50-udev-default.rules' mode='100644' size='3225'/>
+				<File name='75-net-description.rules' mode='100644' size='452'/>
+				<File name='60-persistent-storage-tape.rules' mode='100644' size='1420'/>
+				<File name='75-tty-description.rules' mode='100644' size='426'/>
+				<File name='900-tsc-calibration.rules' mode='100644' size='85'/>
+				<File name='80-drivers-modprobe.rules' mode='100644' size='590'/>
+			</Dir>
+			<File name='mtd_probe' mode='100755' size='3996' compressed='1'/>
+			<File name='v4l_id' mode='100755' size='4300' compressed='1'/>
+			<File name='collect' mode='100755' size='10444' compressed='1'/>
+			<File name='ata_id' mode='100755' size='10352' compressed='1'/>
+			<File name='accelerometer' mode='100755' size='14812' compressed='1'/>
+		</Dir>
+		<File name='libudev.so.1.3.0' mode='100755' size='142420' compressed='1'/>
+		<Link name='libudev.so.1' mode='120777' path='libudev.so.1.3.0' />
+	</Dir>
+	<Dir name='sbin' mode='40755'>
+		<File name='udevadm' mode='100755' size='142448' compressed='1'/>
+		<File name='udevd' mode='100755' size='128372' compressed='1'/>
 	</Dir>
 	<Dir name='root' mode='40755'>
 		<Dir name='.config' mode='40755'>
