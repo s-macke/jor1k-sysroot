@@ -1437,7 +1437,7 @@
 			<File name='vimtutor' mode='100755' size='2084'/>
 			<Link name='view' mode='120777' path='vim' />
 			<File name='vim' mode='100755' size='1961928' compressed='1'/>
-			<File name='git' mode='100755' size='1754564' compressed='1'/>
+			<File name='git' mode='100755' size='1752992' compressed='1'/>
 			<File name='file' mode='100755' size='13844' compressed='1'/>
 			<Link name='screen' mode='120777' path='screen-4.2.1' />
 			<File name='screen-4.2.1' mode='104755' size='431960' compressed='1'/>
@@ -2262,7 +2262,7 @@
 				<Link name='git-var' mode='120755' path='/usr/bin/git' />
 				<Link name='git-diff-files' mode='120755' path='/usr/bin/git' />
 				<Link name='git-replace' mode='120755' path='/usr/bin/git' />
-				<File name='git-remote-ftp' mode='100755' size='933976' compressed='1'/>
+				<File name='git-remote-ftp' mode='100755' size='933632' compressed='1'/>
 				<Link name='git-verify-commit' mode='120755' path='/usr/bin/git' />
 				<File name='git-rebase--interactive' mode='100644' size='28512' compressed='1'/>
 				<Link name='git-repack' mode='120755' path='/usr/bin/git' />
