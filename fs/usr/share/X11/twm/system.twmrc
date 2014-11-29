@@ -97,6 +97,7 @@ menu "defops"
 "xterm"		f.exec "exec xterm &"
 "xeyes"		f.exec "exec xeyes &"
 "xclock"	f.exec "exec xclock &"
+"xcalc"		f.exec "exec xcalc &"
 "Exit"		f.quit
 }
 

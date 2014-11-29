@@ -309,7 +309,7 @@
 						<File name='XLC_LOCALE' mode='100644' size='826'/>
 						<File name='Compose' mode='100644' size='21747' compressed='1'/>
 					</Dir>
-					<File name='compose.dir' mode='100644' size='28994' compressed='1'/>
+					<File name='compose.dir' mode='100644' size='32787' compressed='1'/>
 					<Dir name='ru_RU.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='345'/>
 						<File name='XLC_LOCALE' mode='100644' size='2326'/>
@@ -325,9 +325,9 @@
 						<File name='XLC_LOCALE' mode='100644' size='1117'/>
 						<File name='Compose' mode='100644' size='20669' compressed='1'/>
 					</Dir>
-					<File name='locale.dir' mode='100644' size='34897' compressed='1'/>
+					<File name='locale.dir' mode='100644' size='36939' compressed='1'/>
 					<Dir name='iso8859-1' mode='40755'>
-						<File name='XI18N_OBJS' mode='100644' size='241'/>
+						<File name='XI18N_OBJS' mode='100644' size='340'/>
 						<File name='XLC_LOCALE' mode='100644' size='783'/>
 						<File name='Compose' mode='100644' size='20502' compressed='1'/>
 					</Dir>
@@ -376,6 +376,16 @@
 						<File name='XLC_LOCALE' mode='100644' size='826'/>
 						<File name='Compose' mode='100644' size='16055' compressed='1'/>
 					</Dir>
+					<Dir name='km_KH.UTF-8' mode='40755'>
+						<File name='XI18N_OBJS' mode='100644' size='299'/>
+						<File name='XLC_LOCALE' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='193'/>
+					</Dir>
+					<Dir name='sr_CS.UTF-8' mode='40755'>
+						<File name='XI18N_OBJS' mode='100644' size='299'/>
+						<File name='XLC_LOCALE' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='5131'/>
+					</Dir>
 					<Dir name='th_TH' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='337'/>
 						<File name='XLC_LOCALE' mode='100644' size='821'/>
@@ -394,7 +404,7 @@
 					<Dir name='zh_TW.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='345'/>
 						<File name='XLC_LOCALE' mode='100644' size='1282'/>
-						<File name='Compose' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='96'/>
 					</Dir>
 					<Dir name='armscii-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='341'/>
@@ -424,17 +434,17 @@
 					<Dir name='ko_KR.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='347'/>
 						<File name='XLC_LOCALE' mode='100644' size='2221'/>
-						<File name='Compose' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='96'/>
 					</Dir>
 					<Dir name='C' mode='40755'>
-						<File name='XI18N_OBJS' mode='100644' size='241'/>
+						<File name='XI18N_OBJS' mode='100644' size='340'/>
 						<File name='XLC_LOCALE' mode='100644' size='694'/>
 						<File name='Compose' mode='100644' size='44'/>
 					</Dir>
 					<Dir name='pt_BR.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='345'/>
 						<File name='XLC_LOCALE' mode='100644' size='2063'/>
-						<File name='Compose' mode='100644' size='375351' compressed='1'/>
+						<File name='Compose' mode='100644' size='375325' compressed='1'/>
 					</Dir>
 					<Dir name='vi_VN.tcvn' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='342'/>
@@ -449,7 +459,7 @@
 					<Dir name='ja_JP.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='347'/>
 						<File name='XLC_LOCALE' mode='100644' size='2224'/>
-						<File name='Compose' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='96'/>
 					</Dir>
 					<Dir name='vi_VN.viscii' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='344'/>
@@ -469,11 +479,6 @@
 					<Dir name='iscii-dev' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='341'/>
 						<File name='XLC_LOCALE' mode='100644' size='971'/>
-						<File name='Compose' mode='100644' size='44'/>
-					</Dir>
-					<Dir name='ja.S90' mode='40755'>
-						<File name='XI18N_OBJS' mode='100644' size='340'/>
-						<File name='XLC_LOCALE' mode='100644' size='3401'/>
 						<File name='Compose' mode='100644' size='44'/>
 					</Dir>
 					<Dir name='fi_FI.UTF-8' mode='40755'>
@@ -497,14 +502,14 @@
 						<File name='Compose' mode='100644' size='352'/>
 					</Dir>
 					<Dir name='en_US.UTF-8' mode='40755'>
-						<File name='XI18N_OBJS' mode='100644' size='299'/>
+						<File name='XI18N_OBJS' mode='100644' size='346'/>
 						<File name='XLC_LOCALE' mode='100644' size='4250'/>
-						<File name='Compose' mode='100644' size='562059' compressed='1'/>
+						<File name='Compose' mode='100644' size='563208' compressed='1'/>
 					</Dir>
 					<Dir name='zh_HK.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='345'/>
 						<File name='XLC_LOCALE' mode='100644' size='1726'/>
-						<File name='Compose' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='96'/>
 					</Dir>
 					<Dir name='el_GR.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='0'/>
@@ -519,7 +524,7 @@
 					<Dir name='th_TH.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='347'/>
 						<File name='XLC_LOCALE' mode='100644' size='1068'/>
-						<File name='Compose' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='96'/>
 					</Dir>
 					<Dir name='ja' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='611'/>
@@ -529,7 +534,7 @@
 					<Dir name='zh_CN.UTF-8' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='347'/>
 						<File name='XLC_LOCALE' mode='100644' size='1960'/>
-						<File name='Compose' mode='100644' size='44'/>
+						<File name='Compose' mode='100644' size='96'/>
 					</Dir>
 					<Dir name='microsoft-cp1255' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='348'/>
@@ -556,12 +561,7 @@
 						<File name='XLC_LOCALE' mode='100644' size='826'/>
 						<File name='Compose' mode='100644' size='352'/>
 					</Dir>
-					<Dir name='ja.U90' mode='40755'>
-						<File name='XI18N_OBJS' mode='100644' size='340'/>
-						<File name='XLC_LOCALE' mode='100644' size='3348'/>
-						<File name='Compose' mode='100644' size='44'/>
-					</Dir>
-					<File name='locale.alias' mode='100644' size='79747' compressed='1'/>
+					<File name='locale.alias' mode='100644' size='81697' compressed='1'/>
 					<Dir name='isiri-3342' mode='40755'>
 						<File name='XI18N_OBJS' mode='100644' size='342'/>
 						<File name='XLC_LOCALE' mode='100644' size='979'/>
@@ -583,7 +583,8 @@
 						<File name='Compose' mode='100644' size='22335' compressed='1'/>
 					</Dir>
 				</Dir>
-				<File name='XErrorDB' mode='100644' size='41495' compressed='1'/>
+				<File name='Xcms.txt' mode='100644' size='1723'/>
+				<File name='XErrorDB' mode='100644' size='41532' compressed='1'/>
 				<Dir name='xkb' mode='40755'>
 					<Dir name='symbols' mode='40755'>
 						<File name='eurosign' mode='100644' size='629'/>
@@ -919,7 +920,7 @@
 						<File name='minimize.xbm' mode='100644' size='139'/>
 						<File name='refresh.xbm' mode='100644' size='204'/>
 					</Dir>
-					<File name='system.twmrc' mode='100644' size='3246'/>
+					<File name='system.twmrc' mode='100644' size='3277'/>
 					<Dir name='walls' mode='40755'>
 						<File name='bg.jpg' mode='100644' size='9412'/>
 					</Dir>
@@ -1175,7 +1176,7 @@
 			<File name='nano' mode='100755' size='185756' compressed='1'/>
 			<Link name='pico' mode='120777' path='nano' />
 			<File name='sxpm' mode='100755' size='18144' compressed='1'/>
-			<File name='cxpm' mode='100755' size='21324' compressed='1'/>
+			<File name='cxpm' mode='100755' size='23124' compressed='1'/>
 			<File name='xkbcomp' mode='100755' size='193420' compressed='1'/>
 			<File name='ucs2any' mode='100755' size='16560' compressed='1'/>
 			<File name='bdftruncate' mode='100755' size='6260' compressed='1'/>
@@ -1205,10 +1206,10 @@
 			<File name='xterm' mode='100755' size='413660' compressed='1'/>
 			<File name='resize' mode='100755' size='10128' compressed='1'/>
 			<File name='koi8rxterm' mode='100755' size='3759'/>
-			<File name='twm' mode='100755' size='195008' compressed='1'/>
+			<File name='twm' mode='100755' size='195044' compressed='1'/>
 			<File name='xeyes' mode='100755' size='35276' compressed='1'/>
+			<File name='xcalc' mode='100755' size='51252' compressed='1'/>
 			<File name='xmlwf' mode='100755' size='21060' compressed='1'/>
-			<File name='cairo-trace' mode='100755' size='3001'/>
 			<File name='wayland-scanner' mode='100755' size='23932' compressed='1'/>
 			<File name='mtdev-test' mode='100755' size='8308' compressed='1'/>
 			<File name='weston-info' mode='100755' size='12128' compressed='1'/>
@@ -1700,51 +1701,54 @@
 			<Link name='libstdc++.so.6' mode='120777' path='libstdc++.so.6.0.20' />
 			<Link name='libxcb-composite.so.0' mode='120777' path='libxcb-composite.so.0.0.0' />
 			<Link name='libxcb-dpms.so.0' mode='120777' path='libxcb-dpms.so.0.0.0' />
-			<File name='libxcb-dri2.so.0.0.0' mode='100755' size='15836' compressed='1'/>
-			<File name='libxcb-xkb.so.1.0.0' mode='100755' size='110528' compressed='1'/>
+			<File name='libxcb-dri2.so.0.0.0' mode='100755' size='15828' compressed='1'/>
+			<File name='libxcb-xkb.so.1.0.0' mode='100755' size='113124' compressed='1'/>
 			<Link name='libXfont.so' mode='120777' path='libXfont.so.1.4.1' />
-			<File name='libXft.so.2.3.1' mode='100755' size='88052' compressed='1'/>
 			<Link name='libXxf86vm.so.1' mode='120777' path='libXxf86vm.so.1.0.0' />
 			<Link name='libxcb-composite.so' mode='120777' path='libxcb-composite.so.0.0.0' />
-			<File name='libX11.so.6.3.0' mode='100755' size='1376072' compressed='1'/>
+			<File name='libX11.so.6.3.0' mode='100755' size='1437668' compressed='1'/>
 			<Link name='libX11-xcb.so.1' mode='120777' path='libX11-xcb.so.1.0.0' />
+			<Link name='libXcomposite.so' mode='120777' path='libXcomposite.so.1.0.0' />
 			<Link name='libxcb-randr.so' mode='120777' path='libxcb-randr.so.0.1.0' />
-			<File name='libXrender.so.1.3.0' mode='100755' size='48068' compressed='1'/>
+			<File name='libXrender.so.1.3.0' mode='100755' size='51284' compressed='1'/>
 			<Link name='libxcb-shape.so.0' mode='120777' path='libxcb-shape.so.0.0.0' />
-			<File name='libxcb-screensaver.so.0.0.0' mode='100755' size='7784' compressed='1'/>
+			<Link name='libXdamage.so' mode='120777' path='libXdamage.so.1.1.0' />
+			<File name='libxcb-screensaver.so.0.0.0' mode='100755' size='7704' compressed='1'/>
 			<Link name='libxcb-xtest.so.0' mode='120777' path='libxcb-xtest.so.0.0.0' />
 			<Link name='libXau.so.6' mode='120777' path='libXau.so.6.0.0' />
 			<Link name='libXfixes.so.3' mode='120777' path='libXfixes.so.3.1.0' />
 			<Link name='libxcb-xevie.so' mode='120777' path='libxcb-xevie.so.0.0.0' />
 			<Link name='libxcb-glx.so' mode='120777' path='libxcb-glx.so.0.0.0' />
 			<Link name='libxcb-sync.so' mode='120777' path='libxcb-sync.so.1.0.0' />
-			<File name='libxcb-xinerama.so.0.0.0' mode='100755' size='8624' compressed='1'/>
+			<File name='libxcb-xinerama.so.0.0.0' mode='100755' size='8620' compressed='1'/>
 			<Link name='libXmu.so' mode='120777' path='libXmu.so.6.2.0' />
 			<Link name='libXext.so' mode='120777' path='libXext.so.6.4.0' />
 			<Link name='libSM.so.6' mode='120777' path='libSM.so.6.0.1' />
-			<File name='libXfixes.so.3.1.0' mode='100755' size='20872' compressed='1'/>
+			<File name='libXfixes.so.3.1.0' mode='100755' size='21336' compressed='1'/>
 			<Link name='libX11.so.6' mode='120777' path='libX11.so.6.3.0' />
-			<File name='libxcb-res.so.0.0.0' mode='100755' size='13216' compressed='1'/>
-			<File name='libxcb-glx.so.0.0.0' mode='100755' size='98188' compressed='1'/>
+			<File name='libxcb-res.so.0.0.0' mode='100755' size='13240' compressed='1'/>
+			<File name='libxcb-glx.so.0.0.0' mode='100755' size='98072' compressed='1'/>
 			<Link name='libxcb-shape.so' mode='120777' path='libxcb-shape.so.0.0.0' />
-			<File name='libfontenc.so.1.0.0' mode='100755' size='28108' compressed='1'/>
+			<File name='libfontenc.so.1.0.0' mode='100755' size='28104' compressed='1'/>
 			<Link name='libXt.so' mode='120777' path='libXt.so.6.0.0' />
-			<File name='libxcb-sync.so.1.0.0' mode='100755' size='22348' compressed='1'/>
+			<File name='libXft.so.2.3.2' mode='100755' size='95888' compressed='1'/>
+			<File name='libxcb-sync.so.1.0.0' mode='100755' size='22528' compressed='1'/>
 			<Link name='libXpm.so.4' mode='120777' path='libXpm.so.4.11.0' />
 			<Link name='libxcb-xv.so' mode='120777' path='libxcb-xv.so.0.0.0' />
 			<Link name='libXinerama.so.1' mode='120777' path='libXinerama.so.1.0.0' />
 			<Link name='libXxf86vm.so' mode='120777' path='libXxf86vm.so.1.0.0' />
-			<File name='libSM.so.6.0.1' mode='100755' size='31836' compressed='1'/>
+			<File name='libXv.so.1.0.0' mode='100755' size='18116' compressed='1'/>
+			<File name='libSM.so.6.0.1' mode='100755' size='34312' compressed='1'/>
 			<Link name='libSM.so' mode='120777' path='libSM.so.6.0.1' />
 			<Link name='libxcb-res.so.0' mode='120777' path='libxcb-res.so.0.0.0' />
 			<Link name='libX11-xcb.so' mode='120777' path='libX11-xcb.so.1.0.0' />
-			<File name='libxcb-xtest.so.0.0.0' mode='100755' size='6464' compressed='1'/>
+			<File name='libxcb-xtest.so.0.0.0' mode='100755' size='6324' compressed='1'/>
 			<Link name='libxcb-xfixes.so.0' mode='120777' path='libxcb-xfixes.so.0.0.0' />
 			<Link name='libxcb-xprint.so' mode='120777' path='libxcb-xprint.so.0.0.0' />
 			<Link name='libxcb-xprint.so.0' mode='120777' path='libxcb-xprint.so.0.0.0' />
 			<Link name='libXxf86dga.so' mode='120777' path='libXxf86dga.so.1.0.0' />
 			<Link name='libxcb-present.so' mode='120777' path='libxcb-present.so.0.0.0' />
-			<File name='libxcb-xv.so.0.0.0' mode='100755' size='26496' compressed='1'/>
+			<File name='libxcb-xv.so.0.0.0' mode='100755' size='26492' compressed='1'/>
 			<Link name='libXaw.so.7' mode='120777' path='libXaw7.so.7' />
 			<Link name='libxcb-xevie.so.0' mode='120777' path='libxcb-xevie.so.0.0.0' />
 			<Link name='libXdmcp.so' mode='120777' path='libXdmcp.so.6.0.0' />
@@ -1754,34 +1758,38 @@
 			<Link name='libXmuu.so.1' mode='120777' path='libXmuu.so.1.0.0' />
 			<Link name='libxkbfile.so' mode='120777' path='libxkbfile.so.1.0.2' />
 			<Link name='libXfixes.so' mode='120777' path='libXfixes.so.3.1.0' />
-			<File name='libXext.so.6.4.0' mode='100755' size='77932' compressed='1'/>
+			<File name='libXext.so.6.4.0' mode='100755' size='82240' compressed='1'/>
+			<Link name='libXcomposite.so.1' mode='120777' path='libXcomposite.so.1.0.0' />
 			<Link name='libXt.so.6' mode='120777' path='libXt.so.6.0.0' />
 			<Link name='libxcb-dri2.so.0' mode='120777' path='libxcb-dri2.so.0.0.0' />
 			<Link name='libICE.so' mode='120777' path='libICE.so.6.3.0' />
 			<Link name='libXaw7.so.7' mode='120777' path='libXaw7.so.7.0.0' />
-			<File name='libxcb-render.so.0.0.0' mode='100755' size='37812' compressed='1'/>
-			<File name='libxcb-dri3.so.0.0.0' mode='100755' size='8344' compressed='1'/>
-			<File name='libICE.so.6.3.0' mode='100755' size='95460' compressed='1'/>
+			<File name='libxcb-render.so.0.0.0' mode='100755' size='36436' compressed='1'/>
+			<File name='libxcb-dri3.so.0.0.0' mode='100755' size='8248' compressed='1'/>
+			<File name='libICE.so.6.3.0' mode='100755' size='101368' compressed='1'/>
 			<Link name='libXrender.so.1' mode='120777' path='libXrender.so.1.3.0' />
 			<Link name='libICE.so.6' mode='120777' path='libICE.so.6.3.0' />
-			<File name='libxcb-shape.so.0.0.0' mode='100755' size='10620' compressed='1'/>
+			<File name='libxcb-shape.so.0.0.0' mode='100755' size='10384' compressed='1'/>
 			<Link name='libxcb-damage.so.0' mode='120777' path='libxcb-damage.so.0.0.0' />
 			<Link name='libXext.so.6' mode='120777' path='libXext.so.6.4.0' />
-			<File name='libXcursor.so.1.0.2' mode='100755' size='42696' compressed='1'/>
-			<File name='libxcb-record.so.0.0.0' mode='100755' size='13328' compressed='1'/>
+			<File name='libXcursor.so.1.0.2' mode='100755' size='44228' compressed='1'/>
+			<File name='libxcb-record.so.0.0.0' mode='100755' size='13136' compressed='1'/>
 			<Link name='libxcb-record.so.0' mode='120777' path='libxcb-record.so.0.0.0' />
-			<File name='libXmu.so.6.2.0' mode='100755' size='111140' compressed='1'/>
+			<File name='libXmu.so.6.2.0' mode='100755' size='118228' compressed='1'/>
+			<File name='libXcomposite.so.1.0.0' mode='100755' size='9592' compressed='1'/>
 			<Link name='libXcursor.so.1' mode='120777' path='libXcursor.so.1.0.2' />
-			<File name='libfontconfig.so.1.7.0' mode='100755' size='266292' compressed='1'/>
 			<Link name='libxcb-dri2.so' mode='120777' path='libxcb-dri2.so.0.0.0' />
-			<File name='libXxf86dga.so.1.0.0' mode='100755' size='26172' compressed='1'/>
+			<File name='libXxf86dga.so.1.0.0' mode='100755' size='26360' compressed='1'/>
 			<Link name='libXrandr.so' mode='120777' path='libXrandr.so.2.2.0' />
 			<Link name='libXau.so' mode='120777' path='libXau.so.6.0.0' />
-			<File name='libxcb-xf86dri.so.0.0.0' mode='100755' size='14664' compressed='1'/>
-			<File name='libXpm.so.4.11.0' mode='100755' size='67472' compressed='1'/>
+			<Link name='libXv.so' mode='120777' path='libXv.so.1.0.0' />
+			<File name='libXdamage.so.1.1.0' mode='100755' size='8632' compressed='1'/>
+			<File name='libxcb-xf86dri.so.0.0.0' mode='100755' size='14560' compressed='1'/>
+			<File name='libXpm.so.4.11.0' mode='100755' size='73128' compressed='1'/>
 			<Link name='libxcb-dpms.so' mode='120777' path='libxcb-dpms.so.0.0.0' />
 			<Link name='libxcb-dri3.so.0' mode='120777' path='libxcb-dri3.so.0.0.0' />
-			<File name='libXt.so.6.0.0' mode='100755' size='399180' compressed='1'/>
+			<Link name='libXv.so.1' mode='120777' path='libXv.so.1.0.0' />
+			<File name='libXt.so.6.0.0' mode='100755' size='430148' compressed='1'/>
 			<Link name='libxcb-shm.so.0' mode='120777' path='libxcb-shm.so.0.0.0' />
 			<Link name='libfontenc.so' mode='120777' path='libfontenc.so.1.0.0' />
 			<Link name='libxcb-xinerama.so.0' mode='120777' path='libxcb-xinerama.so.0.0.0' />
@@ -1789,37 +1797,37 @@
 			<Link name='libxcb-xkb.so.1' mode='120777' path='libxcb-xkb.so.1.0.0' />
 			<Link name='libxcb-xf86dri.so.0' mode='120777' path='libxcb-xf86dri.so.0.0.0' />
 			<Link name='libXpm.so' mode='120777' path='libXpm.so.4.11.0' />
-			<File name='libXaw7.so.7.0.0' mode='100755' size='458892' compressed='1'/>
-			<Link name='libXft.so' mode='120777' path='libXft.so.2.3.1' />
-			<File name='libxcb-dpms.so.0.0.0' mode='100755' size='8252' compressed='1'/>
-			<File name='libXfont.so.1.4.1' mode='100755' size='275488' compressed='1'/>
+			<File name='libXaw7.so.7.0.0' mode='100755' size='491600' compressed='1'/>
+			<Link name='libXft.so' mode='120777' path='libXft.so.2.3.2' />
+			<File name='libxcb-dpms.so.0.0.0' mode='100755' size='8248' compressed='1'/>
+			<File name='libXfont.so.1.4.1' mode='100755' size='285096' compressed='1'/>
 			<Link name='libxcb-screensaver.so' mode='120777' path='libxcb-screensaver.so.0.0.0' />
-			<File name='libXrandr.so.2.2.0' mode='100755' size='39312' compressed='1'/>
+			<File name='libXrandr.so.2.2.0' mode='100755' size='40628' compressed='1'/>
 			<Link name='libxcb-randr.so.0' mode='120777' path='libxcb-randr.so.0.1.0' />
 			<Link name='libXxf86dga.so.1' mode='120777' path='libXxf86dga.so.1.0.0' />
 			<Link name='libxcb-xtest.so' mode='120777' path='libxcb-xtest.so.0.0.0' />
 			<Link name='libXrandr.so.2' mode='120777' path='libXrandr.so.2.2.0' />
 			<Link name='libxcb-shm.so' mode='120777' path='libxcb-shm.so.0.0.0' />
-			<File name='libXinerama.so.1.0.0' mode='100755' size='8548' compressed='1'/>
+			<File name='libXinerama.so.1.0.0' mode='100755' size='8660' compressed='1'/>
 			<Link name='libxkbfile.so.1' mode='120777' path='libxkbfile.so.1.0.2' />
 			<Link name='libXrender.so' mode='120777' path='libXrender.so.1.3.0' />
 			<Link name='libxcb-render.so' mode='120777' path='libxcb-render.so.0.0.0' />
-			<File name='libxcb-xvmc.so.0.0.0' mode='100755' size='13028' compressed='1'/>
-			<File name='libXaw6.so.6.0.1' mode='100755' size='333276' compressed='1'/>
-			<File name='libXmuu.so.1.0.0' mode='100755' size='12120' compressed='1'/>
+			<File name='libxcb-xvmc.so.0.0.0' mode='100755' size='13020' compressed='1'/>
+			<File name='libXaw6.so.6.0.1' mode='100755' size='349656' compressed='1'/>
+			<File name='libXmuu.so.1.0.0' mode='100755' size='12524' compressed='1'/>
 			<Link name='libxcb-render.so.0' mode='120777' path='libxcb-render.so.0.0.0' />
 			<Link name='libXaw6.so' mode='120777' path='libXaw6.so.6.0.1' />
 			<Link name='libXaw6.so.6' mode='120777' path='libXaw6.so.6.0.1' />
-			<File name='libxcb-xfixes.so.0.0.0' mode='100755' size='26768' compressed='1'/>
-			<File name='libXdmcp.so.6.0.0' mode='100755' size='21356' compressed='1'/>
+			<File name='libxcb-xfixes.so.0.0.0' mode='100755' size='26760' compressed='1'/>
+			<File name='libXdmcp.so.6.0.0' mode='100755' size='22048' compressed='1'/>
 			<Link name='libXmuu.so' mode='120777' path='libXmuu.so.1.0.0' />
-			<File name='libxkbfile.so.1.0.2' mode='100755' size='143620' compressed='1'/>
-			<File name='libxcb-shm.so.0.0.0' mode='100755' size='9784' compressed='1'/>
-			<File name='libxcb-composite.so.0.0.0' mode='100755' size='9064' compressed='1'/>
-			<File name='libxcb-xevie.so.0.0.0' mode='100755' size='7500' compressed='1'/>
+			<File name='libxkbfile.so.1.0.2' mode='100755' size='160676' compressed='1'/>
+			<File name='libxcb-shm.so.0.0.0' mode='100755' size='9780' compressed='1'/>
+			<File name='libxcb-composite.so.0.0.0' mode='100755' size='8916' compressed='1'/>
+			<File name='libxcb-xevie.so.0.0.0' mode='100755' size='7496' compressed='1'/>
 			<Link name='libXmu.so.6' mode='120777' path='libXmu.so.6.2.0' />
 			<Link name='libxcb-xvmc.so' mode='120777' path='libxcb-xvmc.so.0.0.0' />
-			<File name='libXau.so.6.0.0' mode='100755' size='9824' compressed='1'/>
+			<File name='libXau.so.6.0.0' mode='100755' size='9928' compressed='1'/>
 			<Link name='libGLU.so' mode='120777' path='libGLU.so.1.3.1' />
 			<Link name='libxcb-xfixes.so' mode='120777' path='libxcb-xfixes.so.0.0.0' />
 			<Link name='libxcb-xf86dri.so' mode='120777' path='libxcb-xf86dri.so.0.0.0' />
@@ -1827,34 +1835,32 @@
 			<Link name='libxcb-record.so' mode='120777' path='libxcb-record.so.0.0.0' />
 			<Link name='libXinerama.so' mode='120777' path='libXinerama.so.1.0.0' />
 			<Link name='libxcb-res.so' mode='120777' path='libxcb-res.so.0.0.0' />
-			<File name='libX11-xcb.so.1.0.0' mode='100755' size='3820' compressed='1'/>
-			<File name='libxcb.so.1.1.0' mode='100755' size='137408' compressed='1'/>
+			<File name='libX11-xcb.so.1.0.0' mode='100755' size='3804' compressed='1'/>
+			<File name='libxcb.so.1.1.0' mode='100755' size='139832' compressed='1'/>
 			<Link name='libxcb-xvmc.so.0' mode='120777' path='libxcb-xvmc.so.0.0.0' />
 			<Link name='libxcb-damage.so' mode='120777' path='libxcb-damage.so.0.0.0' />
-			<File name='libGLU.so.1.3.1' mode='100755' size='648272' compressed='1'/>
+			<File name='libGLU.so.1.3.1' mode='100755' size='718676' compressed='1'/>
 			<Link name='libXaw7.so' mode='120777' path='libXaw7.so.7.0.0' />
 			<Link name='libXaw.so.6' mode='120777' path='libXaw6.so.6' />
 			<Link name='libxcb-xv.so.0' mode='120777' path='libxcb-xv.so.0.0.0' />
 			<Link name='libXfont.so.1' mode='120777' path='libXfont.so.1.4.1' />
-			<File name='libxcb-randr.so.0.1.0' mode='100755' size='55300' compressed='1'/>
-			<File name='libXxf86vm.so.1.0.0' mode='100755' size='24392' compressed='1'/>
+			<File name='libxcb-randr.so.0.1.0' mode='100755' size='55244' compressed='1'/>
+			<File name='libXxf86vm.so.1.0.0' mode='100755' size='24780' compressed='1'/>
 			<Link name='libxcb.so.1' mode='120777' path='libxcb.so.1.1.0' />
 			<Link name='libxcb-glx.so.0' mode='120777' path='libxcb-glx.so.0.0.0' />
-			<File name='libxcb-present.so.0.0.0' mode='100755' size='7844' compressed='1'/>
-			<File name='libxcb-xprint.so.0.0.0' mode='100755' size='28292' compressed='1'/>
+			<Link name='libXdamage.so.1' mode='120777' path='libXdamage.so.1.1.0' />
+			<File name='libxcb-present.so.0.0.0' mode='100755' size='7836' compressed='1'/>
+			<File name='libxcb-xprint.so.0.0.0' mode='100755' size='28240' compressed='1'/>
 			<Link name='libxcb-sync.so.1' mode='120777' path='libxcb-sync.so.1.0.0' />
 			<Link name='libGLU.so.1' mode='120777' path='libGLU.so.1.3.1' />
-			<File name='libxcb-damage.so.0.0.0' mode='100755' size='6856' compressed='1'/>
+			<File name='libxcb-damage.so.0.0.0' mode='100755' size='6768' compressed='1'/>
 			<Link name='libXdmcp.so.6' mode='120777' path='libXdmcp.so.6.0.0' />
 			<Link name='libxcb-dri3.so' mode='120777' path='libxcb-dri3.so.0.0.0' />
-			<Link name='libXft.so.2' mode='120777' path='libXft.so.2.3.1' />
+			<Link name='libXft.so.2' mode='120777' path='libXft.so.2.3.2' />
 			<Link name='libX11.so' mode='120777' path='libX11.so.6.3.0' />
 			<Link name='libXaw.so' mode='120777' path='libXaw7.so' />
 			<Link name='libxcb-xinerama.so' mode='120777' path='libxcb-xinerama.so.0.0.0' />
 			<Link name='libxcb-screensaver.so.0' mode='120777' path='libxcb-screensaver.so.0.0.0' />
-			<Dir name='X11' mode='40755'>
-				<File name='Xcms.txt' mode='100644' size='1723'/>
-			</Dir>
 			<Link name='libGL.so' mode='120777' path='libGL.so.1.6.0' />
 			<File name='libGL.so.1.6.0' mode='100755' size='4583908' compressed='1'/>
 			<File name='libOSMesa.so.8.0.0' mode='100755' size='4406248' compressed='1'/>
@@ -1879,21 +1885,15 @@
 			</Dir>
 			<File name='libffi.so.6.0.3' mode='100755' size='34392' compressed='1'/>
 			<Link name='libffi.so.6' mode='120777' path='libffi.so.6.0.3' />
-			<Link name='libcairo.so' mode='120777' path='libcairo.so.2.11200.16' />
-			<Link name='libcairo-script-interpreter.so.2' mode='120777' path='libcairo-script-interpreter.so.2.11200.16' />
-			<Link name='libcairo-gobject.so' mode='120777' path='libcairo-gobject.so.2.11200.16' />
-			<Link name='libcairo.so.2' mode='120777' path='libcairo.so.2.11200.16' />
-			<File name='libcairo.so.2.11200.16' mode='100755' size='1854668' compressed='1'/>
-			<File name='libcairo-gobject.so.2.11200.16' mode='100755' size='29280' compressed='1'/>
-			<Link name='libcairo-script-interpreter.so' mode='120777' path='libcairo-script-interpreter.so.2.11200.16' />
-			<File name='libcairo-script-interpreter.so.2.11200.16' mode='100755' size='210876' compressed='1'/>
-			<Dir name='cairo' mode='40755'>
-				<Link name='libcairo-trace.so.0' mode='120777' path='libcairo-trace.so.0.0.0' />
-				<File name='libcairo-trace.a' mode='100644' size='247528' compressed='1'/>
-				<File name='libcairo-trace.so.0.0.0' mode='100755' size='166516' compressed='1'/>
-				<Link name='libcairo-trace.so' mode='120777' path='libcairo-trace.so.0.0.0' />
-			</Dir>
-			<Link name='libcairo-gobject.so.2' mode='120777' path='libcairo-gobject.so.2.11200.16' />
+			<Link name='libcairo.so' mode='120777' path='libcairo.so.2.11400.0' />
+			<Link name='libcairo-script-interpreter.so.2' mode='120777' path='libcairo-script-interpreter.so.2.11400.0' />
+			<File name='libcairo.so.2.11400.0' mode='100755' size='1384192' compressed='1'/>
+			<Link name='libcairo-gobject.so' mode='120777' path='libcairo-gobject.so.2.11400.0' />
+			<File name='libcairo-script-interpreter.so.2.11400.0' mode='100755' size='169940' compressed='1'/>
+			<Link name='libcairo.so.2' mode='120777' path='libcairo.so.2.11400.0' />
+			<File name='libcairo-gobject.so.2.11400.0' mode='100755' size='28392' compressed='1'/>
+			<Link name='libcairo-script-interpreter.so' mode='120777' path='libcairo-script-interpreter.so.2.11400.0' />
+			<Link name='libcairo-gobject.so.2' mode='120777' path='libcairo-gobject.so.2.11400.0' />
 			<File name='libwayland-server.so.0.1.0' mode='100755' size='63712' compressed='1'/>
 			<Link name='libwayland-client.so.0' mode='120777' path='libwayland-client.so.0.3.0' />
 			<File name='libwayland-client.so.0.3.0' mode='100755' size='52908' compressed='1'/>
@@ -2716,6 +2716,8 @@
 				<File name='KOI8RXTerm-color' mode='100644' size='5836'/>
 				<File name='UXTerm' mode='100644' size='3609'/>
 				<File name='XTerm-color' mode='100644' size='5826'/>
+				<File name='XCalc' mode='100644' size='19327' compressed='1'/>
+				<File name='XCalc-color' mode='100644' size='10325' compressed='1'/>
 			</Dir>
 		</Dir>
 		<Dir name='udev' mode='40755'>
@@ -2753,7 +2755,7 @@
 		<Dir name='user' mode='40755' uid='1000' gid='1000'>
 			<File name='.scummvmrc' mode='100644' size='313' uid='1000' gid='1000' src='home/user/scummvmrc'/>
 			<Dir name='.config' mode='40755'>
-				<File name='weston.ini' mode='100644' size='1135'/>
+				<File name='weston.ini' mode='100644' size='1135' src='home/user/config/weston.ini'/>
 			</Dir>
 			<Dir name='.toppler' mode='40755' uid='1000' gid='1000'></Dir>
 		</Dir>
@@ -2798,7 +2800,7 @@
 	</Dir>
 	<Dir name='root' mode='40755'>
 		<Dir name='.config' mode='40755'>
-			<File name='weston.ini' mode='100644' size='1135'/>
+			<File name='weston.ini' mode='100644' size='1135' src='root/config/weston.ini'/>
 		</Dir>
 	</Dir>
 </FS>
