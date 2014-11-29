@@ -3110,7 +3110,7 @@
 				<File name='weston.ini' mode='100644' size='1135' src='home/user/config/weston.ini'/>
 			</Dir>
 			<Dir name='.toppler' mode='40755' uid='1000' gid='1000'></Dir>
-			<File name='.gitconfig' mode='100644' size='31' uid='1000' gid='1000' src='home/user/gitconfig'/>
+			<File name='.gitconfig' mode='100644' size='52' uid='1000' gid='1000' src='home/user/gitconfig'/>
 		</Dir>
 	</Dir>
 	<Dir name='lib' mode='40755'>
