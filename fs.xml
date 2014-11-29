@@ -1015,6 +1015,178 @@
 				<File name='libc.so.conf' mode='100644' size='15391' compressed='1'/>
 				<File name='libm.so.conf' mode='100644' size='11084' compressed='1'/>
 			</Dir>
+			<Dir name='autoconf' mode='40755'>
+				<File name='autom4te.cfg' mode='100644' size='4797'/>
+				<Dir name='autoscan' mode='40755'>
+					<File name='autoscan.list' mode='100644' size='9637'/>
+				</Dir>
+				<Dir name='autoconf' mode='40755'>
+					<File name='general.m4' mode='100644' size='102370' compressed='1'/>
+					<File name='specific.m4' mode='100644' size='14376' compressed='1'/>
+					<File name='c.m4' mode='100644' size='60976' compressed='1'/>
+					<File name='autoconf.m4' mode='100644' size='3698'/>
+					<File name='go.m4' mode='100644' size='4637'/>
+					<File name='autoscan.m4' mode='100644' size='2024'/>
+					<File name='headers.m4' mode='100644' size='30513' compressed='1'/>
+					<File name='erlang.m4' mode='100644' size='9912'/>
+					<File name='fortran.m4' mode='100644' size='65183' compressed='1'/>
+					<File name='programs.m4' mode='100644' size='29627' compressed='1'/>
+					<File name='oldnames.m4' mode='100644' size='3871'/>
+					<File name='autotest.m4' mode='100644' size='2904'/>
+					<File name='status.m4' mode='100644' size='55776' compressed='1'/>
+					<File name='types.m4' mode='100644' size='36190' compressed='1'/>
+					<File name='autoupdate.m4' mode='100644' size='4319'/>
+					<File name='lang.m4' mode='100644' size='23852' compressed='1'/>
+					<File name='autoconf.m4f' mode='100644' size='485095' compressed='1'/>
+					<File name='functions.m4' mode='100644' size='63592' compressed='1'/>
+					<File name='libs.m4' mode='100644' size='16224' compressed='1'/>
+					<File name='autoheader.m4' mode='100644' size='2741'/>
+				</Dir>
+				<Dir name='autotest' mode='40755'>
+					<File name='autotest.m4f' mode='100644' size='129557' compressed='1'/>
+					<File name='general.m4' mode='100644' size='73617' compressed='1'/>
+					<File name='specific.m4' mode='100644' size='3042'/>
+					<File name='autotest.m4' mode='100644' size='1213'/>
+				</Dir>
+				<Dir name='m4sugar' mode='40755'>
+					<File name='foreach.m4' mode='100644' size='14754' compressed='1'/>
+					<File name='m4sh.m4f' mode='100644' size='71886' compressed='1'/>
+					<File name='version.m4' mode='100644' size='523'/>
+					<File name='m4sugar.m4' mode='100644' size='121864' compressed='1'/>
+					<File name='m4sh.m4' mode='100644' size='75554' compressed='1'/>
+					<File name='m4sugar.m4f' mode='100644' size='30636' compressed='1'/>
+				</Dir>
+				<File name='INSTALL' mode='100644' size='15749' compressed='1'/>
+				<Dir name='Autom4te' mode='40755'>
+					<File name='Request.pm' mode='100644' size='2550'/>
+					<File name='General.pm' mode='100644' size='8984'/>
+					<File name='Getopt.pm' mode='100644' size='2774'/>
+					<File name='Configure_ac.pm' mode='100644' size='3359'/>
+					<File name='Channels.pm' mode='100644' size='20955' compressed='1'/>
+					<File name='XFile.pm' mode='100644' size='7775'/>
+					<File name='C4che.pm' mode='100644' size='4913'/>
+					<File name='FileUtils.pm' mode='100644' size='10095'/>
+					<File name='ChannelDefs.pm' mode='100644' size='9174'/>
+				</Dir>
+			</Dir>
+			<Dir name='vim' mode='40755'>
+				<Dir name='vim74' mode='40755'>
+					<File name='ftplugof.vim' mode='100644' size='337'/>
+					<File name='bugreport.vim' mode='100644' size='1955'/>
+					<File name='evim.vim' mode='100644' size='1965'/>
+					<File name='menu.vim' mode='100644' size='38494' compressed='1'/>
+					<Dir name='print' mode='40755'>
+						<File name='iso-8859-13.ps' mode='100644' size='2186'/>
+						<File name='latin1.ps' mode='100644' size='2192'/>
+						<File name='iso-8859-5.ps' mode='100644' size='2315'/>
+						<File name='jis_roman.ps' mode='100644' size='767'/>
+						<File name='iso-8859-7.ps' mode='100644' size='2141'/>
+						<File name='iso-8859-8.ps' mode='100644' size='2111'/>
+						<File name='cp1257.ps' mode='100644' size='2200'/>
+						<File name='ebcdic-uk.ps' mode='100644' size='2125'/>
+						<File name='iso-8859-3.ps' mode='100644' size='2231'/>
+						<File name='gb_roman.ps' mode='100644' size='769'/>
+						<File name='iso-8859-10.ps' mode='100644' size='2128'/>
+						<File name='cp1253.ps' mode='100644' size='2169'/>
+						<File name='hp-roman8.ps' mode='100644' size='2171'/>
+						<File name='iso-8859-14.ps' mode='100644' size='2189'/>
+						<File name='iso-8859-11.ps' mode='100644' size='2130'/>
+						<File name='iso-8859-4.ps' mode='100644' size='2132'/>
+						<File name='iso-8859-2.ps' mode='100644' size='2156'/>
+						<File name='cp1252.ps' mode='100644' size='2223'/>
+						<File name='koi8-u.ps' mode='100644' size='2326'/>
+						<File name='iso-8859-9.ps' mode='100644' size='2218'/>
+						<File name='iso-8859-15.ps' mode='100644' size='2176'/>
+						<File name='cp1254.ps' mode='100644' size='2241'/>
+						<File name='cp1250.ps' mode='100644' size='2215'/>
+						<File name='ascii.ps' mode='100644' size='720'/>
+						<File name='koi8-r.ps' mode='100644' size='2318'/>
+						<File name='ks_roman.ps' mode='100644' size='765'/>
+						<File name='dec-mcs.ps' mode='100644' size='2191'/>
+						<File name='cp1251.ps' mode='100644' size='2382'/>
+						<File name='cidfont.ps' mode='100644' size='1085'/>
+						<File name='prolog.ps' mode='100644' size='1976'/>
+						<File name='mac-roman.ps' mode='100644' size='2220'/>
+						<File name='cns_roman.ps' mode='100644' size='765'/>
+						<File name='cp1255.ps' mode='100644' size='2137'/>
+					</Dir>
+					<File name='filetype.vim' mode='100644' size='68330' compressed='1'/>
+					<File name='vimrc_example.vim' mode='100644' size='2945'/>
+					<File name='gvimrc_example.vim' mode='100644' size='1698'/>
+					<File name='synmenu.vim' mode='100644' size='36816' compressed='1'/>
+					<File name='delmenu.vim' mode='100644' size='645'/>
+					<File name='indoff.vim' mode='100644' size='282'/>
+					<Dir name='colors' mode='40755'>
+						<File name='pablo.vim' mode='100644' size='1037'/>
+						<File name='peachpuff.vim' mode='100644' size='2673'/>
+						<File name='morning.vim' mode='100644' size='2460'/>
+						<File name='ron.vim' mode='100644' size='1393'/>
+						<File name='elflord.vim' mode='100644' size='1666'/>
+						<File name='delek.vim' mode='100644' size='2399'/>
+						<File name='default.vim' mode='100644' size='548'/>
+						<File name='README.txt' mode='100644' size='2311'/>
+						<File name='shine.vim' mode='100644' size='2720'/>
+						<File name='slate.vim' mode='100644' size='2445'/>
+						<File name='evening.vim' mode='100644' size='2476'/>
+						<File name='darkblue.vim' mode='100644' size='2990'/>
+						<File name='blue.vim' mode='100644' size='2476'/>
+						<File name='zellner.vim' mode='100644' size='1840'/>
+						<File name='koehler.vim' mode='100644' size='3476'/>
+						<File name='murphy.vim' mode='100644' size='2006'/>
+						<File name='desert.vim' mode='100644' size='2812'/>
+						<File name='torte.vim' mode='100644' size='1629'/>
+					</Dir>
+					<File name='scripts.vim' mode='100644' size='10393' compressed='1'/>
+					<File name='optwin.vim' mode='100644' size='55439' compressed='1'/>
+					<File name='ftoff.vim' mode='100644' size='280'/>
+					<File name='ftplugin.vim' mode='100644' size='971'/>
+					<File name='mswin.vim' mode='100644' size='2650'/>
+					<File name='indent.vim' mode='100644' size='767'/>
+				</Dir>
+			</Dir>
+			<Dir name='git-core' mode='40755'>
+				<Dir name='templates' mode='40755'>
+					<File name='description' mode='100644' size='73'/>
+					<Dir name='hooks' mode='40755'>
+						<File name='commit-msg.sample' mode='100755' size='896'/>
+						<File name='post-update.sample' mode='100755' size='189'/>
+						<File name='pre-rebase.sample' mode='100755' size='4951'/>
+						<File name='pre-commit.sample' mode='100755' size='1642'/>
+						<File name='applypatch-msg.sample' mode='100755' size='452'/>
+						<File name='prepare-commit-msg.sample' mode='100755' size='1239'/>
+						<File name='pre-push.sample' mode='100755' size='1356'/>
+						<File name='update.sample' mode='100755' size='3611'/>
+						<File name='pre-applypatch.sample' mode='100755' size='398'/>
+					</Dir>
+					<Dir name='info' mode='40755'>
+						<File name='exclude' mode='100644' size='240'/>
+					</Dir>
+				</Dir>
+			</Dir>
+			<Dir name='misc' mode='40755'>
+				<File name='magic.mgc' mode='100644' size='2944752' compressed='1'/>
+			</Dir>
+			<Dir name='screen' mode='40755'>
+				<Dir name='utf8encodings' mode='40755'>
+					<File name='bf' mode='100644' size='232'/>
+					<File name='c7' mode='100644' size='52'/>
+					<File name='cd' mode='100644' size='52'/>
+					<File name='18' mode='100644' size='54862' compressed='1'/>
+					<File name='c6' mode='100644' size='68'/>
+					<File name='19' mode='100644' size='95776' compressed='1'/>
+					<File name='cc' mode='100644' size='68'/>
+					<File name='01' mode='100644' size='29808' compressed='1'/>
+					<File name='c4' mode='100644' size='228'/>
+					<File name='c8' mode='100644' size='40'/>
+					<File name='d6' mode='100644' size='212'/>
+					<File name='03' mode='100644' size='32926' compressed='1'/>
+					<File name='a1' mode='100644' size='536'/>
+					<File name='c3' mode='100644' size='140'/>
+					<File name='04' mode='100644' size='24302' compressed='1'/>
+					<File name='02' mode='100644' size='27550' compressed='1'/>
+					<File name='c2' mode='100644' size='256'/>
+				</Dir>
+			</Dir>
 		</Dir>
 		<Dir name='bin' mode='40755'>
 			<File name='df_cpuload' mode='104755' size='8920' compressed='1'/>
@@ -1250,6 +1422,25 @@
 			<File name='htop' mode='100755' size='152376' compressed='1'/>
 			<File name='mandelpar' mode='100755' size='21468' compressed='1'/>
 			<File name='touchpad-edge-detector' mode='100755' size='6688' compressed='1'/>
+			<File name='autoscan' mode='100755' size='17126' compressed='1'/>
+			<File name='autom4te' mode='100755' size='32185' compressed='1'/>
+			<File name='autoconf' mode='100755' size='14768' compressed='1'/>
+			<File name='autoupdate' mode='100755' size='33876' compressed='1'/>
+			<File name='ifnames' mode='100755' size='4131'/>
+			<File name='autoreconf' mode='100755' size='21069' compressed='1'/>
+			<File name='autoheader' mode='100755' size='8537'/>
+			<Link name='rvim' mode='120777' path='vim' />
+			<Link name='vimdiff' mode='120777' path='vim' />
+			<File name='xxd' mode='100755' size='17816' compressed='1'/>
+			<Link name='rview' mode='120777' path='vim' />
+			<Link name='ex' mode='120777' path='vim' />
+			<File name='vimtutor' mode='100755' size='2084'/>
+			<Link name='view' mode='120777' path='vim' />
+			<File name='vim' mode='100755' size='1961928' compressed='1'/>
+			<File name='git' mode='100755' size='1754564' compressed='1'/>
+			<File name='file' mode='100755' size='13844' compressed='1'/>
+			<Link name='screen' mode='120777' path='screen-4.2.1' />
+			<File name='screen-4.2.1' mode='104755' size='431960' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
@@ -1977,6 +2168,9 @@
 			<File name='libinput.so.5.0.0' mode='100755' size='107148' compressed='1'/>
 			<Link name='libinput.so.5' mode='120777' path='libinput.so.5.0.0' />
 			<Link name='libinput.so' mode='120777' path='libinput.so.5.0.0' />
+			<File name='libmagic.so.1.0.0' mode='100755' size='159520' compressed='1'/>
+			<Link name='libmagic.so.1' mode='120777' path='libmagic.so.1.0.0' />
+			<Link name='libmagic.so' mode='120777' path='libmagic.so.1.0.0' />
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
@@ -2004,6 +2198,171 @@
 			<File name='weston-keyboard' mode='100755' size='114960' compressed='1'/>
 			<File name='weston-desktop-shell' mode='100755' size='118312' compressed='1'/>
 			<File name='weston-simple-im' mode='100755' size='10072' compressed='1'/>
+			<Dir name='git-core' mode='40755'>
+				<Link name='git-fetch' mode='120755' path='/usr/bin/git' />
+				<Link name='git-rev-list' mode='120755' path='/usr/bin/git' />
+				<Link name='git-hash-object' mode='120755' path='/usr/bin/git' />
+				<Link name='git-update-index' mode='120755' path='/usr/bin/git' />
+				<Link name='git-send-pack' mode='120755' path='/usr/bin/git' />
+				<Link name='git-log' mode='120755' path='/usr/bin/git' />
+				<Link name='git-reflog' mode='120755' path='/usr/bin/git' />
+				<Link name='git-pack-refs' mode='120755' path='/usr/bin/git' />
+				<Link name='git-apply' mode='120755' path='/usr/bin/git' />
+				<Link name='git-rev-parse' mode='120755' path='/usr/bin/git' />
+				<Link name='git-fmt-merge-msg' mode='120755' path='/usr/bin/git' />
+				<Link name='git-config' mode='120755' path='/usr/bin/git' />
+				<Link name='git-blame' mode='120755' path='/usr/bin/git' />
+				<Link name='git-fetch-pack' mode='120755' path='/usr/bin/git' />
+				<Link name='git-ls-files' mode='120755' path='/usr/bin/git' />
+				<Link name='git-patch-id' mode='120755' path='/usr/bin/git' />
+				<Link name='git-get-tar-commit-id' mode='120755' path='/usr/bin/git' />
+				<Dir name='mergetools' mode='40755'>
+					<File name='tkdiff' mode='100644' size='224'/>
+					<File name='emerge' mode='100644' size='415'/>
+					<File name='vimdiff' mode='100644' size='878'/>
+					<File name='ecmerge' mode='100644' size='340'/>
+					<File name='p4merge' mode='100644' size='651'/>
+					<File name='meld' mode='100644' size='876'/>
+					<File name='gvimdiff2' mode='100644' size='29'/>
+					<File name='vimdiff3' mode='100644' size='29'/>
+					<File name='tortoisemerge' mode='100644' size='638'/>
+					<File name='gvimdiff3' mode='100644' size='29'/>
+					<File name='xxdiff' mode='100644' size='618'/>
+					<File name='araxis' mode='100644' size='392'/>
+					<File name='kompare' mode='100644' size='83'/>
+					<File name='codecompare' mode='100644' size='387'/>
+					<File name='vimdiff2' mode='100644' size='29'/>
+					<File name='bc3' mode='100644' size='24'/>
+					<File name='diffmerge' mode='100644' size='286'/>
+					<File name='kdiff3' mode='100644' size='499'/>
+					<File name='diffuse' mode='100644' size='282'/>
+					<File name='gvimdiff' mode='100644' size='29'/>
+					<File name='opendiff' mode='100644' size='301'/>
+					<File name='bc' mode='100644' size='401'/>
+					<File name='deltawalker' mode='100644' size='628'/>
+				</Dir>
+				<Link name='git-interpret-trailers' mode='120755' path='/usr/bin/git' />
+				<Link name='git-check-ref-format' mode='120755' path='/usr/bin/git' />
+				<File name='git-mergetool' mode='100755' size='9446'/>
+				<Link name='git-cat-file' mode='120755' path='/usr/bin/git' />
+				<Link name='git-name-rev' mode='120755' path='/usr/bin/git' />
+				<Link name='git-reset' mode='120755' path='/usr/bin/git' />
+				<File name='git-web--browse' mode='100755' size='4401'/>
+				<Link name='git-commit' mode='120755' path='/usr/bin/git' />
+				<File name='git-parse-remote' mode='100644' size='2313'/>
+				<Link name='git-init' mode='120755' path='/usr/bin/git' />
+				<Link name='git-cherry-pick' mode='120755' path='/usr/bin/git' />
+				<Link name='git-column' mode='120755' path='/usr/bin/git' />
+				<Link name='git-format-patch' mode='120755' path='/usr/bin/git' />
+				<File name='git-merge-resolve' mode='100755' size='944'/>
+				<Link name='git-mailsplit' mode='120755' path='/usr/bin/git' />
+				<Link name='git-bisect--helper' mode='120755' path='/usr/bin/git' />
+				<Link name='git-fsck-objects' mode='120755' path='/usr/bin/git' />
+				<Link name='git-for-each-ref' mode='120755' path='/usr/bin/git' />
+				<Link name='git-var' mode='120755' path='/usr/bin/git' />
+				<Link name='git-diff-files' mode='120755' path='/usr/bin/git' />
+				<Link name='git-replace' mode='120755' path='/usr/bin/git' />
+				<File name='git-remote-ftp' mode='100755' size='933976' compressed='1'/>
+				<Link name='git-verify-commit' mode='120755' path='/usr/bin/git' />
+				<File name='git-rebase--interactive' mode='100644' size='28512' compressed='1'/>
+				<Link name='git-repack' mode='120755' path='/usr/bin/git' />
+				<Link name='git-pack-objects' mode='120755' path='/usr/bin/git' />
+				<Link name='git-verify-pack' mode='120755' path='/usr/bin/git' />
+				<File name='git-shell' mode='100755' size='881340' compressed='1'/>
+				<Link name='git-commit-tree' mode='120755' path='/usr/bin/git' />
+				<File name='git-upload-pack' mode='100755' size='897848' compressed='1'/>
+				<Link name='git-merge-subtree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-stripspace' mode='120755' path='/usr/bin/git' />
+				<Link name='git-merge-recursive' mode='120755' path='/usr/bin/git' />
+				<Link name='git-merge-file' mode='120755' path='/usr/bin/git' />
+				<Link name='git-ls-tree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-check-ignore' mode='120755' path='/usr/bin/git' />
+				<Link name='git-bundle' mode='120755' path='/usr/bin/git' />
+				<File name='git-filter-branch' mode='100755' size='11735' compressed='1'/>
+				<Link name='git-mailinfo' mode='120755' path='/usr/bin/git' />
+				<Link name='git-whatchanged' mode='120755' path='/usr/bin/git' />
+				<Link name='git-diff' mode='120755' path='/usr/bin/git' />
+				<Link name='git-remote-ext' mode='120755' path='/usr/bin/git' />
+				<File name='git-rebase' mode='100755' size='16035' compressed='1'/>
+				<File name='git-svn' mode='100755' size='61979' compressed='1'/>
+				<Link name='git-update-ref' mode='120755' path='/usr/bin/git' />
+				<Link name='git-write-tree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-read-tree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-notes' mode='120755' path='/usr/bin/git' />
+				<Link name='git-gc' mode='120755' path='/usr/bin/git' />
+				<Link name='git-index-pack' mode='120755' path='/usr/bin/git' />
+				<Link name='git-pack-redundant' mode='120755' path='/usr/bin/git' />
+				<Link name='git-prune-packed' mode='120755' path='/usr/bin/git' />
+				<Link name='git-describe' mode='120755' path='/usr/bin/git' />
+				<Link name='git-add' mode='120755' path='/usr/bin/git' />
+				<Link name='git-init-db' mode='120755' path='/usr/bin/git' />
+				<Link name='git-remote' mode='120755' path='/usr/bin/git' />
+				<Link name='git-mktag' mode='120755' path='/usr/bin/git' />
+				<Link name='git-branch' mode='120755' path='/usr/bin/git' />
+				<File name='git-submodule' mode='100755' size='32207' compressed='1'/>
+				<Link name='git-check-attr' mode='120755' path='/usr/bin/git' />
+				<Link name='git-merge-index' mode='120755' path='/usr/bin/git' />
+				<Link name='git-show' mode='120755' path='/usr/bin/git' />
+				<File name='git-bisect' mode='100755' size='11996' compressed='1'/>
+				<Link name='git-remote-fd' mode='120755' path='/usr/bin/git' />
+				<File name='git-am' mode='100755' size='23281' compressed='1'/>
+				<Link name='git-checkout-index' mode='120755' path='/usr/bin/git' />
+				<File name='git-relink' mode='100755' size='4202'/>
+				<Link name='git-merge-ours' mode='120755' path='/usr/bin/git' />
+				<Link name='git-diff-index' mode='120755' path='/usr/bin/git' />
+				<File name='git-send-email' mode='100755' size='44943' compressed='1'/>
+				<Link name='git-grep' mode='120755' path='/usr/bin/git' />
+				<Link name='git-update-server-info' mode='120755' path='/usr/bin/git' />
+				<Link name='git-annotate' mode='120755' path='/usr/bin/git' />
+				<Link name='git-count-objects' mode='120755' path='/usr/bin/git' />
+				<Link name='git-receive-pack' mode='120755' path='/usr/bin/git' />
+				<Link name='git-merge' mode='120755' path='/usr/bin/git' />
+				<File name='git-quiltimport' mode='100755' size='3368'/>
+				<Link name='git-unpack-objects' mode='120755' path='/usr/bin/git' />
+				<Link name='git-clean' mode='120755' path='/usr/bin/git' />
+				<Link name='git-merge-tree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-checkout' mode='120755' path='/usr/bin/git' />
+				<Link name='git-ls-remote' mode='120755' path='/usr/bin/git' />
+				<Link name='git-show-ref' mode='120755' path='/usr/bin/git' />
+				<Link name='git-rerere' mode='120755' path='/usr/bin/git' />
+				<Link name='git-cherry' mode='120755' path='/usr/bin/git' />
+				<Link name='git-diff-tree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-show-branch' mode='120755' path='/usr/bin/git' />
+				<Link name='git-verify-tag' mode='120755' path='/usr/bin/git' />
+				<File name='git-archimport' mode='100755' size='36965' compressed='1'/>
+				<File name='git-difftool--helper' mode='100755' size='2092'/>
+				<Link name='git-push' mode='120755' path='/usr/bin/git' />
+				<Link name='git-check-mailmap' mode='120755' path='/usr/bin/git' />
+				<File name='git-rebase--am' mode='100644' size='2447'/>
+				<Link name='git-help' mode='120755' path='/usr/bin/git' />
+				<Link name='git-upload-archive' mode='120755' path='/usr/bin/git' />
+				<Link name='git-shortlog' mode='120755' path='/usr/bin/git' />
+				<File name='git-stash' mode='100755' size='13573' compressed='1'/>
+				<File name='git-add--interactive' mode='100755' size='36943' compressed='1'/>
+				<Link name='git-fsck' mode='120755' path='/usr/bin/git' />
+				<Link name='git-remote-ftps' mode='120755' path='/usr/libexec/git-core/git-remote-ftp' />
+				<File name='git-rebase--merge' mode='100644' size='3809'/>
+				<Link name='git-prune' mode='120755' path='/usr/bin/git' />
+				<Link name='git-stage' mode='120755' path='/usr/bin/git' />
+				<Link name='git-remote-https' mode='120755' path='/usr/libexec/git-core/git-remote-ftp' />
+				<File name='git-mergetool--lib' mode='100644' size='7572'/>
+				<Link name='git-mktree' mode='120755' path='/usr/bin/git' />
+				<Link name='git-clone' mode='120755' path='/usr/bin/git' />
+				<File name='git-difftool' mode='100755' size='13614' compressed='1'/>
+				<Link name='git-symbolic-ref' mode='120755' path='/usr/bin/git' />
+				<File name='git-request-pull' mode='100755' size='3861'/>
+				<Link name='git' mode='120755' path='/usr/bin/git' />
+				<Link name='git-tag' mode='120755' path='/usr/bin/git' />
+				<Link name='git-merge-base' mode='120755' path='/usr/bin/git' />
+				<File name='git-pull' mode='100755' size='8907'/>
+				<Link name='git-unpack-file' mode='120755' path='/usr/bin/git' />
+				<Link name='git-archive' mode='120755' path='/usr/bin/git' />
+				<Link name='git-rm' mode='120755' path='/usr/bin/git' />
+				<Link name='git-revert' mode='120755' path='/usr/bin/git' />
+				<Link name='git-fast-export' mode='120755' path='/usr/bin/git' />
+				<Link name='git-mv' mode='120755' path='/usr/bin/git' />
+				<Link name='git-status' mode='120755' path='/usr/bin/git' />
+			</Dir>
 		</Dir>
 		<Dir name='include' mode='40755'>
 			<File name='menu.h' mode='100644' size='11950' compressed='1'/>
@@ -2758,6 +3117,7 @@
 				<File name='weston.ini' mode='100644' size='1135' src='home/user/config/weston.ini'/>
 			</Dir>
 			<Dir name='.toppler' mode='40755' uid='1000' gid='1000'></Dir>
+			<File name='.gitconfig' mode='100644' size='31' uid='1000' gid='1000' src='home/user/gitconfig'/>
 		</Dir>
 	</Dir>
 	<Dir name='lib' mode='40755'>
