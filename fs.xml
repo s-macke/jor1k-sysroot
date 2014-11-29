@@ -1237,26 +1237,26 @@
 			<Link name='jstar' mode='120777' path='joe' />
 			<File name='joe' mode='100755' size='504120' compressed='1'/>
 			<Link name='jmacs' mode='120777' path='joe' />
-			<File name='bs' mode='100755' size='23208' compressed='1'/>
-			<File name='newdemo' mode='100755' size='10664' compressed='1'/>
-			<File name='rain' mode='100755' size='12944' compressed='1'/>
-			<File name='firework' mode='100755' size='7256' compressed='1'/>
-			<File name='gdc' mode='100755' size='10176' compressed='1'/>
-			<File name='knight' mode='100755' size='14892' compressed='1'/>
-			<File name='blue' mode='100755' size='10188' compressed='1'/>
+			<File name='bs' mode='100755' size='23200' compressed='1'/>
+			<File name='newdemo' mode='100755' size='10672' compressed='1'/>
+			<File name='rain' mode='100755' size='12936' compressed='1'/>
+			<File name='firework' mode='100755' size='7248' compressed='1'/>
+			<File name='gdc' mode='100755' size='10168' compressed='1'/>
+			<File name='knight' mode='100755' size='14884' compressed='1'/>
+			<File name='blue' mode='100755' size='10184' compressed='1'/>
 			<Link name='reset' mode='120777' path='tset' />
-			<File name='hanoi' mode='100755' size='8688' compressed='1'/>
-			<File name='tclock' mode='100755' size='22924' compressed='1'/>
-			<File name='tset' mode='100755' size='16592' compressed='1'/>
-			<File name='tabs' mode='100755' size='9744' compressed='1'/>
-			<File name='testcurs' mode='100755' size='18728' compressed='1'/>
-			<File name='xmas' mode='100755' size='33456' compressed='1'/>
+			<File name='hanoi' mode='100755' size='8680' compressed='1'/>
+			<File name='tclock' mode='100755' size='22916' compressed='1'/>
+			<File name='tset' mode='100755' size='16448' compressed='1'/>
+			<File name='tabs' mode='100755' size='9740' compressed='1'/>
+			<File name='testcurs' mode='100755' size='18720' compressed='1'/>
+			<File name='xmas' mode='100755' size='33448' compressed='1'/>
 			<File name='infocmp' mode='100755' size='53064' compressed='1'/>
-			<File name='worm' mode='100755' size='13960' compressed='1'/>
-			<File name='lrtest' mode='100755' size='6456' compressed='1'/>
+			<File name='worm' mode='100755' size='13952' compressed='1'/>
+			<File name='lrtest' mode='100755' size='6448' compressed='1'/>
 			<File name='clear' mode='100755' size='3552' compressed='1'/>
-			<File name='ncurses' mode='100755' size='97664' compressed='1'/>
-			<File name='tput' mode='100755' size='10000' compressed='1'/>
+			<File name='ncurses' mode='100755' size='92868' compressed='1'/>
+			<File name='tput' mode='100755' size='9960' compressed='1'/>
 			<File name='aserver' mode='100755' size='26472' compressed='1'/>
 			<File name='sdl-config' mode='100755' size='1263'/>
 			<File name='jpegtran' mode='100755' size='26672' compressed='1'/>
@@ -1718,13 +1718,13 @@
 			<Link name='libmenu.so.5' mode='120777' path='libmenu.so.5.9' />
 			<Link name='libpanel.so.5' mode='120777' path='libpanel.so.5.9' />
 			<Link name='libmenu.so' mode='120777' path='libmenu.so.5' />
-			<File name='libform.so.5.9' mode='100755' size='71332' compressed='1'/>
+			<File name='libform.so.5.9' mode='100755' size='71360' compressed='1'/>
 			<Link name='libncurses.so.5' mode='120777' path='libncurses.so.5.9' />
 			<Link name='libcurses.so' mode='120777' path='libncurses.so.5.9' />
 			<File name='libmenu.so.5.9' mode='100755' size='32948' compressed='1' load='1'/>
 			<Link name='libform.so.5' mode='120777' path='libform.so.5.9' />
 			<File name='libpanel.so.5.9' mode='100755' size='11876' compressed='1'/>
-			<File name='libncurses.so.5.9' mode='100755' size='356612' compressed='1' load='1'/>
+			<File name='libncurses.so.5.9' mode='100755' size='358308' compressed='1' load='1'/>
 			<Link name='libncurses.so' mode='120777' path='libncurses.so.5' />
 			<Link name='libasound.so' mode='120777' path='libasound.so.2.0.0' />
 			<Link name='libasound.so.2' mode='120777' path='libasound.so.2.0.0' />
@@ -2367,22 +2367,15 @@
 		<Dir name='include' mode='40755'>
 			<File name='menu.h' mode='100644' size='11950' compressed='1'/>
 			<File name='nc_tparm.h' mode='100644' size='4060'/>
-			<File name='cursslk.h' mode='100644' size='7304'/>
-			<File name='etip.h' mode='100644' size='9207'/>
 			<File name='term.h' mode='100644' size='40296' compressed='1'/>
-			<File name='cursesw.h' mode='100644' size='49264' compressed='1'/>
 			<File name='tic.h' mode='100644' size='12525' compressed='1'/>
 			<File name='form.h' mode='100644' size='17986' compressed='1'/>
 			<File name='term_entry.h' mode='100644' size='7335'/>
-			<File name='cursesp.h' mode='100644' size='8473'/>
-			<File name='cursesm.h' mode='100644' size='19486' compressed='1'/>
-			<File name='cursesapp.h' mode='100644' size='6582'/>
 			<File name='ncurses_dll.h' mode='100644' size='3925'/>
 			<Link name='ncurses.h' mode='120777' path='curses.h' />
 			<File name='curses.h' mode='100644' size='76228' compressed='1'/>
 			<File name='unctrl.h' mode='100644' size='3099'/>
 			<File name='eti.h' mode='100644' size='2891'/>
-			<File name='cursesf.h' mode='100644' size='27630' compressed='1'/>
 			<File name='panel.h' mode='100644' size='4062'/>
 			<File name='termcap.h' mode='100644' size='3476'/>
 			<Dir name='SDL' mode='40755'>
