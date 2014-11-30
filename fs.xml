@@ -1441,6 +1441,12 @@
 			<File name='file' mode='100755' size='13844' compressed='1'/>
 			<Link name='screen' mode='120777' path='screen-4.2.1' />
 			<File name='screen-4.2.1' mode='104755' size='431960' compressed='1'/>
+			<File name='aafire' mode='100755' size='84540' compressed='1'/>
+			<File name='aalib-config' mode='100755' size='1367'/>
+			<File name='aatest' mode='100755' size='84544' compressed='1'/>
+			<File name='aasavefont' mode='100755' size='70860' compressed='1'/>
+			<File name='aainfo' mode='100755' size='84540' compressed='1'/>
+			<File name='bb' mode='100755' size='602684' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
@@ -2171,6 +2177,7 @@
 			<File name='libmagic.so.1.0.0' mode='100755' size='159520' compressed='1'/>
 			<Link name='libmagic.so.1' mode='120777' path='libmagic.so.1.0.0' />
 			<Link name='libmagic.so' mode='120777' path='libmagic.so.1.0.0' />
+			<File name='libaa.a' mode='100644' size='420668' compressed='1'/>
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
