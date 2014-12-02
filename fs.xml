@@ -1430,13 +1430,12 @@
 			<File name='autoreconf' mode='100755' size='21069' compressed='1'/>
 			<File name='autoheader' mode='100755' size='8537'/>
 			<Link name='rvim' mode='120777' path='vim' />
-			<Link name='vimdiff' mode='120777' path='vim' />
 			<File name='xxd' mode='100755' size='17816' compressed='1'/>
 			<Link name='rview' mode='120777' path='vim' />
 			<Link name='ex' mode='120777' path='vim' />
 			<File name='vimtutor' mode='100755' size='2084'/>
 			<Link name='view' mode='120777' path='vim' />
-			<File name='vim' mode='100755' size='1961928' compressed='1'/>
+			<File name='vim' mode='100755' size='788164' compressed='1'/>
 			<File name='git' mode='100755' size='1752992' compressed='1'/>
 			<File name='file' mode='100755' size='13844' compressed='1'/>
 			<Link name='screen' mode='120777' path='screen-4.2.1' />
@@ -1447,6 +1446,8 @@
 			<File name='aasavefont' mode='100755' size='70860' compressed='1'/>
 			<File name='aainfo' mode='100755' size='84540' compressed='1'/>
 			<File name='bb' mode='100755' size='602684' compressed='1'/>
+			<File name='event_rpcgen.py' mode='100755' size='55455' compressed='1'/>
+			<File name='tmux' mode='100755' size='450948' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
@@ -2178,6 +2179,21 @@
 			<Link name='libmagic.so.1' mode='120777' path='libmagic.so.1.0.0' />
 			<Link name='libmagic.so' mode='120777' path='libmagic.so.1.0.0' />
 			<File name='libaa.a' mode='100644' size='420668' compressed='1'/>
+			<File name='libevent_core-2.0.so.5.1.7' mode='100755' size='187468' compressed='1'/>
+			<Link name='libevent.so' mode='120777' path='libevent-2.0.so.5.1.7' />
+			<Link name='libevent_extra.so' mode='120777' path='libevent_extra-2.0.so.5.1.7' />
+			<File name='libevent-2.0.so.5.1.7' mode='100755' size='310676' compressed='1'/>
+			<Link name='libevent_openssl-2.0.so.5' mode='120777' path='libevent_openssl-2.0.so.5.1.7' />
+			<Link name='libevent_core-2.0.so.5' mode='120777' path='libevent_core-2.0.so.5.1.7' />
+			<File name='libevent_extra-2.0.so.5.1.7' mode='100755' size='136308' compressed='1'/>
+			<Link name='libevent_core.so' mode='120777' path='libevent_core-2.0.so.5.1.7' />
+			<File name='libevent_pthreads-2.0.so.5.1.7' mode='100755' size='6352' compressed='1'/>
+			<Link name='libevent-2.0.so.5' mode='120777' path='libevent-2.0.so.5.1.7' />
+			<Link name='libevent_extra-2.0.so.5' mode='120777' path='libevent_extra-2.0.so.5.1.7' />
+			<File name='libevent_openssl-2.0.so.5.1.7' mode='100755' size='20944' compressed='1'/>
+			<Link name='libevent_pthreads-2.0.so.5' mode='120777' path='libevent_pthreads-2.0.so.5.1.7' />
+			<Link name='libevent_openssl.so' mode='120777' path='libevent_openssl-2.0.so.5.1.7' />
+			<Link name='libevent_pthreads.so' mode='120777' path='libevent_pthreads-2.0.so.5.1.7' />
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
@@ -2644,6 +2660,38 @@
 			<File name='errno.h' mode='100644' size='369'/>
 			<File name='zlib.h' mode='100644' size='87883' compressed='1'/>
 			<File name='zconf.h' mode='100644' size='15472' compressed='1'/>
+			<File name='evutil.h' mode='100644' size='1737'/>
+			<Dir name='event2' mode='40755'>
+				<File name='http.h' mode='100644' size='32400' compressed='1'/>
+				<File name='event_struct.h' mode='100644' size='4047'/>
+				<File name='tag_compat.h' mode='100644' size='2117'/>
+				<File name='http_compat.h' mode='100644' size='3129'/>
+				<File name='rpc_compat.h' mode='100644' size='2327'/>
+				<File name='buffer.h' mode='100644' size='30672' compressed='1'/>
+				<File name='thread.h' mode='100644' size='9458'/>
+				<File name='dns_compat.h' mode='100644' size='12131' compressed='1'/>
+				<File name='dns.h' mode='100644' size='24649' compressed='1'/>
+				<File name='dns_struct.h' mode='100644' size='2572'/>
+				<File name='bufferevent_struct.h' mode='100644' size='4111'/>
+				<File name='event-config.h' mode='100644' size='13927' compressed='1'/>
+				<File name='bufferevent_compat.h' mode='100644' size='4448'/>
+				<File name='buffer_compat.h' mode='100644' size='4586'/>
+				<File name='event.h' mode='100644' size='45125' compressed='1'/>
+				<File name='rpc.h' mode='100644' size='20984' compressed='1'/>
+				<File name='listener.h' mode='100644' size='5968'/>
+				<File name='bufferevent_ssl.h' mode='100644' size='3832'/>
+				<File name='bufferevent.h' mode='100644' size='28608' compressed='1'/>
+				<File name='tag.h' mode='100644' size='4438'/>
+				<File name='rpc_struct.h' mode='100644' size='3211'/>
+				<File name='http_struct.h' mode='100644' size='4166'/>
+				<File name='event_compat.h' mode='100644' size='7395'/>
+				<File name='keyvalq_struct.h' mode='100644' size='2599'/>
+				<File name='util.h' mode='100644' size='21696' compressed='1'/>
+			</Dir>
+			<File name='event.h' mode='100644' size='2760'/>
+			<File name='evhttp.h' mode='100644' size='1990'/>
+			<File name='evrpc.h' mode='100644' size='1970'/>
+			<File name='evdns.h' mode='100644' size='1974'/>
 		</Dir>
 		<Dir name='sbin' mode='40755'>
 			<File name='sshd' mode='104755' size='858760' compressed='1'/>
