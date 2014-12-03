@@ -107,7 +107,6 @@
 				<File name='freetype2.m4' mode='100644' size='6346'/>
 				<File name='fontutil.m4' mode='100644' size='14124' compressed='1'/>
 				<File name='wayland-scanner.m4' mode='100644' size='418'/>
-				<File name='libcurl.m4' mode='100644' size='10174'/>
 			</Dir>
 			<Dir name='alsa' mode='40755'>
 				<File name='alsa.conf' mode='100644' size='9318'/>
@@ -1281,7 +1280,7 @@
 			<File name='dc' mode='100755' size='50660' compressed='1'/>
 			<File name='bc' mode='100755' size='88196' compressed='1'/>
 			<File name='links' mode='104755' size='2958216' compressed='1'/>
-			<File name='openssl' mode='100755' size='547768' compressed='1'/>
+			<File name='openssl' mode='100755' size='545532' compressed='1'/>
 			<File name='c_rehash' mode='100755' size='4246'/>
 			<File name='objcopy' mode='100755' size='241560' compressed='1'/>
 			<File name='nm' mode='100755' size='69592' compressed='1'/>
@@ -1392,8 +1391,8 @@
 			<File name='startweston' mode='100755' size='255'/>
 			<File name='weston-terminal' mode='100755' size='137600' compressed='1'/>
 			<File name='xsetroot' mode='100755' size='12488' compressed='1'/>
-			<File name='curl-config' mode='100755' size='4890'/>
-			<File name='curl' mode='100755' size='168036' compressed='1'/>
+			<File name='curl-config' mode='100755' size='4935'/>
+			<File name='curl' mode='100755' size='168688' compressed='1'/>
 			<File name='fluid' mode='100755' size='552528' compressed='1'/>
 			<File name='fltk-config' mode='100755' size='9161'/>
 			<File name='dillo-install-hyphenation' mode='100755' size='5732'/>
@@ -1447,7 +1446,7 @@
 			<File name='aainfo' mode='100755' size='84540' compressed='1'/>
 			<File name='bb' mode='100755' size='602684' compressed='1'/>
 			<File name='event_rpcgen.py' mode='100755' size='55455' compressed='1'/>
-			<File name='tmux' mode='100755' size='450948' compressed='1'/>
+			<File name='tmux' mode='100755' size='565840' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
@@ -1762,22 +1761,20 @@
 			<File name='libpng16.so.16.2.0' mode='100755' size='233644' compressed='1'/>
 			<Dir name='engines' mode='40755'>
 				<File name='lib4758cca.so' mode='100555' size='18208' compressed='1'/>
-				<File name='libnuron.so' mode='100555' size='11540' compressed='1'/>
+				<File name='libnuron.so' mode='100555' size='11524' compressed='1'/>
 				<File name='libpadlock.so' mode='100555' size='3676' compressed='1'/>
 				<File name='libgost.so' mode='100555' size='104756' compressed='1'/>
 				<File name='libchil.so' mode='100555' size='23400' compressed='1'/>
 				<File name='libcapi.so' mode='100555' size='3672' compressed='1'/>
 				<File name='libsureware.so' mode='100555' size='27408' compressed='1'/>
-				<File name='libatalla.so' mode='100555' size='13284' compressed='1'/>
+				<File name='libatalla.so' mode='100555' size='13256' compressed='1'/>
 				<File name='libcswift.so' mode='100555' size='21920' compressed='1'/>
 				<File name='libgmp.so' mode='100555' size='3672' compressed='1'/>
 				<File name='libubsec.so' mode='100555' size='20000' compressed='1'/>
 				<File name='libaep.so' mode='100555' size='19260' compressed='1'/>
 			</Dir>
-			<File name='libcrypto.a' mode='100644' size='3474818' compressed='1'/>
 			<Link name='libcrypto.so' mode='120777' path='libcrypto.so.1.0.0' />
-			<File name='libssl.a' mode='100644' size='622132' compressed='1'/>
-			<File name='libcrypto.so.1.0.0' mode='100555' size='2071964' compressed='1'/>
+			<File name='libcrypto.so.1.0.0' mode='100555' size='2075100' compressed='1'/>
 			<File name='libssl.so.1.0.0' mode='100555' size='421972' compressed='1'/>
 			<Link name='libssl.so' mode='120777' path='libssl.so.1.0.0' />
 			<Dir name='ldscripts' mode='40755'>
@@ -2125,7 +2122,7 @@
 			</Dir>
 			<Link name='libcurl.so.4' mode='120777' path='libcurl.so.4.3.0' />
 			<Link name='libcurl.so' mode='120777' path='libcurl.so.4.3.0' />
-			<File name='libcurl.so.4.3.0' mode='100755' size='442176' compressed='1'/>
+			<File name='libcurl.so.4.3.0' mode='100755' size='447320' compressed='1'/>
 			<File name='libfltk.so.1.3' mode='100755' size='1290396' compressed='1'/>
 			<File name='libfltk_images.so.1.3' mode='100755' size='407288' compressed='1'/>
 			<File name='libfltk_images.a' mode='100755' size='75354' compressed='1'/>
@@ -2230,6 +2227,7 @@
 				<Link name='git-log' mode='120755' path='/usr/bin/git' />
 				<Link name='git-reflog' mode='120755' path='/usr/bin/git' />
 				<Link name='git-pack-refs' mode='120755' path='/usr/bin/git' />
+				<File name='git-remote-http' mode='100755' size='933632' compressed='1'/>
 				<Link name='git-apply' mode='120755' path='/usr/bin/git' />
 				<Link name='git-rev-parse' mode='120755' path='/usr/bin/git' />
 				<Link name='git-fmt-merge-msg' mode='120755' path='/usr/bin/git' />
@@ -2285,7 +2283,7 @@
 				<Link name='git-var' mode='120755' path='/usr/bin/git' />
 				<Link name='git-diff-files' mode='120755' path='/usr/bin/git' />
 				<Link name='git-replace' mode='120755' path='/usr/bin/git' />
-				<File name='git-remote-ftp' mode='100755' size='933632' compressed='1'/>
+				<Link name='git-remote-ftp' mode='120755' path='/usr/libexec/git-core/git-remote-http' />
 				<Link name='git-verify-commit' mode='120755' path='/usr/bin/git' />
 				<File name='git-rebase--interactive' mode='100644' size='28512' compressed='1'/>
 				<Link name='git-repack' mode='120755' path='/usr/bin/git' />
@@ -2363,11 +2361,11 @@
 				<File name='git-stash' mode='100755' size='13573' compressed='1'/>
 				<File name='git-add--interactive' mode='100755' size='36943' compressed='1'/>
 				<Link name='git-fsck' mode='120755' path='/usr/bin/git' />
-				<Link name='git-remote-ftps' mode='120755' path='/usr/libexec/git-core/git-remote-ftp' />
+				<Link name='git-remote-ftps' mode='120755' path='/usr/libexec/git-core/git-remote-http' />
 				<File name='git-rebase--merge' mode='100644' size='3809'/>
 				<Link name='git-prune' mode='120755' path='/usr/bin/git' />
 				<Link name='git-stage' mode='120755' path='/usr/bin/git' />
-				<Link name='git-remote-https' mode='120755' path='/usr/libexec/git-core/git-remote-ftp' />
+				<Link name='git-remote-https' mode='120755' path='/usr/libexec/git-core/git-remote-http' />
 				<File name='git-mergetool--lib' mode='100644' size='7572'/>
 				<Link name='git-mktree' mode='120755' path='/usr/bin/git' />
 				<Link name='git-clone' mode='120755' path='/usr/bin/git' />
@@ -2733,7 +2731,7 @@
 				<File name='CA.pl' mode='100755' size='5680'/>
 			</Dir>
 			<File name='openssl.cnf' mode='100644' size='10835' compressed='1'/>
-			<File name='ca-bundle.crt' mode='100644' size='911759' compressed='1'/>
+			<File name='ca-bundle.crt' mode='100755' size='911759' compressed='1'/>
 			<Dir name='certs' mode='40755'>
 				<File name='2c3e3f84.pem' mode='100644' size='5099'/>
 				<File name='5273a94c.pem' mode='100644' size='7719'/>

@@ -164,7 +164,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--host=or1k-linux-musl' '--prefix=/usr' 'host_alias=or1k-linux-musl'"
+        echo " '--host=or1k-linux-musl' '--prefix=/usr' '--with-ssl' '--with-ca-path=/etc/ssl/certs' 'host_alias=or1k-linux-musl'"
         ;;
 
     *)
