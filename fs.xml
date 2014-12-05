@@ -1186,6 +1186,126 @@
 					<File name='c2' mode='100644' size='256'/>
 				</Dir>
 			</Dir>
+			<Dir name='automake-1.14' mode='40755'>
+				<File name='texinfo.tex' mode='100644' size='323102' compressed='1'/>
+				<File name='config.guess' mode='100755' size='45297' compressed='1'/>
+				<File name='install-sh' mode='100755' size='13997' compressed='1'/>
+				<File name='ylwrap' mode='100755' size='6858'/>
+				<File name='tap-driver.sh' mode='100755' size='19514' compressed='1'/>
+				<File name='mdate-sh' mode='100755' size='6047'/>
+				<File name='compile' mode='100755' size='7333'/>
+				<Dir name='am' mode='40755'>
+					<File name='depend.am' mode='100644' size='1039'/>
+					<File name='lisp.am' mode='100644' size='4126'/>
+					<File name='texi-vers.am' mode='100644' size='2407'/>
+					<File name='check2.am' mode='100644' size='2195'/>
+					<File name='libtool.am' mode='100644' size='1030'/>
+					<File name='mans-vars.am' mode='100644' size='857'/>
+					<File name='texibuild.am' mode='100644' size='6327'/>
+					<File name='program.am' mode='100644' size='1231'/>
+					<File name='tags.am' mode='100644' size='5161'/>
+					<File name='dejagnu.am' mode='100644' size='3667'/>
+					<File name='header-vars.am' mode='100644' size='5591'/>
+					<File name='mans.am' mode='100644' size='6493'/>
+					<File name='libs.am' mode='100644' size='3889'/>
+					<File name='python.am' mode='100644' size='5216'/>
+					<File name='scripts.am' mode='100644' size='4713'/>
+					<File name='check.am' mode='100644' size='21963' compressed='1'/>
+					<File name='footer.am' mode='100644' size='881'/>
+					<File name='subdirs.am' mode='100644' size='2868'/>
+					<File name='install.am' mode='100644' size='3993'/>
+					<File name='clean-hdr.am' mode='100644' size='818'/>
+					<File name='configure.am' mode='100644' size='6608'/>
+					<File name='depend2.am' mode='100644' size='6091'/>
+					<File name='clean.am' mode='100644' size='2331'/>
+					<File name='progs.am' mode='100644' size='6390'/>
+					<File name='data.am' mode='100644' size='3398'/>
+					<File name='header.am' mode='100644' size='786'/>
+					<File name='remake-hdr.am' mode='100644' size='3218'/>
+					<File name='ltlib.am' mode='100644' size='4993'/>
+					<File name='java.am' mode='100644' size='2860'/>
+					<File name='ltlibrary.am' mode='100644' size='933'/>
+					<File name='texinfos.am' mode='100644' size='13437' compressed='1'/>
+					<File name='compile.am' mode='100644' size='1010'/>
+					<File name='library.am' mode='100644' size='976'/>
+					<File name='inst-vars.am' mode='100644' size='3472'/>
+					<File name='yacc.am' mode='100644' size='2404'/>
+					<File name='vala.am' mode='100644' size='768'/>
+					<File name='lang-compile.am' mode='100644' size='1197'/>
+					<File name='distdir.am' mode='100644' size='21149' compressed='1'/>
+					<File name='lex.am' mode='100644' size='1323'/>
+				</Dir>
+				<File name='test-driver' mode='100755' size='3977'/>
+				<File name='mkinstalldirs' mode='100755' size='3538'/>
+				<Dir name='Automake' mode='40755'>
+					<File name='General.pm' mode='100644' size='2193'/>
+					<File name='ItemDef.pm' mode='100644' size='2458'/>
+					<File name='Version.pm' mode='100644' size='4353'/>
+					<File name='Getopt.pm' mode='100644' size='2779'/>
+					<File name='Configure_ac.pm' mode='100644' size='3458'/>
+					<File name='Location.pm' mode='100644' size='5983'/>
+					<File name='Channels.pm' mode='100644' size='20955' compressed='1'/>
+					<File name='Options.pm' mode='100644' size='11948' compressed='1'/>
+					<File name='XFile.pm' mode='100644' size='7945'/>
+					<File name='Wrap.pm' mode='100644' size='4215'/>
+					<File name='Condition.pm' mode='100644' size='15661' compressed='1'/>
+					<File name='RuleDef.pm' mode='100644' size='2762'/>
+					<File name='DisjConditions.pm' mode='100644' size='14791' compressed='1'/>
+					<File name='Variable.pm' mode='100644' size='46296' compressed='1'/>
+					<File name='Rule.pm' mode='100644' size='24639' compressed='1'/>
+					<File name='FileUtils.pm' mode='100644' size='9582'/>
+					<File name='Config.pm' mode='100644' size='1949'/>
+					<File name='ChannelDefs.pm' mode='100644' size='11241' compressed='1'/>
+					<File name='VarDef.pm' mode='100644' size='9043'/>
+					<File name='Language.pm' mode='100644' size='3288'/>
+					<File name='Item.pm' mode='100644' size='4613'/>
+				</Dir>
+				<File name='missing' mode='100755' size='6873'/>
+				<File name='config.sub' mode='100755' size='35509' compressed='1'/>
+				<File name='py-compile' mode='100755' size='4670'/>
+				<File name='INSTALL' mode='100644' size='15749' compressed='1'/>
+				<File name='COPYING' mode='100644' size='35147' compressed='1'/>
+				<File name='depcomp' mode='100755' size='23566' compressed='1'/>
+				<File name='tap-driver.pl' mode='100755' size='15285' compressed='1'/>
+				<File name='ar-lib' mode='100755' size='5826'/>
+			</Dir>
+			<Dir name='aclocal-1.14' mode='40755'>
+				<Dir name='internal' mode='40755'>
+					<File name='ac-config-macro-dirs.m4' mode='100644' size='667'/>
+				</Dir>
+				<File name='lead-dot.m4' mode='100644' size='641'/>
+				<File name='obsolete.m4' mode='100644' size='1008'/>
+				<File name='install-sh.m4' mode='100644' size='677'/>
+				<File name='maintainer.m4' mode='100644' size='1656'/>
+				<File name='as.m4' mode='100644' size='767'/>
+				<File name='cond.m4' mode='100644' size='1036'/>
+				<File name='options.m4' mode='100644' size='1090'/>
+				<File name='tar.m4' mode='100644' size='4471'/>
+				<File name='cond-if.m4' mode='100644' size='1030'/>
+				<File name='missing.m4' mode='100644' size='1155'/>
+				<File name='amversion.m4' mode='100644' size='1613'/>
+				<File name='depout.m4' mode='100644' size='2998'/>
+				<File name='vala.m4' mode='100644' size='1655'/>
+				<File name='auxdir.m4' mode='100644' size='2430'/>
+				<File name='mkdirp.m4' mode='100644' size='1349'/>
+				<File name='runlog.m4' mode='100644' size='718'/>
+				<File name='lispdir.m4' mode='100644' size='2152'/>
+				<File name='init.m4' mode='100644' size='7790'/>
+				<File name='gcj.m4' mode='100644' size='649'/>
+				<File name='make.m4' mode='100644' size='1335'/>
+				<File name='extra-recurs.m4' mode='100644' size='738'/>
+				<File name='python.m4' mode='100644' size='9082'/>
+				<File name='sanity.m4' mode='100644' size='2646'/>
+				<File name='ar-lib.m4' mode='100644' size='2066'/>
+				<File name='dmalloc.m4' mode='100644' size='906'/>
+				<File name='depend.m4' mode='100644' size='7281'/>
+				<File name='silent.m4' mode='100644' size='1911'/>
+				<File name='substnot.m4' mode='100644' size='675'/>
+				<File name='prog-cc-c-o.m4' mode='100644' size='1691'/>
+				<File name='strip.m4' mode='100644' size='1392'/>
+				<File name='lex.m4' mode='100644' size='689'/>
+				<File name='upc.m4' mode='100644' size='836'/>
+			</Dir>
 		</Dir>
 		<Dir name='bin' mode='40755'>
 			<File name='df_cpuload' mode='104755' size='8920' compressed='1'/>
@@ -1446,6 +1566,11 @@
 			<File name='aainfo' mode='100755' size='84540' compressed='1'/>
 			<File name='bb' mode='100755' size='602684' compressed='1'/>
 			<File name='event_rpcgen.py' mode='100755' size='55455' compressed='1'/>
+			<File name='automake' mode='100755' size='253261' compressed='1'/>
+			<File name='aclocal' mode='100755' size='36795' compressed='1'/>
+			<Link name='automake-1.14' mode='120755' path='/usr/bin/automake' />
+			<Link name='aclocal-1.14' mode='120755' path='/usr/bin/aclocal' />
+			<File name='perl' mode='100755' size='3213480' compressed='1'/>
 			<File name='tmux' mode='100755' size='565840' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
@@ -2191,6 +2316,96 @@
 			<Link name='libevent_pthreads-2.0.so.5' mode='120777' path='libevent_pthreads-2.0.so.5.1.7' />
 			<Link name='libevent_openssl.so' mode='120777' path='libevent_openssl-2.0.so.5.1.7' />
 			<Link name='libevent_pthreads.so' mode='120777' path='libevent_pthreads-2.0.so.5.1.7' />
+			<Dir name='perl5' mode='40755'>
+				<Dir name='5.20.1' mode='40755'>
+					<File name='DynaLoader.pm' mode='100444' size='25590' compressed='1'/>
+					<Dir name='Tie' mode='40755'>
+						<File name='Hash.pm' mode='100444' size='7639'/>
+					</Dir>
+					<Dir name='or1k-musl' mode='40755'>
+						<File name='attributes.pm' mode='100444' size='16336' compressed='1'/>
+						<File name='Errno.pm' mode='100444' size='6441'/>
+						<File name='Fcntl.pm' mode='100444' size='3924'/>
+						<File name='IO.pm' mode='100444' size='1397'/>
+						<Dir name='IO' mode='40755'>
+							<File name='File.pm' mode='100444' size='4902'/>
+							<File name='Handle.pm' mode='100444' size='17178' compressed='1'/>
+							<File name='Seekable.pm' mode='100444' size='2935'/>
+						</Dir>
+						<Dir name='auto' mode='40755'>
+							<Dir name='Fcntl' mode='40755'>
+								<File name='Fcntl.so' mode='100555' size='24796' compressed='1'/>
+							</Dir>
+							<Dir name='attributes' mode='40755'>
+								<File name='attributes.so' mode='100555' size='21360' compressed='1'/>
+							</Dir>
+							<Dir name='List' mode='40755'>
+								<Dir name='Util' mode='40755'>
+									<File name='Util.so' mode='100555' size='76876' compressed='1'/>
+								</Dir>
+							</Dir>
+							<Dir name='threads' mode='40755'>
+								<Dir name='shared' mode='40755'>
+									<File name='shared.so' mode='100555' size='13764' compressed='1'/>
+								</Dir>
+								<File name='threads.so' mode='100555' size='13760' compressed='1'/>
+							</Dir>
+							<Dir name='IO' mode='40755'>
+								<File name='IO.so' mode='100555' size='39364' compressed='1'/>
+							</Dir>
+							<Dir name='POSIX' mode='40755'>
+								<File name='POSIX.so' mode='100555' size='121096' compressed='1'/>
+							</Dir>
+							<Dir name='Data' mode='40755'>
+								<Dir name='Dumper' mode='40755'>
+									<File name='Dumper.so' mode='100555' size='52604' compressed='1'/>
+								</Dir>
+							</Dir>
+						</Dir>
+						<File name='Config.pm' mode='100444' size='3151'/>
+						<Dir name='Data' mode='40755'>
+							<File name='Dumper.pm' mode='100444' size='43263' compressed='1'/>
+						</Dir>
+						<File name='POSIX.pm' mode='100444' size='16839' compressed='1'/>
+						<Dir name='File' mode='40755'>
+							<Dir name='Spec' mode='40755'>
+								<File name='Unix.pm' mode='100444' size='16287' compressed='1'/>
+							</Dir>
+							<File name='Spec.pm' mode='100444' size='10490' compressed='1'/>
+						</Dir>
+					</Dir>
+					<Dir name='Getopt' mode='40755'>
+						<File name='Long.pm' mode='100444' size='80654' compressed='1'/>
+					</Dir>
+					<File name='overloading.pm' mode='100444' size='1808'/>
+					<File name='Symbol.pm' mode='100444' size='4794'/>
+					<File name='XSLoader.pm' mode='100444' size='10234'/>
+					<Dir name='Exporter' mode='40755'>
+						<File name='Heavy.pm' mode='100444' size='6551'/>
+					</Dir>
+					<File name='Carp.pm' mode='100444' size='28465' compressed='1'/>
+					<File name='warnings.pm' mode='100444' size='39427' compressed='1'/>
+					<File name='Exporter.pm' mode='100444' size='18745' compressed='1'/>
+					<File name='constant.pm' mode='100444' size='14325' compressed='1'/>
+					<File name='strict.pm' mode='100444' size='3925'/>
+					<File name='vars.pm' mode='100444' size='2414'/>
+					<File name='overload.pm' mode='100444' size='52648' compressed='1'/>
+					<File name='bytes.pm' mode='100444' size='3033'/>
+					<Dir name='Class' mode='40755'>
+						<File name='Struct.pm' mode='100444' size='20318' compressed='1'/>
+					</Dir>
+					<File name='SelectSaver.pm' mode='100444' size='1076'/>
+					<Dir name='File' mode='40755'>
+						<File name='Compare.pm' mode='100444' size='4332'/>
+						<File name='Basename.pm' mode='100444' size='11194' compressed='1'/>
+						<File name='stat.pm' mode='100444' size='10078'/>
+						<File name='Copy.pm' mode='100444' size='15714' compressed='1'/>
+					</Dir>
+					<Dir name='warnings' mode='40755'>
+						<File name='register.pm' mode='100444' size='753'/>
+					</Dir>
+				</Dir>
+			</Dir>
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
@@ -2695,6 +2910,7 @@
 			<File name='sshd' mode='104755' size='858760' compressed='1'/>
 			<File name='alsaconf' mode='100755' size='35459' compressed='1'/>
 			<File name='alsactl' mode='100755' size='102708' compressed='1'/>
+			<Link name='perl' mode='120777' path='/usr/bin/perl' />
 		</Dir>
 	</Dir>
 	<Dir name='etc' mode='40755'>
