@@ -218,13 +218,6 @@
 			<Dir name='lua' mode='40755'>
 				<Dir name='5.2' mode='40755'></Dir>
 			</Dir>
-			<Dir name='pixmaps' mode='40755'>
-				<File name='scummvm.xpm' mode='100644' size='2406'/>
-				<File name='xterm-color_48x48.xpm' mode='100644' size='2710'/>
-				<File name='xterm_32x32.xpm' mode='100644' size='2110'/>
-				<File name='xterm_48x48.xpm' mode='100644' size='2586'/>
-				<File name='xterm-color_32x32.xpm' mode='100644' size='1381'/>
-			</Dir>
 			<Dir name='scummvm' mode='40755'>
 				<File name='scummmodern.zip' mode='100644' size='1462338'/>
 				<File name='scummclassic.zip' mode='100644' size='104059'/>
@@ -967,6 +960,12 @@
 					</Dir>
 				</Dir>
 			</Dir>
+			<Dir name='pixmaps' mode='40755'>
+				<File name='xterm-color_48x48.xpm' mode='100644' size='2710'/>
+				<File name='xterm_32x32.xpm' mode='100644' size='2110'/>
+				<File name='xterm_48x48.xpm' mode='100644' size='2586'/>
+				<File name='xterm-color_32x32.xpm' mode='100644' size='1381'/>
+			</Dir>
 			<Dir name='wayland' mode='40755'>
 				<File name='wayland.xml' mode='100644' size='84394' compressed='1'/>
 				<File name='wayland-scanner.mk' mode='100644' size='304'/>
@@ -1421,7 +1420,7 @@
 			<File name='prboom' mode='104755' size='914248' compressed='1'/>
 			<File name='lua' mode='100755' size='252548' compressed='1'/>
 			<File name='luac' mode='100755' size='185140' compressed='1'/>
-			<File name='scummvm' mode='104755' size='3735364' compressed='1'/>
+			<File name='scummvm' mode='104755' size='2912044' compressed='1'/>
 			<File name='lynx' mode='100755' size='1540128' compressed='1'/>
 			<File name='strace' mode='100755' size='381096' compressed='1'/>
 			<File name='strace-log-merge' mode='100755' size='944'/>
@@ -1570,6 +1569,7 @@
 			<File name='aclocal' mode='100755' size='36795' compressed='1'/>
 			<Link name='automake-1.14' mode='120755' path='/usr/bin/automake' />
 			<Link name='aclocal-1.14' mode='120755' path='/usr/bin/aclocal' />
+			<File name='m4' mode='100755' size='283188' compressed='1'/>
 			<File name='perl' mode='100755' size='3213480' compressed='1'/>
 			<File name='tmux' mode='100755' size='565840' compressed='1'/>
 		</Dir>
@@ -2316,6 +2316,7 @@
 			<Link name='libevent_pthreads-2.0.so.5' mode='120777' path='libevent_pthreads-2.0.so.5.1.7' />
 			<Link name='libevent_openssl.so' mode='120777' path='libevent_openssl-2.0.so.5.1.7' />
 			<Link name='libevent_pthreads.so' mode='120777' path='libevent_pthreads-2.0.so.5.1.7' />
+			<File name='charset.alias' mode='100644' size='215'/>
 			<Dir name='perl5' mode='40755'>
 				<Dir name='5.20.1' mode='40755'>
 					<File name='DynaLoader.pm' mode='100444' size='25590' compressed='1'/>
@@ -2323,6 +2324,7 @@
 						<File name='Hash.pm' mode='100444' size='7639'/>
 					</Dir>
 					<Dir name='or1k-musl' mode='40755'>
+						<File name='Cwd.pm' mode='100444' size='22471' compressed='1'/>
 						<File name='attributes.pm' mode='100444' size='16336' compressed='1'/>
 						<File name='Errno.pm' mode='100444' size='6441'/>
 						<File name='Fcntl.pm' mode='100444' size='3924'/>
@@ -2335,6 +2337,9 @@
 						<Dir name='auto' mode='40755'>
 							<Dir name='Fcntl' mode='40755'>
 								<File name='Fcntl.so' mode='100555' size='24796' compressed='1'/>
+							</Dir>
+							<Dir name='Cwd' mode='40755'>
+								<File name='Cwd.so' mode='100555' size='27380' compressed='1'/>
 							</Dir>
 							<Dir name='attributes' mode='40755'>
 								<File name='attributes.so' mode='100555' size='21360' compressed='1'/>
@@ -2379,6 +2384,9 @@
 					</Dir>
 					<File name='overloading.pm' mode='100444' size='1808'/>
 					<File name='Symbol.pm' mode='100444' size='4794'/>
+					<Dir name='Text' mode='40755'>
+						<File name='ParseWords.pm' mode='100444' size='7982'/>
+					</Dir>
 					<File name='XSLoader.pm' mode='100444' size='10234'/>
 					<Dir name='Exporter' mode='40755'>
 						<File name='Heavy.pm' mode='100444' size='6551'/>
@@ -2399,6 +2407,7 @@
 						<File name='Compare.pm' mode='100444' size='4332'/>
 						<File name='Basename.pm' mode='100444' size='11194' compressed='1'/>
 						<File name='stat.pm' mode='100444' size='10078'/>
+						<File name='Path.pm' mode='100444' size='33187' compressed='1'/>
 						<File name='Copy.pm' mode='100444' size='15714' compressed='1'/>
 					</Dir>
 					<Dir name='warnings' mode='40755'>
@@ -2910,6 +2919,7 @@
 			<File name='sshd' mode='104755' size='858760' compressed='1'/>
 			<File name='alsaconf' mode='100755' size='35459' compressed='1'/>
 			<File name='alsactl' mode='100755' size='102708' compressed='1'/>
+			<Link name='m4' mode='120777' path='/usr/bin/m4' />
 			<Link name='perl' mode='120777' path='/usr/bin/perl' />
 		</Dir>
 	</Dir>
