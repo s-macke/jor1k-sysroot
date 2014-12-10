@@ -51,8 +51,7 @@ CAIROFLAGS=""
 
 # Check for local invocation, and update paths accordingly...
 if test -f "$selfdir/FL/Fl_Window.H"; then
-	#bindir="$selfdir/fluid"
-	bindir=""
+	bindir="$selfdir/fluid"
 	includedir="$selfdir"
 	libdir="$selfdir/lib"
 
