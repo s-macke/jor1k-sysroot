@@ -1572,6 +1572,13 @@
 			<File name='ruby' mode='100755' size='3496' compressed='1'/>
 			<File name='irb' mode='100755' size='186'/>
 			<File name='php' mode='100755' size='3833664' compressed='1'/>
+			<File name='flisp' mode='100755' size='215492' compressed='1'/>
+			<File name='flisp.boot' mode='100644' size='39690' compressed='1'/>
+			<Link name='python' mode='120777' path='python2' />
+			<File name='python2.7' mode='100755' size='2984' compressed='1'/>
+			<Link name='python2' mode='120777' path='python2.7' />
+			<File name='tclsh8.6' mode='100755' size='3820' compressed='1'/>
+			<Link name='tclsh' mode='120777' path='tclsh8.6' />
 			<File name='tmux' mode='100755' size='565840' compressed='1'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
@@ -2722,6 +2729,159 @@
 			<File name='libruby.so.2.1' mode='100755' size='2961824' compressed='1'/>
 			<Link name='libruby.so' mode='120755' path='/usr/lib/libruby.so.2.1' />
 			<Link name='libruby.so.2.1.0' mode='120755' path='/usr/lib/libruby.so.2.1' />
+			<Link name='libpython2.7.so' mode='120777' path='libpython2.7.so.1.0' />
+			<Dir name='python2.7' mode='40755'>
+				<File name='antigravity.py' mode='100644' size='60'/>
+				<File name='tabnanny.py' mode='100755' size='11336' compressed='1'/>
+				<File name='sunaudio.py' mode='100644' size='1399'/>
+				<File name='wsgiref.egg-info' mode='100644' size='187'/>
+				<Dir name='lib-tk' mode='40755'></Dir>
+				<File name='re.py' mode='100644' size='13070' compressed='1'/>
+				<File name='types.py' mode='100644' size='2040'/>
+				<File name='struct.py' mode='100644' size='82'/>
+				<File name='pyclbr.py' mode='100644' size='13388' compressed='1'/>
+				<File name='cookielib.py' mode='100644' size='64449' compressed='1'/>
+				<File name='_weakrefset.py' mode='100644' size='5911'/>
+				<File name='profile.py' mode='100755' size='22782' compressed='1'/>
+				<File name='rlcompleter.py' mode='100644' size='5816'/>
+				<File name='sre_parse.py' mode='100644' size='27460' compressed='1'/>
+				<File name='traceback.py' mode='100644' size='11285' compressed='1'/>
+				<File name='pipes.py' mode='100644' size='9582'/>
+				<File name='__phello__.foo.py' mode='100644' size='64'/>
+				<File name='asyncore.py' mode='100644' size='20847' compressed='1'/>
+				<File name='symtable.py' mode='100644' size='7437'/>
+				<File name='glob.py' mode='100644' size='2928'/>
+				<File name='cgi.py' mode='100755' size='34826' compressed='1'/>
+				<File name='pdb.doc' mode='100644' size='7913'/>
+				<File name='posixpath.py' mode='100644' size='14088' compressed='1'/>
+				<File name='_pyio.py' mode='100644' size='69040' compressed='1'/>
+				<File name='_abcoll.py' mode='100644' size='17876' compressed='1'/>
+				<File name='toaiff.py' mode='100644' size='3142'/>
+				<File name='copy.py' mode='100644' size='11519' compressed='1'/>
+				<File name='subprocess.py' mode='100644' size='59046' compressed='1'/>
+				<File name='socket.py' mode='100644' size='20512' compressed='1'/>
+				<File name='sre_constants.py' mode='100644' size='7197'/>
+				<File name='popen2.py' mode='100644' size='8416'/>
+				<File name='linecache.py' mode='100644' size='3964'/>
+				<File name='pkgutil.py' mode='100644' size='20346' compressed='1'/>
+				<File name='weakref.py' mode='100644' size='12961' compressed='1'/>
+				<File name='pprint.py' mode='100644' size='11777' compressed='1'/>
+				<File name='_sysconfigdata.py' mode='100644' size='14944' compressed='1'/>
+				<File name='statvfs.py' mode='100644' size='898'/>
+				<File name='timeit.py' mode='100755' size='12101' compressed='1'/>
+				<File name='tokenize.py' mode='100644' size='16868' compressed='1'/>
+				<File name='runpy.py' mode='100644' size='10698' compressed='1'/>
+				<File name='sysconfig.py' mode='100644' size='22384' compressed='1'/>
+				<File name='codecs.py' mode='100644' size='35172' compressed='1'/>
+				<File name='sndhdr.py' mode='100644' size='5973'/>
+				<File name='code.py' mode='100644' size='10189'/>
+				<File name='smtpd.py' mode='100755' size='18543' compressed='1'/>
+				<File name='calendar.py' mode='100644' size='23305' compressed='1'/>
+				<File name='threading.py' mode='100644' size='47210' compressed='1'/>
+				<File name='colorsys.py' mode='100644' size='3691'/>
+				<File name='getpass.py' mode='100644' size='5563'/>
+				<File name='textwrap.py' mode='100644' size='17037' compressed='1'/>
+				<File name='pickletools.py' mode='100644' size='74541' compressed='1'/>
+				<File name='platform.py' mode='100755' size='53554' compressed='1'/>
+				<File name='sre_compile.py' mode='100644' size='16357' compressed='1'/>
+				<Dir name='plat-linux2' mode='40755'></Dir>
+				<File name='sre.py' mode='100644' size='384'/>
+				<File name='getopt.py' mode='100644' size='7318'/>
+				<File name='gzip.py' mode='100644' size='18694' compressed='1'/>
+				<File name='pstats.py' mode='100644' size='26711' compressed='1'/>
+				<File name='ssl.py' mode='100644' size='16442' compressed='1'/>
+				<File name='abc.py' mode='100644' size='7145'/>
+				<File name='UserString.py' mode='100755' size='9687'/>
+				<File name='this.py' mode='100644' size='1002'/>
+				<File name='os2emxpath.py' mode='100644' size='4603'/>
+				<File name='telnetlib.py' mode='100644' size='27027' compressed='1'/>
+				<File name='_MozillaCookieJar.py' mode='100644' size='5797'/>
+				<File name='compileall.py' mode='100644' size='7763'/>
+				<File name='posixfile.py' mode='100644' size='8003'/>
+				<File name='poplib.py' mode='100644' size='12387' compressed='1'/>
+				<File name='wave.py' mode='100644' size='18571' compressed='1'/>
+				<File name='webbrowser.py' mode='100755' size='22724' compressed='1'/>
+				<File name='shlex.py' mode='100644' size='11137' compressed='1'/>
+				<File name='anydbm.py' mode='100644' size='2663'/>
+				<File name='repr.py' mode='100644' size='4296'/>
+				<File name='sched.py' mode='100644' size='5088'/>
+				<File name='copy_reg.py' mode='100644' size='6800'/>
+				<File name='UserList.py' mode='100644' size='3644'/>
+				<File name='pdb.py' mode='100755' size='46013' compressed='1'/>
+				<File name='audiodev.py' mode='100644' size='7597'/>
+				<File name='collections.py' mode='100644' size='26009' compressed='1'/>
+				<File name='sets.py' mode='100644' size='19050' compressed='1'/>
+				<File name='token.py' mode='100644' size='2922'/>
+				<File name='rexec.py' mode='100644' size='20148' compressed='1'/>
+				<File name='string.py' mode='100644' size='20756' compressed='1'/>
+				<File name='__future__.py' mode='100644' size='4380'/>
+				<File name='tty.py' mode='100644' size='879'/>
+				<File name='UserDict.py' mode='100644' size='5811'/>
+				<File name='stringprep.py' mode='100644' size='13522' compressed='1'/>
+				<File name='opcode.py' mode='100644' size='5474'/>
+				<File name='chunk.py' mode='100644' size='5372'/>
+				<File name='tempfile.py' mode='100644' size='18669' compressed='1'/>
+				<File name='sha.py' mode='100644' size='393'/>
+				<File name='LICENSE.txt' mode='100644' size='12755' compressed='1'/>
+				<File name='codeop.py' mode='100644' size='5999'/>
+				<File name='py_compile.py' mode='100644' size='5927'/>
+				<File name='os.py' mode='100644' size='25769' compressed='1'/>
+				<File name='tarfile.py' mode='100644' size='89202' compressed='1'/>
+				<File name='whichdb.py' mode='100644' size='3379'/>
+				<File name='commands.py' mode='100644' size='2545'/>
+				<File name='_threading_local.py' mode='100644' size='7456'/>
+				<File name='_strptime.py' mode='100644' size='20221' compressed='1'/>
+				<File name='csv.py' mode='100644' size='16708' compressed='1'/>
+				<File name='pickle.py' mode='100644' size='45163' compressed='1'/>
+				<File name='gettext.py' mode='100644' size='19859' compressed='1'/>
+				<File name='aifc.py' mode='100644' size='34231' compressed='1'/>
+				<File name='stat.py' mode='100644' size='1842'/>
+				<File name='asynchat.py' mode='100644' size='11402' compressed='1'/>
+				<File name='cmd.py' mode='100644' size='15026' compressed='1'/>
+				<File name='trace.py' mode='100755' size='29890' compressed='1'/>
+				<File name='locale.py' mode='100644' size='92583' compressed='1'/>
+				<File name='sgmllib.py' mode='100644' size='17884' compressed='1'/>
+				<File name='contextlib.py' mode='100644' size='4424'/>
+				<File name='sunau.py' mode='100644' size='17222' compressed='1'/>
+				<File name='_osx_support.py' mode='100644' size='18836' compressed='1'/>
+				<File name='pydoc.py' mode='100755' size='94757' compressed='1'/>
+				<File name='rfc822.py' mode='100644' size='33295' compressed='1'/>
+				<File name='smtplib.py' mode='100755' size='31304' compressed='1'/>
+				<File name='pty.py' mode='100644' size='5058'/>
+				<File name='shelve.py' mode='100644' size='8078'/>
+				<File name='cgitb.py' mode='100644' size='12180' compressed='1'/>
+				<File name='genericpath.py' mode='100644' size='3014'/>
+				<File name='symbol.py' mode='100755' size='2058'/>
+				<File name='site.py' mode='100644' size='19609' compressed='1'/>
+				<File name='shutil.py' mode='100644' size='18481' compressed='1'/>
+				<File name='random.py' mode='100644' size='32249' compressed='1'/>
+				<Dir name='lib-dynload' mode='40755'></Dir>
+				<File name='warnings.py' mode='100644' size='14044' compressed='1'/>
+				<File name='_LWPCookieJar.py' mode='100644' size='6555'/>
+				<File name='stringold.py' mode='100644' size='12449' compressed='1'/>
+				<File name='argparse.py' mode='100644' size='88691' compressed='1'/>
+				<File name='atexit.py' mode='100644' size='1705'/>
+				<File name='cProfile.py' mode='100755' size='6515'/>
+				<File name='plistlib.py' mode='100644' size='15185' compressed='1'/>
+				<File name='robotparser.py' mode='100644' size='7588'/>
+				<File name='optparse.py' mode='100644' size='61205' compressed='1'/>
+				<File name='ast.py' mode='100644' size='11805' compressed='1'/>
+			</Dir>
+			<File name='libpython2.7.so.1.0' mode='100555' size='2036104' compressed='1'/>
+			<Dir name='tcl8.6' mode='40755'>
+				<File name='safe.tcl' mode='100644' size='33447' compressed='1'/>
+				<File name='parray.tcl' mode='100644' size='816'/>
+				<File name='word.tcl' mode='100644' size='4674'/>
+				<File name='auto.tcl' mode='100644' size='21317' compressed='1'/>
+				<File name='tclIndex' mode='100644' size='5415'/>
+				<File name='tclAppInit.c' mode='100644' size='4511'/>
+				<File name='history.tcl' mode='100644' size='7328'/>
+				<File name='clock.tcl' mode='100644' size='129701' compressed='1'/>
+				<File name='init.tcl' mode='100644' size='24396' compressed='1'/>
+				<File name='package.tcl' mode='100644' size='22964' compressed='1'/>
+				<File name='tm.tcl' mode='100644' size='11626' compressed='1'/>
+			</Dir>
+			<File name='libtcl8.6.so' mode='100555' size='1971212' compressed='1'/>
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
