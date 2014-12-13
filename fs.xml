@@ -2741,21 +2741,21 @@
 				<File name='struct.py' mode='100644' size='82'/>
 				<File name='pyclbr.py' mode='100644' size='13388' compressed='1'/>
 				<File name='cookielib.py' mode='100644' size='64449' compressed='1'/>
-				<File name='_weakrefset.py' mode='100644' size='5911'/>
+				<File name='_weakrefset.py' mode='100644' size='5911' src='usr/lib/python2.7/weakrefset.py'/>
 				<File name='profile.py' mode='100755' size='22782' compressed='1'/>
 				<File name='rlcompleter.py' mode='100644' size='5816'/>
 				<File name='sre_parse.py' mode='100644' size='27460' compressed='1'/>
 				<File name='traceback.py' mode='100644' size='11285' compressed='1'/>
 				<File name='pipes.py' mode='100644' size='9582'/>
-				<File name='__phello__.foo.py' mode='100644' size='64'/>
+				<File name='__phello__.foo.py' mode='100644' size='64' src='usr/lib/python2.7/_phello__.foo.py'/>
 				<File name='asyncore.py' mode='100644' size='20847' compressed='1'/>
 				<File name='symtable.py' mode='100644' size='7437'/>
 				<File name='glob.py' mode='100644' size='2928'/>
 				<File name='cgi.py' mode='100755' size='34826' compressed='1'/>
 				<File name='pdb.doc' mode='100644' size='7913'/>
 				<File name='posixpath.py' mode='100644' size='14088' compressed='1'/>
-				<File name='_pyio.py' mode='100644' size='69040' compressed='1'/>
-				<File name='_abcoll.py' mode='100644' size='17876' compressed='1'/>
+				<File name='_pyio.py' mode='100644' size='69040' compressed='1' src='usr/lib/python2.7/pyio.py'/>
+				<File name='_abcoll.py' mode='100644' size='17876' compressed='1' src='usr/lib/python2.7/abcoll.py'/>
 				<File name='toaiff.py' mode='100644' size='3142'/>
 				<File name='copy.py' mode='100644' size='11519' compressed='1'/>
 				<File name='subprocess.py' mode='100644' size='59046' compressed='1'/>
@@ -2766,7 +2766,7 @@
 				<File name='pkgutil.py' mode='100644' size='20346' compressed='1'/>
 				<File name='weakref.py' mode='100644' size='12961' compressed='1'/>
 				<File name='pprint.py' mode='100644' size='11777' compressed='1'/>
-				<File name='_sysconfigdata.py' mode='100644' size='14944' compressed='1'/>
+				<File name='_sysconfigdata.py' mode='100644' size='14944' compressed='1' src='usr/lib/python2.7/sysconfigdata.py'/>
 				<File name='statvfs.py' mode='100644' size='898'/>
 				<File name='timeit.py' mode='100755' size='12101' compressed='1'/>
 				<File name='tokenize.py' mode='100644' size='16868' compressed='1'/>
@@ -2795,7 +2795,7 @@
 				<File name='this.py' mode='100644' size='1002'/>
 				<File name='os2emxpath.py' mode='100644' size='4603'/>
 				<File name='telnetlib.py' mode='100644' size='27027' compressed='1'/>
-				<File name='_MozillaCookieJar.py' mode='100644' size='5797'/>
+				<File name='_MozillaCookieJar.py' mode='100644' size='5797' src='usr/lib/python2.7/MozillaCookieJar.py'/>
 				<File name='compileall.py' mode='100644' size='7763'/>
 				<File name='posixfile.py' mode='100644' size='8003'/>
 				<File name='poplib.py' mode='100644' size='12387' compressed='1'/>
@@ -2814,7 +2814,7 @@
 				<File name='token.py' mode='100644' size='2922'/>
 				<File name='rexec.py' mode='100644' size='20148' compressed='1'/>
 				<File name='string.py' mode='100644' size='20756' compressed='1'/>
-				<File name='__future__.py' mode='100644' size='4380'/>
+				<File name='__future__.py' mode='100644' size='4380' src='usr/lib/python2.7/_future__.py'/>
 				<File name='tty.py' mode='100644' size='879'/>
 				<File name='UserDict.py' mode='100644' size='5811'/>
 				<File name='stringprep.py' mode='100644' size='13522' compressed='1'/>
@@ -2829,8 +2829,8 @@
 				<File name='tarfile.py' mode='100644' size='89202' compressed='1'/>
 				<File name='whichdb.py' mode='100644' size='3379'/>
 				<File name='commands.py' mode='100644' size='2545'/>
-				<File name='_threading_local.py' mode='100644' size='7456'/>
-				<File name='_strptime.py' mode='100644' size='20221' compressed='1'/>
+				<File name='_threading_local.py' mode='100644' size='7456' src='usr/lib/python2.7/threading_local.py'/>
+				<File name='_strptime.py' mode='100644' size='20221' compressed='1' src='usr/lib/python2.7/strptime.py'/>
 				<File name='csv.py' mode='100644' size='16708' compressed='1'/>
 				<File name='pickle.py' mode='100644' size='45163' compressed='1'/>
 				<File name='gettext.py' mode='100644' size='19859' compressed='1'/>
@@ -2843,7 +2843,7 @@
 				<File name='sgmllib.py' mode='100644' size='17884' compressed='1'/>
 				<File name='contextlib.py' mode='100644' size='4424'/>
 				<File name='sunau.py' mode='100644' size='17222' compressed='1'/>
-				<File name='_osx_support.py' mode='100644' size='18836' compressed='1'/>
+				<File name='_osx_support.py' mode='100644' size='18836' compressed='1' src='usr/lib/python2.7/osx_support.py'/>
 				<File name='pydoc.py' mode='100755' size='94757' compressed='1'/>
 				<File name='rfc822.py' mode='100644' size='33295' compressed='1'/>
 				<File name='smtplib.py' mode='100755' size='31304' compressed='1'/>
@@ -2857,7 +2857,7 @@
 				<File name='random.py' mode='100644' size='32249' compressed='1'/>
 				<Dir name='lib-dynload' mode='40755'></Dir>
 				<File name='warnings.py' mode='100644' size='14044' compressed='1'/>
-				<File name='_LWPCookieJar.py' mode='100644' size='6555'/>
+				<File name='_LWPCookieJar.py' mode='100644' size='6555' src='usr/lib/python2.7/LWPCookieJar.py'/>
 				<File name='stringold.py' mode='100644' size='12449' compressed='1'/>
 				<File name='argparse.py' mode='100644' size='88691' compressed='1'/>
 				<File name='atexit.py' mode='100644' size='1705'/>
