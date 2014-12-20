@@ -1460,6 +1460,7 @@
 			<File name='fc-cache' mode='100755' size='10668' compressed='1'/>
 			<File name='fc-validate' mode='100755' size='7320' compressed='1'/>
 			<File name='frotz' mode='100755' size='109312' compressed='1'/>
+			<File name='getconf' mode='100755' size='8900' compressed='1'/>
 			<Link name='ldd' mode='120777' path='/usr/lib/libc.so' />
 			<Link name='rnano' mode='120777' path='nano' />
 			<File name='nano' mode='100755' size='185756' compressed='1'/>
@@ -2366,6 +2367,11 @@
 									<File name='Dumper.so' mode='100555' size='52604' compressed='1'/>
 								</Dir>
 							</Dir>
+							<Dir name='File' mode='40755'>
+								<Dir name='Glob' mode='40755'>
+									<File name='Glob.so' mode='100555' size='52632' compressed='1'/>
+								</Dir>
+							</Dir>
 						</Dir>
 						<File name='Config.pm' mode='100444' size='3151'/>
 						<Dir name='Data' mode='40755'>
@@ -2377,11 +2383,13 @@
 								<File name='Unix.pm' mode='100444' size='16287' compressed='1'/>
 							</Dir>
 							<File name='Spec.pm' mode='100444' size='10490' compressed='1'/>
+							<File name='Glob.pm' mode='100444' size='12675' compressed='1'/>
 						</Dir>
 					</Dir>
 					<Dir name='Getopt' mode='40755'>
 						<File name='Long.pm' mode='100444' size='80654' compressed='1'/>
 					</Dir>
+					<File name='base.pm' mode='100444' size='7384'/>
 					<File name='overloading.pm' mode='100444' size='1808'/>
 					<File name='Symbol.pm' mode='100444' size='4794'/>
 					<Dir name='Text' mode='40755'>
@@ -2407,6 +2415,7 @@
 						<File name='Compare.pm' mode='100444' size='4332'/>
 						<File name='Basename.pm' mode='100444' size='11194' compressed='1'/>
 						<File name='stat.pm' mode='100444' size='10078'/>
+						<File name='Find.pm' mode='100444' size='33266' compressed='1'/>
 						<File name='Path.pm' mode='100444' size='33187' compressed='1'/>
 						<File name='Copy.pm' mode='100444' size='15714' compressed='1'/>
 					</Dir>
@@ -2855,7 +2864,64 @@
 				<File name='site.py' mode='100644' size='19609' compressed='1'/>
 				<File name='shutil.py' mode='100644' size='18481' compressed='1'/>
 				<File name='random.py' mode='100644' size='32249' compressed='1'/>
-				<Dir name='lib-dynload' mode='40755'></Dir>
+				<Dir name='lib-dynload' mode='40755'>
+					<File name='_functools.so' mode='100755' size='10948' compressed='1' src='usr/lib/python2.7/lib-dynload/functools.so'/>
+					<File name='_multibytecodec.so' mode='100755' size='36528' compressed='1' src='usr/lib/python2.7/lib-dynload/multibytecodec.so'/>
+					<File name='_elementtree.so' mode='100755' size='51980' compressed='1' src='usr/lib/python2.7/lib-dynload/elementtree.so'/>
+					<File name='parser.so' mode='100755' size='70924' compressed='1'/>
+					<File name='zlib.so' mode='100755' size='23940' compressed='1'/>
+					<File name='_codecs_jp.so' mode='100755' size='230252' compressed='1' src='usr/lib/python2.7/lib-dynload/codecs_jp.so'/>
+					<File name='syslog.so' mode='100755' size='8076' compressed='1'/>
+					<File name='_codecs_tw.so' mode='100755' size='96680' compressed='1' src='usr/lib/python2.7/lib-dynload/codecs_tw.so'/>
+					<File name='pyexpat.so' mode='100755' size='64268' compressed='1'/>
+					<File name='_io.so' mode='100755' size='169244' compressed='1' src='usr/lib/python2.7/lib-dynload/io.so'/>
+					<File name='audioop.so' mode='100755' size='47348' compressed='1'/>
+					<File name='cmath.so' mode='100755' size='88692' compressed='1'/>
+					<File name='_random.so' mode='100755' size='17136' compressed='1' src='usr/lib/python2.7/lib-dynload/random.so'/>
+					<File name='_multiprocessing.so' mode='100755' size='35528' compressed='1' src='usr/lib/python2.7/lib-dynload/multiprocessing.so'/>
+					<File name='grp.so' mode='100755' size='8304' compressed='1'/>
+					<File name='_bisect.so' mode='100755' size='9052' compressed='1' src='usr/lib/python2.7/lib-dynload/bisect.so'/>
+					<File name='_curses_panel.so' mode='100755' size='11912' compressed='1' src='usr/lib/python2.7/lib-dynload/curses_panel.so'/>
+					<File name='strop.so' mode='100755' size='30164' compressed='1'/>
+					<File name='_ctypes_test.so' mode='100755' size='39924' compressed='1' src='usr/lib/python2.7/lib-dynload/ctypes_test.so'/>
+					<File name='_csv.so' mode='100755' size='31812' compressed='1' src='usr/lib/python2.7/lib-dynload/csv.so'/>
+					<File name='select.so' mode='100755' size='30160' compressed='1'/>
+					<File name='_codecs_kr.so' mode='100755' size='122772' compressed='1' src='usr/lib/python2.7/lib-dynload/codecs_kr.so'/>
+					<File name='_codecs_cn.so' mode='100755' size='130196' compressed='1' src='usr/lib/python2.7/lib-dynload/codecs_cn.so'/>
+					<File name='time.so' mode='100755' size='33476' compressed='1'/>
+					<File name='_collections.so' mode='100755' size='37260' compressed='1' src='usr/lib/python2.7/lib-dynload/collections.so'/>
+					<File name='_curses.so' mode='100755' size='82404' compressed='1' src='usr/lib/python2.7/lib-dynload/curses.so'/>
+					<File name='future_builtins.so' mode='100755' size='5952' compressed='1'/>
+					<File name='datetime.so' mode='100755' size='112744' compressed='1'/>
+					<File name='resource.so' mode='100755' size='15312' compressed='1'/>
+					<File name='spwd.so' mode='100755' size='7812' compressed='1'/>
+					<File name='_lsprof.so' mode='100755' size='24212' compressed='1' src='usr/lib/python2.7/lib-dynload/lsprof.so'/>
+					<File name='binascii.so' mode='100755' size='19568' compressed='1'/>
+					<File name='_testcapi.so' mode='100755' size='44856' compressed='1' src='usr/lib/python2.7/lib-dynload/testcapi.so'/>
+					<File name='math.so' mode='100755' size='87080' compressed='1'/>
+					<File name='_socket.so' mode='100755' size='98476' compressed='1' src='usr/lib/python2.7/lib-dynload/socket.so'/>
+					<File name='crypt.so' mode='100755' size='4308' compressed='1'/>
+					<File name='_ssl.so' mode='100755' size='41588' compressed='1' src='usr/lib/python2.7/lib-dynload/ssl.so'/>
+					<File name='cStringIO.so' mode='100755' size='20672' compressed='1'/>
+					<File name='_codecs_hk.so' mode='100755' size='146924' compressed='1' src='usr/lib/python2.7/lib-dynload/codecs_hk.so'/>
+					<File name='unicodedata.so' mode='100755' size='693312' compressed='1'/>
+					<File name='_locale.so' mode='100755' size='16752' compressed='1' src='usr/lib/python2.7/lib-dynload/locale.so'/>
+					<File name='_codecs_iso2022.so' mode='100755' size='27796' compressed='1' src='usr/lib/python2.7/lib-dynload/codecs_iso2022.so'/>
+					<File name='mmap.so' mode='100755' size='21776' compressed='1'/>
+					<File name='_json.so' mode='100755' size='47788' compressed='1' src='usr/lib/python2.7/lib-dynload/json.so'/>
+					<File name='operator.so' mode='100755' size='33432' compressed='1'/>
+					<File name='_struct.so' mode='100755' size='46908' compressed='1' src='usr/lib/python2.7/lib-dynload/struct.so'/>
+					<File name='Python-2.7.8-py2.7.egg-info' mode='100644' size='1524'/>
+					<File name='termios.so' mode='100755' size='16644' compressed='1'/>
+					<File name='_heapq.so' mode='100755' size='24872' compressed='1' src='usr/lib/python2.7/lib-dynload/heapq.so'/>
+					<File name='fcntl.so' mode='100755' size='21408' compressed='1'/>
+					<File name='cPickle.so' mode='100755' size='96360' compressed='1'/>
+					<File name='_ctypes.so' mode='100755' size='129792' compressed='1' src='usr/lib/python2.7/lib-dynload/ctypes.so'/>
+					<File name='itertools.so' mode='100755' size='54132' compressed='1'/>
+					<File name='_hashlib.so' mode='100755' size='13696' compressed='1' src='usr/lib/python2.7/lib-dynload/hashlib.so'/>
+					<File name='_hotshot.so' mode='100755' size='28848' compressed='1' src='usr/lib/python2.7/lib-dynload/hotshot.so'/>
+					<File name='array.so' mode='100755' size='48232' compressed='1'/>
+				</Dir>
 				<File name='warnings.py' mode='100644' size='14044' compressed='1'/>
 				<File name='_LWPCookieJar.py' mode='100644' size='6555' src='usr/lib/python2.7/LWPCookieJar.py'/>
 				<File name='stringold.py' mode='100644' size='12449' compressed='1'/>
