@@ -2,35 +2,35 @@
 	<Dir name='usr' mode='40755'>
 		<Dir name='share' mode='40755'>
 			<Dir name='directfb-examples' mode='40755'>
-				<File name='wood_andi.jpg' mode='100644' size='62247' compressed='1'/>
+				<File name='wood_andi.jpg' mode='100644' size='62247'/>
 				<File name='joystick.png' mode='100644' size='1324'/>
-				<File name='melted.jpg' mode='100644' size='22995' compressed='1'/>
+				<File name='melted.jpg' mode='100644' size='22995'/>
 				<File name='gnome-gimp.png' mode='100644' size='3410'/>
 				<File name='destination_mask.png' mode='100644' size='466'/>
 				<File name='testmask.png' mode='100644' size='1470'/>
 				<File name='dfblogo.png' mode='100644' size='7722'/>
-				<File name='pngtest.png' mode='100644' size='37318' compressed='1'/>
+				<File name='pngtest.png' mode='100644' size='37318'/>
 				<File name='grid.gif' mode='100644' size='1854'/>
-				<File name='desktop.png' mode='100644' size='180388' compressed='1'/>
-				<File name='smokey_light.jpg' mode='100644' size='146935' compressed='1'/>
+				<File name='desktop.png' mode='100644' size='180388'/>
+				<File name='smokey_light.jpg' mode='100644' size='146935'/>
 				<File name='card.png' mode='100644' size='1471'/>
-				<File name='shot.png' mode='100644' size='32502' compressed='1'/>
-				<File name='tux.png' mode='100644' size='24656' compressed='1'/>
+				<File name='shot.png' mode='100644' size='32502'/>
+				<File name='tux.png' mode='100644' size='24656'/>
 				<File name='intro.png' mode='100644' size='9707'/>
-				<File name='melted.png' mode='100644' size='34285' compressed='1'/>
-				<File name='tux_alpha.png' mode='100644' size='25937' compressed='1'/>
+				<File name='melted.png' mode='100644' size='34285'/>
+				<File name='tux_alpha.png' mode='100644' size='25937'/>
 				<File name='convergence.png' mode='100644' size='7139'/>
 				<File name='gnu-keys.png' mode='100644' size='3852'/>
-				<File name='texture.png' mode='100644' size='57746' compressed='1'/>
+				<File name='texture.png' mode='100644' size='57746'/>
 				<File name='gnome-calendar.png' mode='100644' size='2755'/>
 				<File name='gnome-applets.png' mode='100644' size='3090'/>
 				<File name='gnome-gsame.png' mode='100644' size='4263'/>
-				<File name='fish.png' mode='100644' size='58717' compressed='1'/>
+				<File name='fish.png' mode='100644' size='58717'/>
 				<File name='melted_rgb16.dfiff' mode='100644' size='32792' compressed='1'/>
 				<File name='apple-red.png' mode='100644' size='3545'/>
 				<File name='gnome-foot.png' mode='100644' size='2916'/>
-				<File name='rose.png' mode='100644' size='263084' compressed='1'/>
-				<File name='pngtest2.png' mode='100644' size='92662' compressed='1'/>
+				<File name='rose.png' mode='100644' size='263084'/>
+				<File name='pngtest2.png' mode='100644' size='92662'/>
 				<Dir name='fonts' mode='40755'>
 					<File name='decker.ttf' mode='100644' size='37048' compressed='1'/>
 					<File name='decker.dgiff' mode='100644' size='27984' compressed='1'/>
@@ -44,12 +44,12 @@
 				</Dir>
 				<File name='gnome-mouse.png' mode='100644' size='2873'/>
 				<File name='meter.png' mode='100644' size='1228'/>
-				<File name='swirl.png' mode='100644' size='391717' compressed='1'/>
+				<File name='swirl.png' mode='100644' size='391717'/>
 				<File name='gnome-gmush.png' mode='100644' size='3244'/>
 				<File name='colorkeyed.gif' mode='100644' size='17753' compressed='1'/>
 				<File name='melted.gif' mode='100644' size='16272' compressed='1'/>
-				<File name='background.jpg' mode='100644' size='22219' compressed='1'/>
-				<File name='biglogo.png' mode='100644' size='40527' compressed='1'/>
+				<File name='background.jpg' mode='100644' size='22219'/>
+				<File name='biglogo.png' mode='100644' size='40527'/>
 			</Dir>
 			<Dir name='nbench' mode='40755'>
 				<File name='NNET.DAT' mode='100644' size='3160'/>
@@ -222,7 +222,7 @@
 				<File name='scummclassic.zip' mode='100644' size='104059'/>
 			</Dir>
 			<Dir name='directfb-1.7.6' mode='40755'>
-				<File name='cursor.png' mode='100644' size='16032' compressed='1'/>
+				<File name='cursor.png' mode='100644' size='16032'/>
 				<File name='cursor.dat' mode='100644' size='6400'/>
 				<File name='decker.ttf' mode='100644' size='37048' compressed='1'/>
 				<File name='decker.dgiff' mode='100644' size='1102400' compressed='1'/>
@@ -987,11 +987,11 @@
 				<File name='sign_close.png' mode='100644' size='235'/>
 			</Dir>
 			<Dir name='backgrounds' mode='40755'>
-				<File name='Aqua.jpg' mode='100644' size='10423' compressed='1'/>
+				<File name='Aqua.jpg' mode='100644' size='10423'/>
 			</Dir>
 			<Dir name='mplayer' mode='40755'>
-				<File name='Mandelbulb_Flight.3gp' mode='100644' size='1757312' compressed='1'/>
-				<File name='orion_1.mpg' mode='100644' size='2042028' compressed='1'/>
+				<File name='Mandelbulb_Flight.3gp' mode='100644' size='1757312'/>
+				<File name='orion_1.mpg' mode='100644' size='2042028'/>
 			</Dir>
 			<Dir name='sounds' mode='40755'>
 				<Dir name='alsa' mode='40755'>
