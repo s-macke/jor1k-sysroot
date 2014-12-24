@@ -1304,6 +1304,33 @@
 				<File name='lex.m4' mode='100644' size='689'/>
 				<File name='upc.m4' mode='100644' size='836'/>
 			</Dir>
+			<Dir name='mikmod' mode='40755'>
+				<File name='mikmodrc' mode='100644' size='9135'/>
+				<Dir name='mod' mode='40755'>
+					<File name='2ND_PM.S3M' mode='100644' size='600860' compressed='1'/>
+					<File name='GSLINGER.MOD' mode='100644' size='406354' compressed='1'/>
+					<File name='jt_911.xm' mode='100644' size='973769' compressed='1'/>
+					<File name='aryx.s3m' mode='100644' size='20800' compressed='1'/>
+					<File name='celestial_fantasia.s3m' mode='100644' size='431376' compressed='1'/>
+					<File name='aceman_-_my_first_console.xm' mode='100644' size='98487' compressed='1'/>
+					<File name='beyond_music.mod' mode='100644' size='402166' compressed='1'/>
+					<File name='ELYSIUM.MOD' mode='100644' size='130010' compressed='1'/>
+					<File name='stardstm.mod' mode='100644' size='153676' compressed='1'/>
+					<File name='eternity-1553.xm' mode='100644' size='46488' compressed='1'/>
+					<File name='strshine.s3m' mode='100644' size='299411' compressed='1'/>
+					<File name='BUTTERFL.XM' mode='100644' size='329081' compressed='1'/>
+					<File name='CTGOBLIN.S3M' mode='100644' size='481939' compressed='1'/>
+					<File name='sweetdre.xm' mode='100644' size='700313' compressed='1'/>
+					<File name='enigma.mod' mode='100644' size='187012' compressed='1'/>
+					<File name='aurora.mod' mode='100644' size='112590' compressed='1'/>
+					<File name='external.xm' mode='100644' size='51355' compressed='1'/>
+					<File name='spacedeb.mod' mode='100644' size='343608' compressed='1'/>
+					<File name='SATELL.S3M' mode='100644' size='39778' compressed='1'/>
+					<File name='jt_letgo.xm' mode='100644' size='99410' compressed='1'/>
+					<File name='DEADLOCK.XM' mode='100644' size='505489' compressed='1'/>
+				</Dir>
+				<File name='playlist.mpl' mode='100644' size='911'/>
+			</Dir>
 		</Dir>
 		<Dir name='bin' mode='40755'>
 			<File name='df_cpuload' mode='104755' size='8920' compressed='1'/>
@@ -1581,6 +1608,8 @@
 			<File name='tclsh8.6' mode='100755' size='3820' compressed='1'/>
 			<Link name='tclsh' mode='120777' path='tclsh8.6' />
 			<File name='tmux' mode='100755' size='565840' compressed='1'/>
+			<File name='mikmod' mode='100755' size='148200' compressed='1'/>
+			<File name='libmikmod-config' mode='100755' size='968'/>
 		</Dir>
 		<Dir name='lib' mode='40755'>
 			<Link name='libgomp.so' mode='120777' path='libgomp.so.1.0.0' />
@@ -2948,6 +2977,9 @@
 				<File name='tm.tcl' mode='100644' size='11626' compressed='1'/>
 			</Dir>
 			<File name='libtcl8.6.so' mode='100555' size='1971212' compressed='1'/>
+			<File name='libmikmod.so.3.3.0' mode='100755' size='292080' compressed='1'/>
+			<Link name='libmikmod.so.3' mode='120777' path='libmikmod.so.3.3.0' />
+			<Link name='libmikmod.so' mode='120777' path='libmikmod.so.3.3.0' />
 		</Dir>
 		<Dir name='libexec' mode='40755'>
 			<Dir name='gcc' mode='40755'>
@@ -3917,12 +3949,13 @@
 	</Dir>
 	<Dir name='home' mode='40755'>
 		<Dir name='user' mode='40755' uid='1000' gid='1000'>
-			<File name='.scummvmrc' mode='100644' size='313' uid='1000' gid='1000' src='home/user/scummvmrc'/>
+			<File name='.scummvmrc' mode='100644' size='312' uid='1000' gid='1000' src='home/user/scummvmrc'/>
 			<Dir name='.config' mode='40755'>
 				<File name='weston.ini' mode='100644' size='1135' src='home/user/config/weston.ini'/>
 			</Dir>
 			<Dir name='.toppler' mode='40755' uid='1000' gid='1000'></Dir>
 			<File name='.gitconfig' mode='100644' size='52' uid='1000' gid='1000' src='home/user/gitconfig'/>
+			<File name='.mikmodrc' mode='100644' size='9025' uid='1000' gid='1000' src='home/user/mikmodrc'/>
 		</Dir>
 	</Dir>
 	<Dir name='lib' mode='40755'>

@@ -3,7 +3,7 @@ lastselectedgame=monkey-vga-demo-amiga
 browser_lastpath=/
 mute=false
 versioninfo=1.6.0
-output_rate=8000
+output_rate=22050
 
 [monkey-vga-demo-amiga]
 platform=amiga
@@ -12,6 +12,4 @@ description=The Secret of Monkey Island (VGA Demo/Amiga/English)
 language=en
 path=/usr/share/games/monkey
 guioptions=sndNoSpeech lang_English
-
-
 
