@@ -2785,7 +2785,7 @@
 				<File name='sre_parse.py' mode='100644' size='27460' compressed='1'/>
 				<File name='traceback.py' mode='100644' size='11285' compressed='1'/>
 				<File name='pipes.py' mode='100644' size='9582'/>
-				<File name='__phello__.foo.py' mode='100644' size='64' src='usr/lib/python2.7/_phello__.foo.py'/>
+				<File name='__phello__.foo.py' mode='100644' size='64' src='usr/lib/python2.7/phello__.foo.py'/>
 				<File name='asyncore.py' mode='100644' size='20847' compressed='1'/>
 				<File name='symtable.py' mode='100644' size='7437'/>
 				<File name='glob.py' mode='100644' size='2928'/>
@@ -2852,7 +2852,7 @@
 				<File name='token.py' mode='100644' size='2922'/>
 				<File name='rexec.py' mode='100644' size='20148' compressed='1'/>
 				<File name='string.py' mode='100644' size='20756' compressed='1'/>
-				<File name='__future__.py' mode='100644' size='4380' src='usr/lib/python2.7/_future__.py'/>
+				<File name='__future__.py' mode='100644' size='4380' src='usr/lib/python2.7/future__.py'/>
 				<File name='tty.py' mode='100644' size='879'/>
 				<File name='UserDict.py' mode='100644' size='5811'/>
 				<File name='stringprep.py' mode='100644' size='13522' compressed='1'/>
