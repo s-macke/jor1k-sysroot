@@ -1,4 +1,4 @@
-<FS src='../jor1k-sysroot/fs'>
+<FS src='../../jor1k-sysroot/fs'>
 	<Dir name='usr' mode='40755'>
 		<Dir name='share' mode='40755'>
 			<Dir name='directfb-examples' mode='40755'>
