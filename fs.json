@@ -1330,18 +1330,6 @@
 					{ "name":"DEADLOCK.XM", "mode":"100644", "size":505489, "c":1}
 				]},
 				{ "name":"playlist.mpl", "mode":"100644", "size":911}
-			]},
-			{ "name":"themes", "mode":"40755", "child":[
-				{ "name":"Default", "mode":"40755", "child":[
-					{ "name":"gtk-2.0-key", "mode":"40755", "child":[
-						{ "name":"gtkrc", "mode":"100644", "size":82}
-					]}
-				]}
-			]},
-			{ "name":"glib-2.0", "mode":"40755", "child":[
-				{ "name":"schemas", "mode":"40755", "child":[
-					{ "name":"gschema.dtd", "mode":"100644", "size":2839}
-				]}
 			]}
 		]},
 		{ "name":"bin", "mode":"40755", "child":[
@@ -1621,30 +1609,7 @@
 			{ "name":"tclsh", "mode":"120777", "path":"tclsh8.6"},
 			{ "name":"tmux", "mode":"100755", "size":565840, "c":1},
 			{ "name":"mikmod", "mode":"100755", "size":148200, "c":1},
-			{ "name":"libmikmod-config", "mode":"100755", "size":968},
-			{ "name":"gtk-update-icon-cache", "mode":"100755", "size":26524, "c":1},
-			{ "name":"xzgv", "mode":"100755", "size":164256, "c":1},
-			{ "name":"gtk-demo", "mode":"100755", "size":196532, "c":1},
-			{ "name":"gtk-builder-convert", "mode":"100755", "size":29059, "c":1},
-			{ "name":"gtk-query-immodules-2.0", "mode":"100755", "size":8816, "c":1},
-			{ "name":"gdk-pixbuf-query-loaders", "mode":"100755", "size":7928, "c":1},
-			{ "name":"gdk-pixbuf-csource", "mode":"100755", "size":7596, "c":1},
-			{ "name":"gdk-pixbuf-pixdata", "mode":"100755", "size":5796, "c":1},
-			{ "name":"pango-querymodules", "mode":"100755", "size":8528, "c":1},
-			{ "name":"pango-view", "mode":"100755", "size":57872, "c":1},
-			{ "name":"gio-querymodules", "mode":"100755", "size":6028, "c":1},
-			{ "name":"glib-compile-resources", "mode":"100755", "size":30564, "c":1},
-			{ "name":"glib-compile-schemas", "mode":"100755", "size":38080, "c":1},
-			{ "name":"gdbus", "mode":"100755", "size":31644, "c":1},
-			{ "name":"gobject-query", "mode":"100755", "size":6524, "c":1},
-			{ "name":"glib-genmarshal", "mode":"100755", "size":26936, "c":1},
-			{ "name":"glib-gettextize", "mode":"100755", "size":5380},
-			{ "name":"gtester", "mode":"100755", "size":19616, "c":1},
-			{ "name":"gresource", "mode":"100755", "size":69104, "c":1},
-			{ "name":"gapplication", "mode":"100755", "size":12436, "c":1},
-			{ "name":"gsettings", "mode":"100755", "size":18428, "c":1},
-			{ "name":"glib-mkenums", "mode":"100755", "size":17969, "c":1},
-			{ "name":"gtester-report", "mode":"100755", "size":18666, "c":1}
+			{ "name":"libmikmod-config", "mode":"100755", "size":968}
 		]},
 		{ "name":"lib", "mode":"40755", "child":[
 			{ "name":"libgomp.so", "mode":"120777", "path":"libgomp.so.1.0.0"},
@@ -3014,119 +2979,7 @@
 			{ "name":"libtcl8.6.so", "mode":"100555", "size":1971212, "c":1},
 			{ "name":"libmikmod.so.3.3.0", "mode":"100755", "size":292080, "c":1},
 			{ "name":"libmikmod.so.3", "mode":"120777", "path":"libmikmod.so.3.3.0"},
-			{ "name":"libmikmod.so", "mode":"120777", "path":"libmikmod.so.3.3.0"},
-			{ "name":"libgailutil.so.18", "mode":"120777", "path":"libgailutil.so.18.0.1"},
-			{ "name":"libgdk-x11-2.0.so", "mode":"120777", "path":"libgdk-x11-2.0.so.0.2400.24"},
-			{ "name":"libgdk-x11-2.0.so.0.2400.24", "mode":"100755", "size":747400, "c":1},
-			{ "name":"libgdk-x11-2.0.so.0", "mode":"120777", "path":"libgdk-x11-2.0.so.0.2400.24"},
-			{ "name":"libgailutil.so.18.0.1", "mode":"100755", "size":31576, "c":1},
-			{ "name":"libgtk-x11-2.0.so.0", "mode":"120777", "path":"libgtk-x11-2.0.so.0.2400.24"},
-			{ "name":"libgtk-x11-2.0.so.0.2400.24", "mode":"100755", "size":4827208, "c":1},
-			{ "name":"gtk-2.0", "mode":"40755", "child":[
-				{ "name":"modules", "mode":"40755", "child":[
-					{ "name":"libgail.so", "mode":"100755", "size":348620, "c":1},
-					{ "name":"libferret.so", "mode":"100755", "size":55024, "c":1}
-				]},
-				{ "name":"2.10.0", "mode":"40755", "child":[
-					{ "name":"engines", "mode":"40755", "child":[
-						{ "name":"libpixmap.so", "mode":"100755", "size":43492, "c":1}
-					]},
-					{ "name":"immodules", "mode":"40755", "child":[
-						{ "name":"im-ipa.so", "mode":"100755", "size":6440, "c":1},
-						{ "name":"im-am-et.so", "mode":"100755", "size":23120, "c":1},
-						{ "name":"im-ti-er.so", "mode":"100755", "size":23108, "c":1},
-						{ "name":"im-cyrillic-translit.so", "mode":"100755", "size":7404, "c":1},
-						{ "name":"im-xim.so", "mode":"100755", "size":28728, "c":1},
-						{ "name":"im-viqr.so", "mode":"100755", "size":7680, "c":1},
-						{ "name":"im-inuktitut.so", "mode":"100755", "size":7816, "c":1},
-						{ "name":"im-ti-et.so", "mode":"100755", "size":23108, "c":1},
-						{ "name":"im-cedilla.so", "mode":"100755", "size":5848, "c":1},
-						{ "name":"im-multipress.so", "mode":"100755", "size":11048, "c":1},
-						{ "name":"im-thai.so", "mode":"100755", "size":11288, "c":1}
-					]},
-					{ "name":"printbackends", "mode":"40755", "child":[
-						{ "name":"libprintbackend-lpr.so", "mode":"100755", "size":19660, "c":1},
-						{ "name":"libprintbackend-file.so", "mode":"100755", "size":24840, "c":1}
-					]}
-				]}
-			]},
-			{ "name":"libgailutil.so", "mode":"120777", "path":"libgailutil.so.18.0.1"},
-			{ "name":"libgtk-x11-2.0.so", "mode":"120777", "path":"libgtk-x11-2.0.so.0.2400.24"},
-			{ "name":"libgdk_pixbuf-2.0.so.0.3000.8", "mode":"100755", "size":162648, "c":1},
-			{ "name":"libgdk_pixbuf-2.0.so.0", "mode":"120777", "path":"libgdk_pixbuf-2.0.so.0.3000.8"},
-			{ "name":"libgdk_pixbuf-2.0.so", "mode":"120777", "path":"libgdk_pixbuf-2.0.so.0.3000.8"},
-			{ "name":"gdk-pixbuf-2.0", "mode":"40755", "child":[
-				{ "name":"2.10.0", "mode":"40755", "child":[
-					{ "name":"loaders", "mode":"40755", "child":[
-						{ "name":"libpixbufloader-ico.so", "mode":"100755", "size":15632, "c":1},
-						{ "name":"libpixbufloader-xbm.so", "mode":"100755", "size":10620, "c":1},
-						{ "name":"libpixbufloader-icns.so", "mode":"100755", "size":8580, "c":1},
-						{ "name":"libpixbufloader-ani.so", "mode":"100755", "size":15144, "c":1},
-						{ "name":"libpixbufloader-ras.so", "mode":"100755", "size":8504, "c":1},
-						{ "name":"libpixbufloader-bmp.so", "mode":"100755", "size":15048, "c":1},
-						{ "name":"libpixbufloader-tga.so", "mode":"100755", "size":13188, "c":1},
-						{ "name":"libpixbufloader-xpm.so", "mode":"100755", "size":24016, "c":1},
-						{ "name":"libpixbufloader-gif.so", "mode":"100755", "size":25364, "c":1},
-						{ "name":"libpixbufloader-qtif.so", "mode":"100755", "size":9900, "c":1},
-						{ "name":"libpixbufloader-wbmp.so", "mode":"100755", "size":7456, "c":1},
-						{ "name":"libpixbufloader-pnm.so", "mode":"100755", "size":13048, "c":1},
-						{ "name":"libpixbufloader-png.so", "mode":"100755", "size":18380, "c":1},
-						{ "name":"libpixbufloader-pcx.so", "mode":"100755", "size":11064, "c":1},
-						{ "name":"libpixbufloader-jpeg.so", "mode":"100755", "size":22516, "c":1}
-					]}
-				]}
-			]},
-			{ "name":"libpangoft2-1.0.so.0", "mode":"120777", "path":"libpangoft2-1.0.so.0.3000.0"},
-			{ "name":"libpangox-1.0.so.0", "mode":"120777", "path":"libpangox-1.0.so.0.3000.0"},
-			{ "name":"libpangoft2-1.0.so", "mode":"120777", "path":"libpangoft2-1.0.so.0.3000.0"},
-			{ "name":"libpango-1.0.so.0.3000.0", "mode":"100755", "size":335220, "c":1},
-			{ "name":"libpangocairo-1.0.so", "mode":"120777", "path":"libpangocairo-1.0.so.0.3000.0"},
-			{ "name":"pango", "mode":"40755", "child":[
-				{ "name":"1.6.0", "mode":"40755", "child":[
-					{ "name":"modules", "mode":"40755", "child":[
-						{ "name":"pango-hangul-fc.so", "mode":"100755", "size":11292, "c":1},
-						{ "name":"pango-khmer-fc.so", "mode":"100755", "size":9672, "c":1},
-						{ "name":"pango-basic-fc.so", "mode":"100755", "size":8060, "c":1},
-						{ "name":"pango-arabic-fc.so", "mode":"100755", "size":10520, "c":1},
-						{ "name":"pango-indic-lang.so", "mode":"100755", "size":6960, "c":1},
-						{ "name":"pango-thai-fc.so", "mode":"100755", "size":16772, "c":1},
-						{ "name":"pango-tibetan-fc.so", "mode":"100755", "size":9652, "c":1},
-						{ "name":"pango-indic-fc.so", "mode":"100755", "size":23156, "c":1},
-						{ "name":"pango-hebrew-fc.so", "mode":"100755", "size":23244, "c":1},
-						{ "name":"pango-basic-x.so", "mode":"100755", "size":80388, "c":1},
-						{ "name":"pango-arabic-lang.so", "mode":"100755", "size":4980, "c":1},
-						{ "name":"pango-syriac-fc.so", "mode":"100755", "size":9676, "c":1}
-					]}
-				]}
-			]},
-			{ "name":"libpangoft2-1.0.so.0.3000.0", "mode":"100755", "size":184092, "c":1},
-			{ "name":"libpangocairo-1.0.so.0.3000.0", "mode":"100755", "size":68884, "c":1},
-			{ "name":"libpangox-1.0.so", "mode":"120777", "path":"libpangox-1.0.so.0.3000.0"},
-			{ "name":"libpango-1.0.so", "mode":"120777", "path":"libpango-1.0.so.0.3000.0"},
-			{ "name":"libpangoxft-1.0.so.0.3000.0", "mode":"100755", "size":39492, "c":1},
-			{ "name":"libpango-1.0.so.0", "mode":"120777", "path":"libpango-1.0.so.0.3000.0"},
-			{ "name":"libpangox-1.0.so.0.3000.0", "mode":"100755", "size":59456, "c":1},
-			{ "name":"libpangoxft-1.0.so", "mode":"120777", "path":"libpangoxft-1.0.so.0.3000.0"},
-			{ "name":"libpangocairo-1.0.so.0", "mode":"120777", "path":"libpangocairo-1.0.so.0.3000.0"},
-			{ "name":"libpangoxft-1.0.so.0", "mode":"120777", "path":"libpangoxft-1.0.so.0.3000.0"},
-			{ "name":"libgthread-2.0.so", "mode":"120777", "path":"libgthread-2.0.so.0.4000.0"},
-			{ "name":"libgthread-2.0.so.0", "mode":"120777", "path":"libgthread-2.0.so.0.4000.0"},
-			{ "name":"libgobject-2.0.so", "mode":"120777", "path":"libgobject-2.0.so.0.4000.0"},
-			{ "name":"libgmodule-2.0.so.0.4000.0", "mode":"100755", "size":12100, "c":1},
-			{ "name":"libgmodule-2.0.so", "mode":"120777", "path":"libgmodule-2.0.so.0.4000.0"},
-			{ "name":"libgio-2.0.so.0.4000.0", "mode":"100755", "size":1797612, "c":1},
-			{ "name":"libgmodule-2.0.so.0", "mode":"120777", "path":"libgmodule-2.0.so.0.4000.0"},
-			{ "name":"libglib-2.0.so", "mode":"120777", "path":"libglib-2.0.so.0.4000.0"},
-			{ "name":"libglib-2.0.so.0", "mode":"120777", "path":"libglib-2.0.so.0.4000.0"},
-			{ "name":"libgobject-2.0.so.0.4000.0", "mode":"100755", "size":407712, "c":1},
-			{ "name":"libgio-2.0.so.0", "mode":"120777", "path":"libgio-2.0.so.0.4000.0"},
-			{ "name":"libgio-2.0.so", "mode":"120777", "path":"libgio-2.0.so.0.4000.0"},
-			{ "name":"libgthread-2.0.so.0.4000.0", "mode":"100755", "size":4304, "c":1},
-			{ "name":"libglib-2.0.so.0.4000.0", "mode":"100755", "size":1473688, "c":1},
-			{ "name":"libgobject-2.0.so.0", "mode":"120777", "path":"libgobject-2.0.so.0.4000.0"},
-			{ "name":"libatk-1.0.so", "mode":"120777", "path":"libatk-1.0.so.0.21209.1"},
-			{ "name":"libatk-1.0.so.0", "mode":"120777", "path":"libatk-1.0.so.0.21209.1"},
-			{ "name":"libatk-1.0.so.0.21209.1", "mode":"100755", "size":153404, "c":1}
+			{ "name":"libmikmod.so", "mode":"120777", "path":"libmikmod.so.3.3.0"}
 		]},
 		{ "name":"libexec", "mode":"40755", "child":[
 			{ "name":"gcc", "mode":"40755", "child":[
@@ -3633,11 +3486,6 @@
 			{ "name":"alsactl", "mode":"100755", "size":102708, "c":1},
 			{ "name":"m4", "mode":"120777", "path":"/usr/bin/m4"},
 			{ "name":"perl", "mode":"120777", "path":"/usr/bin/perl"}
-		]},
-		{ "name":"etc", "mode":"40755", "child":[
-			{ "name":"gtk-2.0", "mode":"40755", "child":[
-				{ "name":"im-multipress.conf", "mode":"100644", "size":890}
-			]}
 		]}
 	]},
 	{ "name":"etc", "mode":"40755", "child":[
@@ -4085,9 +3933,6 @@
 			{ "name":"keysrc", "mode":"100644", "size":2935},
 			{ "name":"dillorc", "mode":"100644", "size":13984, "c":1},
 			{ "name":"domainrc", "mode":"100644", "size":990}
-		]},
-		{ "name":"pango", "mode":"40755", "child":[
-			{ "name":"pangox.aliases", "mode":"100644", "size":11446, "c":1}
 		]}
 	]},
 	{ "name":"var", "mode":"40755", "child":[
