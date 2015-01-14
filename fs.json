@@ -1607,7 +1607,7 @@
 			{ "name":"python2", "mode":"120777", "path":"python2.7"},
 			{ "name":"tclsh8.6", "mode":"100755", "size":3820, "c":1},
 			{ "name":"tclsh", "mode":"120777", "path":"tclsh8.6"},
-			{ "name":"tmux", "mode":"100755", "size":565840, "c":1},
+			{ "name":"tmux", "mode":"100755", "size":565708, "c":1},
 			{ "name":"mikmod", "mode":"100755", "size":148200, "c":1},
 			{ "name":"libmikmod-config", "mode":"100755", "size":968}
 		]},
