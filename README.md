@@ -1,4 +1,4 @@
 jor1k-sysroot
 =============
 
-This is the extended filesystem for jor1k and is separated form the main repository because it contains mainly binary data. 
+This repository contains the kernels and filesystems for jor1k. Hence it contains mainly binary data and is separated form the main repository to not bloat it.
