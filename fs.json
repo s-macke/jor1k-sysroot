@@ -1619,7 +1619,8 @@
 			{ "name":"tclsh", "mode":"120777", "path":"tclsh8.6"},
 			{ "name":"tmux", "mode":"100755", "size":565708, "c":1},
 			{ "name":"mikmod", "mode":"100755", "size":148200, "c":1},
-			{ "name":"libmikmod-config", "mode":"100755", "size":968}
+			{ "name":"libmikmod-config", "mode":"100755", "size":968},
+			{ "name":"bash", "mode":"100755", "size":1018468, "c":1}
 		]},
 		{ "name":"lib", "mode":"40755", "child":[
 			{ "name":"libgomp.so", "mode":"120777", "path":"libgomp.so.1.0.0"},
