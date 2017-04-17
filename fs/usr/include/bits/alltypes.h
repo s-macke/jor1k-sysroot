@@ -20,6 +20,11 @@ typedef unsigned wchar_t;
 #endif
 
 #endif
+#if defined(__NEED_wint_t) && !defined(__DEFINED_wint_t)
+typedef unsigned wint_t;
+#define __DEFINED_wint_t
+#endif
+
 
 #if defined(__NEED_float_t) && !defined(__DEFINED_float_t)
 typedef float float_t;
@@ -221,11 +226,6 @@ typedef unsigned _Int64 fsfilcnt_t;
 #define __DEFINED_fsfilcnt_t
 #endif
 
-
-#if defined(__NEED_wint_t) && !defined(__DEFINED_wint_t)
-typedef unsigned wint_t;
-#define __DEFINED_wint_t
-#endif
 
 #if defined(__NEED_wctype_t) && !defined(__DEFINED_wctype_t)
 typedef unsigned long wctype_t;
