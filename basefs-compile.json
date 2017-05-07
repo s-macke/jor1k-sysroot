@@ -1,4 +1,4 @@
-{"src":"../sys/or1k/basefs", "fs":[
+{"src":"basefs", "fs":[
 	{ "name":"bin", "mode":"40775", "child":[
 		{ "name":"login", "mode":"120777", "path":"busybox"},
 		{ "name":"busybox", "mode":"104755", "size":1377512,"c":1,"load":1},
