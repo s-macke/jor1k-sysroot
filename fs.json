@@ -1,4 +1,4 @@
-{"src":"../sys/fs", "fs":[
+{"src":"fs", "fs":[
 	{ "name":"usr", "mode":"40755", "child":[
 		{ "name":"share", "mode":"40755", "child":[
 			{ "name":"directfb-examples", "mode":"40755", "child":[
