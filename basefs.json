@@ -35,7 +35,8 @@
 		]},
 		{ "name":"bin", "mode":"40755", "child":[
 			{ "name":"showmenu", "mode":"100755", "size":9680,"load":1},
-			{ "name":"help", "mode":"100755", "size":6950,"load":1}
+			{ "name":"help", "mode":"100755", "size":6950,"load":1},
+			{ "name":"recompile", "mode":"100755", "size":7297}
 		]}
 	]},
 	{ "name":"sbin", "mode":"40755" },
