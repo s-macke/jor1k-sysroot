@@ -3,6 +3,9 @@ export SDL_MOUSEDRV=TSLIB
 export TSLIB_TSDEVICE=/dev/input/event1
 export TERM=linux
 export DISPLAY=:0
+export LANG="C.UTF-8"
+export LC_ALL="C.UTF-8"
+export LC_CTYPE="C.UTF-8"
 
 red='\e[1;41m'
 NC='\e[0m' # No Color
