@@ -1741,6 +1741,43 @@
 				</Dir>
 				<Link name='current' mode='120777' path='1.22.3' />
 			</Dir>
+			<Dir name='bison' mode='40775' uid='1000' gid='1000'>
+				<Dir name='m4sugar' mode='40775' uid='1000' gid='1000'>
+					<File name='foreach.m4' mode='100644' size='14755' uid='1000' gid='1000' compressed='1'/>
+					<File name='m4sugar.m4' mode='100644' size='122297' uid='1000' gid='1000' compressed='1'/>
+				</Dir>
+				<File name='README.md' mode='100644' size='7538' uid='1000' gid='1000'/>
+				<File name='bison-default.css' mode='100644' size='1862' uid='1000' gid='1000'/>
+				<Dir name='skeletons' mode='40775' uid='1000' gid='1000'>
+					<File name='bison.m4' mode='100644' size='41988' uid='1000' gid='1000' compressed='1'/>
+					<File name='c++-skel.m4' mode='100644' size='1169' uid='1000' gid='1000'/>
+					<File name='c++.m4' mode='100644' size='21225' uid='1000' gid='1000' compressed='1'/>
+					<File name='c-like.m4' mode='100644' size='2564' uid='1000' gid='1000'/>
+					<File name='c-skel.m4' mode='100644' size='1163' uid='1000' gid='1000'/>
+					<File name='c.m4' mode='100644' size='32864' uid='1000' gid='1000' compressed='1'/>
+					<File name='glr.c' mode='100644' size='91013' uid='1000' gid='1000' compressed='1'/>
+					<File name='glr.cc' mode='100644' size='12636' uid='1000' gid='1000' compressed='1'/>
+					<File name='java-skel.m4' mode='100644' size='1166' uid='1000' gid='1000'/>
+					<File name='java.m4' mode='100644' size='14580' uid='1000' gid='1000' compressed='1'/>
+					<File name='lalr1.cc' mode='100644' size='51284' uid='1000' gid='1000' compressed='1'/>
+					<File name='lalr1.java' mode='100644' size='37063' uid='1000' gid='1000' compressed='1'/>
+					<File name='location.cc' mode='100644' size='10374' uid='1000' gid='1000' compressed='1'/>
+					<File name='stack.hh' mode='100644' size='3975' uid='1000' gid='1000'/>
+					<File name='traceon.m4' mode='100644' size='87' uid='1000' gid='1000'/>
+					<File name='variant.hh' mode='100644' size='13213' uid='1000' gid='1000' compressed='1'/>
+					<File name='yacc.c' mode='100644' size='71271' uid='1000' gid='1000' compressed='1'/>
+					<File name='README-D.txt' mode='100644' size='1896' uid='1000' gid='1000'/>
+					<File name='d-skel.m4' mode='100644' size='1135' uid='1000' gid='1000'/>
+					<File name='d.m4' mode='100644' size='10717' uid='1000' gid='1000' compressed='1'/>
+					<File name='lalr1.d' mode='100644' size='30558' uid='1000' gid='1000' compressed='1'/>
+				</Dir>
+				<Dir name='xslt' mode='40775' uid='1000' gid='1000'>
+					<File name='bison.xsl' mode='100644' size='3364' uid='1000' gid='1000'/>
+					<File name='xml2dot.xsl' mode='100644' size='12810' uid='1000' gid='1000' compressed='1'/>
+					<File name='xml2text.xsl' mode='100644' size='18865' uid='1000' gid='1000' compressed='1'/>
+					<File name='xml2xhtml.xsl' mode='100644' size='23249' uid='1000' gid='1000' compressed='1'/>
+				</Dir>
+			</Dir>
 		</Dir>
 		<Dir name='bin' mode='40755'>
 			<File name='df_cpuload' mode='104755' size='8920' compressed='1'/>
@@ -2075,6 +2112,8 @@
 			<File name='indxbib' mode='100755' size='67268' compressed='1'/>
 			<File name='grotty' mode='100755' size='152988' compressed='1'/>
 			<File name='roff2ps' mode='100755' size='5719'/>
+			<File name='yacc' mode='100755' size='4214' uid='1000' gid='1000'/>
+			<File name='bison' mode='100755' size='576144' uid='1000' gid='1000' compressed='1'/>
 		</Dir>
 		<Dir name='libexec' mode='40775' uid='1000' gid='1000'>
 			<Dir name='gcc' mode='40775' uid='1000' gid='1000'>

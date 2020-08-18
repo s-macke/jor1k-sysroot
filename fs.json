@@ -1740,6 +1740,43 @@
 					]}
 				]},
 				{ "name":"current", "mode":"120777", "path":"1.22.3"}
+			]},
+			{ "name":"bison", "mode":"40775", "uid":1000, "gid":1000, "child":[
+				{ "name":"m4sugar", "mode":"40775", "uid":1000, "gid":1000, "child":[
+					{ "name":"foreach.m4", "mode":"100644", "size":14755, "uid":1000, "gid":1000, "c":1},
+					{ "name":"m4sugar.m4", "mode":"100644", "size":122297, "uid":1000, "gid":1000, "c":1}
+				]},
+				{ "name":"README.md", "mode":"100644", "size":7538, "uid":1000, "gid":1000},
+				{ "name":"bison-default.css", "mode":"100644", "size":1862, "uid":1000, "gid":1000},
+				{ "name":"skeletons", "mode":"40775", "uid":1000, "gid":1000, "child":[
+					{ "name":"bison.m4", "mode":"100644", "size":41988, "uid":1000, "gid":1000, "c":1},
+					{ "name":"c++-skel.m4", "mode":"100644", "size":1169, "uid":1000, "gid":1000},
+					{ "name":"c++.m4", "mode":"100644", "size":21225, "uid":1000, "gid":1000, "c":1},
+					{ "name":"c-like.m4", "mode":"100644", "size":2564, "uid":1000, "gid":1000},
+					{ "name":"c-skel.m4", "mode":"100644", "size":1163, "uid":1000, "gid":1000},
+					{ "name":"c.m4", "mode":"100644", "size":32864, "uid":1000, "gid":1000, "c":1},
+					{ "name":"glr.c", "mode":"100644", "size":91013, "uid":1000, "gid":1000, "c":1},
+					{ "name":"glr.cc", "mode":"100644", "size":12636, "uid":1000, "gid":1000, "c":1},
+					{ "name":"java-skel.m4", "mode":"100644", "size":1166, "uid":1000, "gid":1000},
+					{ "name":"java.m4", "mode":"100644", "size":14580, "uid":1000, "gid":1000, "c":1},
+					{ "name":"lalr1.cc", "mode":"100644", "size":51284, "uid":1000, "gid":1000, "c":1},
+					{ "name":"lalr1.java", "mode":"100644", "size":37063, "uid":1000, "gid":1000, "c":1},
+					{ "name":"location.cc", "mode":"100644", "size":10374, "uid":1000, "gid":1000, "c":1},
+					{ "name":"stack.hh", "mode":"100644", "size":3975, "uid":1000, "gid":1000},
+					{ "name":"traceon.m4", "mode":"100644", "size":87, "uid":1000, "gid":1000},
+					{ "name":"variant.hh", "mode":"100644", "size":13213, "uid":1000, "gid":1000, "c":1},
+					{ "name":"yacc.c", "mode":"100644", "size":71271, "uid":1000, "gid":1000, "c":1},
+					{ "name":"README-D.txt", "mode":"100644", "size":1896, "uid":1000, "gid":1000},
+					{ "name":"d-skel.m4", "mode":"100644", "size":1135, "uid":1000, "gid":1000},
+					{ "name":"d.m4", "mode":"100644", "size":10717, "uid":1000, "gid":1000, "c":1},
+					{ "name":"lalr1.d", "mode":"100644", "size":30558, "uid":1000, "gid":1000, "c":1}
+				]},
+				{ "name":"xslt", "mode":"40775", "uid":1000, "gid":1000, "child":[
+					{ "name":"bison.xsl", "mode":"100644", "size":3364, "uid":1000, "gid":1000},
+					{ "name":"xml2dot.xsl", "mode":"100644", "size":12810, "uid":1000, "gid":1000, "c":1},
+					{ "name":"xml2text.xsl", "mode":"100644", "size":18865, "uid":1000, "gid":1000, "c":1},
+					{ "name":"xml2xhtml.xsl", "mode":"100644", "size":23249, "uid":1000, "gid":1000, "c":1}
+				]}
 			]}
 		]},
 		{ "name":"bin", "mode":"40755", "child":[
@@ -2074,7 +2111,9 @@
 			{ "name":"eqn", "mode":"100755", "size":179280, "c":1},
 			{ "name":"indxbib", "mode":"100755", "size":67268, "c":1},
 			{ "name":"grotty", "mode":"100755", "size":152988, "c":1},
-			{ "name":"roff2ps", "mode":"100755", "size":5719}
+			{ "name":"roff2ps", "mode":"100755", "size":5719},
+			{ "name":"yacc", "mode":"100755", "size":4214, "uid":1000, "gid":1000},
+			{ "name":"bison", "mode":"100755", "size":576144, "uid":1000, "gid":1000, "c":1}
 		]},
 		{ "name":"libexec", "mode":"40775", "uid":1000, "gid":1000, "child":[
 			{ "name":"gcc", "mode":"40775", "uid":1000, "gid":1000, "child":[
