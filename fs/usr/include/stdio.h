@@ -11,6 +11,10 @@ extern "C" {
 #define __NEED___isoc_va_list
 #define __NEED_size_t
 
+#if __STDC_VERSION__ < 201112L
+#define __NEED_struct__IO_FILE
+#endif
+
 #if defined(_POSIX_SOURCE) || defined(_POSIX_C_SOURCE) \
  || defined(_XOPEN_SOURCE) || defined(_GNU_SOURCE) \
  || defined(_BSD_SOURCE)
@@ -49,6 +53,7 @@ extern "C" {
 
 typedef union _G_fpos64_t {
 	char __opaque[16];
+	long long __lldata;
 	double __align;
 } fpos_t;
 
