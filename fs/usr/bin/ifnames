@@ -1,8 +1,8 @@
-#! /usr/sbin/perl -w
+#! /usr/bin/perl -w
 # -*- perl -*-
 # Generated from ifnames.in; do not edit by hand.
 
-eval 'case $# in 0) exec /usr/sbin/perl -S "$0";; *) exec /usr/sbin/perl -S "$0" "$@";; esac'
+eval 'case $# in 0) exec /usr/bin/perl -S "$0";; *) exec /usr/bin/perl -S "$0" "$@";; esac'
     if 0;
 
 # ifnames - print the identifiers used in C preprocessor conditionals
@@ -38,7 +38,7 @@ BEGIN
   # that can handle redirection and quote arguments correctly,
   # e.g.: COMMAND.COM.  For DJGPP always use the shell that configure
   # has detected.
-  $ENV{'SHELL'} = '/bin/sh' if ($^O eq 'dos');
+  $ENV{'SHELL'} = '/bin/bash' if ($^O eq 'dos');
 }
 
 use Autom4te::General;

@@ -1,8 +1,8 @@
-#! /usr/sbin/perl
+#! /usr/bin/perl
 # -*- Perl -*-
 # Generated from autoheader.in; do not edit by hand.
 
-eval 'case $# in 0) exec /usr/sbin/perl -S "$0";; *) exec /usr/sbin/perl -S "$0" "$@";; esac'
+eval 'case $# in 0) exec /usr/bin/perl -S "$0";; *) exec /usr/bin/perl -S "$0" "$@";; esac'
     if 0;
 
 # autoheader -- create `config.h.in' from `configure.ac'
@@ -35,7 +35,7 @@ BEGIN
   # that can handle redirection and quote arguments correctly,
   # e.g.: COMMAND.COM.  For DJGPP always use the shell that configure
   # has detected.
-  $ENV{'SHELL'} = '/bin/sh' if ($^O eq 'dos');
+  $ENV{'SHELL'} = '/bin/bash' if ($^O eq 'dos');
 }
 
 use Autom4te::ChannelDefs;
