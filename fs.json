@@ -136,19 +136,19 @@
 					{ "name":"help", "mode":"100644", "size":391}
 				]}
 			]},
-			{ "name":"nmap", "mode":"40755", "child":[
-				{ "name":"nmap-payloads", "mode":"100644", "size":12735, "c":1},
-				{ "name":"nmap-services", "mode":"100644", "size":623191, "c":1},
-				{ "name":"nmap-service-probes", "mode":"100644", "size":1732732, "c":1},
-				{ "name":"nmap.dtd", "mode":"100644", "size":10546, "c":1},
-				{ "name":"nmap.xsl", "mode":"100644", "size":31935, "c":1},
-				{ "name":"nmap-mac-prefixes", "mode":"100644", "size":482741, "c":1},
-				{ "name":"nmap-protocols", "mode":"100644", "size":6631},
-				{ "name":"nmap-rpc", "mode":"100644", "size":49243, "c":1},
-				{ "name":"nmap-os-db", "mode":"100644", "size":3695098, "c":1}
+			{ "name":"nmap", "mode":"40755", "uid":1000, "gid":1000, "child":[
+				{ "name":"nmap.xsl", "mode":"100644", "size":31936, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap.dtd", "mode":"100644", "size":10700, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap-services", "mode":"100644", "size":1001818, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap-payloads", "mode":"100644", "size":20943, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap-rpc", "mode":"100644", "size":43755, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap-os-db", "mode":"100644", "size":5033049, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap-service-probes", "mode":"100644", "size":2497787, "uid":1000, "gid":1000, "c":1},
+				{ "name":"nmap-protocols", "mode":"100644", "size":6703, "uid":1000, "gid":1000},
+				{ "name":"nmap-mac-prefixes", "mode":"100644", "size":717314, "uid":1000, "gid":1000, "c":1}
 			]},
-			{ "name":"ncat", "mode":"40755", "child":[
-				{ "name":"ca-bundle.crt", "mode":"100644", "size":511499, "c":1}
+			{ "name":"ncat", "mode":"40755", "uid":1000, "gid":1000, "child":[
+				{ "name":"ca-bundle.crt", "mode":"100644", "size":209282, "uid":1000, "gid":1000, "c":1}
 			]},
 			{ "name":"games", "mode":"40755", "child":[
 				{ "name":"doom", "mode":"40755", "child":[
@@ -1861,9 +1861,9 @@
 			{ "name":"rdjpgcom", "mode":"100755", "size":7048, "c":1},
 			{ "name":"cjpeg", "mode":"100755", "size":26608, "c":1},
 			{ "name":"wrjpgcom", "mode":"100755", "size":7912, "c":1},
-			{ "name":"nmap", "mode":"100755", "size":2673348, "c":1},
-			{ "name":"ncat", "mode":"100755", "size":398544, "c":1},
-			{ "name":"nping", "mode":"100755", "size":718360, "c":1},
+			{ "name":"nmap", "mode":"100755", "size":3138132, "uid":1000, "gid":1000, "c":1},
+			{ "name":"ncat", "mode":"100755", "size":485832, "uid":1000, "gid":1000, "c":1},
+			{ "name":"nping", "mode":"100755", "size":838060, "uid":1000, "gid":1000, "c":1},
 			{ "name":"ssh-keygen", "mode":"100755", "size":495048, "c":1},
 			{ "name":"slogin", "mode":"120777", "path":"./ssh"},
 			{ "name":"ssh-keyscan", "mode":"100755", "size":511540, "c":1},
